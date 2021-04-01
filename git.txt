@@ -40,4 +40,5 @@ proyectos en pages//creando branch con nombre gh-<pages>
 ssh-keygen//se genera clave SSH para no usar usuario/clave para push
 cat <id_rsa.pub> //muestra contenido de clave ssh
 touch .gitignore //crea el archivo gitignore
-touch post-commit //crea comandos automaticos luego de commit dentro de .git/hooks/,
+touch post-commit //crea comandos automaticos luego de commit dentro de .git/hooks/
+chmod +x post-commit//le da privilegios para que lo use git
