@@ -1,0 +1,43 @@
+git config --global user.name <usuario> //usuario sin comillas muestra
+git config --global user.email <email>
+git config --global color.ui true //mensaje con colores
+git config --global --list //lista de configuracion
+git init //inicializa la carpeta para subir
+git status //estado de archivos
+git add -A//agrega todos los archivos, se puede indicar archivo (stage)
+git commit -m <mensaje> //comitea con mensaje de identificacion
+git commit --amend -m <mensaje> //cambia mensaje de identificacion
+clear //limpia pantalla 
+ls //lista de archivos
+ls -rf//lista de archivos y ocultos
+git log //log de cambios
+git log > archivo.txt//log de cambios en archivo
+git checkout master//selecciona branch o commit
+git reset --soft <branch>//delete commit sin tocar fuentes
+git reset --mixed <branch>//delete commit sin tocar working area
+git reset --hard <branch>//delete commit todo
+git help 
+git branch // muestra ramas
+git branch -a// muestra ramas y ocultas
+git branch <name>//crea rama a partir de posicion
+git branch -D "name"// borra branch
+git merge <branch>// merge de ramas, rama posicionada adsorbe rama elegida
+git clone <url> //clona repositorio remoto a local
+git remote add origin <url> // asocia repositorio local a remoto
+git remote -v/ visualiza asociacion entre repositorios
+git remote remove origin // quita relacion entre repositorio local y remoto
+git push origin <branch> // sube a remoto original rama <>
+git push origin <branch> -f// sube a remoto original rama <> forzado
+git tag -a <v1.0> -m <mensaje> //etiqueta sobre ultimo commit
+git tag -a <v1.0> -m <mensaje> <commit>//etiqueta sobre ultimo commit
+git push origin <v1.0> //sube tag especifico
+git push origin --tags//sube todos los tags
+git fetch origin //baja cambios en master remoto
+fork //clona repository remoto sin formar parte del workflows desde <Github> 
+pull request// luego de cambiar el clone fork, generamos pull requesr desde <Github> 
+Github pages// se crea repo con ext .github.io, todo lo que se suba sera publicado
+proyectos en pages//creando branch con nombre gh-<pages>
+ssh-keygen//se genera clave SSH para no usar usuario/clave para push
+cat <id_rsa.pub> //muestra contenido de clave ssh
+touch .gitignore //crea el archivo gitignore
+touch post-commit //crea comandos automaticos luego de commit dentro de .git/hooks/,

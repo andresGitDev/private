@@ -1,0 +1,103 @@
+Ctrl+Shift+R Busca clases
+Ctrl+Shift+O Importa librerias
+Ctrl+D borra linea
+Ctrl+Shift+C Comenta
+Ctrl+H Busca texto
+
+-en un primer proyecto tener en cuenta
+--tipo proyecto spring started proyect 
+--packaging tipo war
+--dependencias 
+	cloud bootstrap
+	function
+	task
+	ms ssql server driver
+	spring boot devtools
+	thymeleaf
+	https://www.baeldung.com/lombok-ide
+	
+-mfc
+solicitud 1289391
+persona 2019056
+usuario LEB
+
+1335675	6349345 LEB
+
+-fiorito
+clave
+nat12345
+
+vpn:Fio2021!
+	
+-mfc
+en web.xml
+	-Local comentar
+	  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>MFC-security</web-resource-name>
+      <url-pattern>/*</url-pattern>
+      <http-method>GET</http-method>
+      <http-method>POST</http-method>
+    </web-resource-collection>
+    <user-data-constraint>
+      <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+  </security-constraint>
+  
+  -para cliente descomentar
+  
+en database.propieties
+	-local descomentar (comentar cliente)
+	db.username=ENC(4IKRemTIhTXM0eliK7RmPggdaRVHkBl6)
+	db.password=ENC(QyIaSUodNa5JVzOExfGHRXlvzsWCWbs7)
+	db.url=jdbc:oracle:thin:@192.168.1.43:1521:orcl
+	-cliente descomentar (comentar local)
+	db.username=ENC(4IKRemTIhTXM0eliK7RmPggdaRVHkBl6)
+	db.password=ENC(pc5ispf3DhU12fGXALUGwUqdHHd48eFV)
+	db.url=jdbc:oracle:thin:@10.0.11.6:1702/PRUEBA02
+
+#formateo de string 
+.documentNro(MethodsUtils.FormatString(documentNew, "##-########-#"))
+#consulta y si no existe lo crea
+Optional<Persona> persona = Optional.ofNullable(new Persona());
+
+#contructor de cadena
+StringBuilder queryBuilder = new StringBuilder();
+if (!postalCode.isPresent()) {
+	queryBuilder.append("where (pmp.diasDesde>=" + diasPlazo + " and pmp.diasHasta<=" + diasPlazo + ") ");
+	if(garantizado=true) 
+		queryBuilder.append(" and pmp.garantizados=1 ");
+	else
+		queryBuilder.append(" and pmp.noGarantizados=1 ");
+	if (postalCode.get().isInterior())
+		queryBuilder.append(" and pmp.aplicaInterior =1 ");
+	else
+		queryBuilder.append(" and pmp.aplicaAMBA =1 ");
+	if(clienteCuit==libradorCuit) {
+		queryBuilder.append(" and pmp.aplicaDocPropios =1 ");
+	}
+	else {
+		Optional<Persona> librador =iPersonRepository.findByDocumentNro(libradorCuit);
+		if(librador.get().isFirstLine())
+			queryBuilder.append(" and pmp.aplicaDocTercPrimLinea =1 ");
+		else
+			queryBuilder.append(" and pmp.aplicaDocTerceros =1 ");
+	}
+
+}
+String query = queryBuilder.toString();
+#diferencias de dias, anticuado
+Integer diasPlazo = (int) ((fechaPago.getTime() - fechaOperacion.getTime()));
+#notacion para campos de entity
+//    @Temporal(TemporalType.DATE)
+//    @DateTimeFormat(pattern="dd/MM/yyyy")  
+
+#envia mensaje de error segun lugar
+@SneakyThrows permite tratar la funcion 
+throw new DeveloperException();
+
+#notacion rol
+@PreAuthorize("hasRole('ROLE_BACKOFFICE')")
+
+
+	
