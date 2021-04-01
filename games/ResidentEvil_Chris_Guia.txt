@@ -97,6 +97,3 @@ y abrir primera puerta a la derecha, abrir puerta a la izq no entrar,
 luego la otra puerta entrar, llave sobre mesa, caja sobre escritorio)
 5613
 -
-
-
-
