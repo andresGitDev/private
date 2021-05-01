@@ -1,0 +1,75 @@
+#encriptador
+System.out.println(bCryptPasswordEncoder.encode("123456"));
+#condicion if misma linea
+.NosisId(nosis.isPresent() ? nosis.get() : null)
+#diferencias de dias, anticuado
+Integer diasPlazo = (int) ((fechaPago.getTime() - fechaOperacion.getTime()));
+#compara fechas
+-vigenteHasta es menor a hoy 
+vigenteHasta.compareTo(hoy)<0
+#formateo de string 
+.documentNro(MethodsUtils.FormatString(documentNew, "##-########-#"))
+#verifica si persona es null y si es lo crea
+Optional<Persona> persona = Optional.ofNullable(new Persona());
+#envia mensaje de error segun lugar
+
+#anotaciones para entitys
+@Data
+@Builder
+@NoArgsConstructor 
+@AllArgsConstructor 
+@Entity
+@Table(name = "User")
+#contructor de cadena
+StringBuilder queryBuilder = new StringBuilder();
+if (!postalCode.isPresent()) {
+	queryBuilder.append("where (pmp.diasDesde>=" + diasPlazo + " and pmp.diasHasta<=" + diasPlazo + ") ");
+	if(garantizado=true) 
+		queryBuilder.append(" and pmp.garantizados=1 ");
+	else
+		queryBuilder.append(" and pmp.noGarantizados=1 ");
+	if (postalCode.get().isInterior())
+		queryBuilder.append(" and pmp.aplicaInterior =1 ");
+	else
+		queryBuilder.append(" and pmp.aplicaAMBA =1 ");
+	if(clienteCuit==libradorCuit) {
+		queryBuilder.append(" and pmp.aplicaDocPropios =1 ");
+	}
+	else {
+		Optional<Persona> librador =iPersonRepository.findByDocumentNro(libradorCuit);
+		if(librador.get().isFirstLine())
+			queryBuilder.append(" and pmp.aplicaDocTercPrimLinea =1 ");
+		else
+			queryBuilder.append(" and pmp.aplicaDocTerceros =1 ");
+	}
+}
+String query = queryBuilder.toString();
+#notacion para campos de entity
+@Temporal(TemporalType.DATE)
+@DateTimeFormat(pattern="dd/MM/yyyy")  
+#notacion rol
+@PreAuthorize("hasRole('ROLE_BACKOFFICE')")
+
+#Exception
+@SneakyThrows //permite tratar la funcion 
+throw new DeveloperException();//al final del metodo
+@SuppressWarnings("serial")
+public class DeveloperException extends Exception{
+
+    public DeveloperException() {
+        super();
+    }
+
+    public DeveloperException(String message) {
+        super(message);
+    }
+
+    public DeveloperException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public DeveloperException(Throwable cause) {
+        super(cause);
+    }
+}
+Persona cupoComprador = iPersonRepository.findByDocumentNro(document).orElseThrow(DeveloperException::new);

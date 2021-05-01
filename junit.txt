@@ -1,0 +1,62 @@
+https://www.udemy.com/course/test-unitario-con-junit-y-mockito-en-spring-boot-java-8/learn/lecture/18849258#overview
+#dependencia para junit y mokito
+#mockito se usa para simular servicios
+#dependencia que tiene todo
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-test</artifactId>
+	<scope>test</scope>
+</dependency>
+#dependencia individual
+<dependency>
+	<groupId>junit</groupId>
+	<artifactId>junit</artifactId>
+	<scope>test</scope>
+</dependency>
+<dependency>
+	<groupId>org.mockito</groupId>
+	<artifactId>mockito-all</artifactId>
+	<version>1.10.19</version>
+	<scope>test</scope>
+</dependency>
+#desde el market descargar coverage si no esta instalado, para saber covertura del test
+#Anotaciones
+@Test//indica que el metodo es un test
+@Before //antes del metodo
+@After // luego del metodo
+@assertEquals //compara resultados
+@Test(expected) //el test lanza excepcion
+@Test(timeout=1) // test fallido tras pasar tiempo definido en milisegundos
+@Mock //simula servicio
+@InjectMock //inyecta clases a testear
+Mokito.when //mokea servicio
+Mokito.when().thenReturn() 
+Mokito.toReturn().when()
+
+#Estructura de test
+-Origen
+NombreController{ //A
+	private repositorio/servicio //B
+	
+	NombreMetodo{ //C
+		llamada repositorio/servicio //D
+	}
+}
+-Destino
+NombreControllerTest{ //referido a //A
+	mock repositorio/servicio //B
+	inject nombreController //A
+	
+	@Before
+	MetodoInit{
+		
+	}
+	
+	@Test
+	NombreMetodoTest{ //referido a //C
+		when //D //simula ejecucion de repositorio/servicio
+		llamada //C obtener respuesta para luego hacer las comprobaciones
+		
+		comprobaciones
+	}
+}

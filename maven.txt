@@ -1,0 +1,103 @@
+#estructura maven project
+#https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+#https://mvnrepository.com/
+#pom.xml
+#proyecto
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+ 
+ #datos del proyecto
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.mycompany.app</groupId>
+	<artifactId>my-app</artifactId>//nombre del proyecto
+	<version>1.0-SNAPSHOT</version>//version proyecto
+	<packaging>war</packaging>//tipo de compilacion
+	
+ #propiedades del proyecto
+	  <properties>
+				<maven.compiler.source>1.7</maven.compiler.source>
+				<maven.compiler.target>1.7</maven.compiler.target>
+				<env>perfil</env> // perfil seleccionado
+	  </properties>
+ 
+ #dependencias
+ 
+  <dependencies>
+    <dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.12</version>
+		<scope>test</scope>
+		<exclusions>//exclusion de dependencia transitiva(sub dependecias)
+			<exclusion>
+				<groupId>(...)</groupId>
+				<artifactId>(...)</artifactId>
+			</exclusion>
+		</exclusions>
+    </dependency>
+  </dependencies>
+  
+  #constructor del proyecto
+  
+    <build>
+		<filters>//filtro de seleccion de perfil
+			<filter>src/main/resources/${env}.properties</filter>
+		</filters>
+		
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>  
+	<profiles>//perfiles detalle
+		<profile>//perfil qa
+			<id>qa</id>
+				<properties>
+					<env>environment.qa</env>//archivo que se usa
+				</properties>
+			<build>
+			</buid>
+		</profile>
+		<profile>//perfil prod
+			<id>prod</id>
+				<properties>
+					<env>environment.prod</env>//archivo que se usa
+				</properties>
+			<build>
+			</buid>
+		</profile>
+				
+	</<profiles>>
+</project>
+
+#comandos
+#mvn clear //limpia target
+#mvn eclipse:clear //limpia todo de eclipse
+#mvn eclipse:eclipse //adapta proyecto maven a eclipse
+#mvn install //instala las dependencias de forma local
+#mvn update //actualiza las dependecias
+#mvn -P qa package// se usa peril qa para compilar
+#mvn -f pom{}.xml package// se usa archivo pom especifico para compilar
+#mvn site//documentacion automatica
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-site-plugin</artifactId>
+    <version>3.9.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-javadoc-plugin</artifactId>
+    <version>3.2.0</version>
+</dependency>
+
+
+

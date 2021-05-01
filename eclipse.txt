@@ -1,0 +1,42 @@
+//eclipse
+
+Ctrl+Shift+R Busca clases
+Ctrl+Shift+O Importa librerias
+Ctrl+Shift+F formato
+Ctrl+D borra linea
+Ctrl+Shift+C Comenta
+Ctrl+H Busca texto
+f5 REFRESH
+f6 PASO A PASO
+f7 SIGUIENTE BUCLE
+
+-en un primer proyecto tener en cuenta
+--tipo proyecto spring started proyect 
+--packaging tipo war
+--dependencias 
+	cloud bootstrap
+	function
+	task
+	ms ssql server driver
+	spring boot devtools
+	thymeleaf
+	lombok  --https://www.baeldung.com/lombok-ide
+	
+--para prueba
+dependencia h2
+--archivo application.properties
+spring.datasource.url=jdbc:h2:mem:marvelstoreapi;DB_CLOSE_ON_EXIT=FALSE
+spring.datasource.username=admin
+spring.datasource.password=admin
+spring.datasource.driverClassName=org.h2.Driver
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto = create
+spring.datasource.initialization-mode=always
+server.servlet.session.timeout=1800
+#server.servlet.context-path=/MarvelStoreApi
+server.port = 8081
+--archivo data.sql
+

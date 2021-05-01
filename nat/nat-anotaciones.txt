@@ -1,21 +1,3 @@
-Ctrl+Shift+R Busca clases
-Ctrl+Shift+O Importa librerias
-Ctrl+D borra linea
-Ctrl+Shift+C Comenta
-Ctrl+H Busca texto
-
--en un primer proyecto tener en cuenta
---tipo proyecto spring started proyect 
---packaging tipo war
---dependencias 
-	cloud bootstrap
-	function
-	task
-	ms ssql server driver
-	spring boot devtools
-	thymeleaf
-	https://www.baeldung.com/lombok-ide
-	
 -mfc
 solicitud 1289391
 persona 2019056
@@ -27,7 +9,13 @@ usuario LEB
 clave
 nat12345
 
-vpn:Fio2021!
+Conexión VPN
+Gateway Remoto: 181.165.165.162
+Puerto: 443
+Certificado de Cliente: Ninguno
+Autenticación: Guardar Login
+Nombre de Usuario: rmanzanilla
+Password: Fio2021!
 	
 -mfc
 en web.xml
@@ -56,48 +44,11 @@ en database.propieties
 	db.password=ENC(pc5ispf3DhU12fGXALUGwUqdHHd48eFV)
 	db.url=jdbc:oracle:thin:@10.0.11.6:1702/PRUEBA02
 
-#formateo de string 
-.documentNro(MethodsUtils.FormatString(documentNew, "##-########-#"))
-#consulta y si no existe lo crea
-Optional<Persona> persona = Optional.ofNullable(new Persona());
 
-#contructor de cadena
-StringBuilder queryBuilder = new StringBuilder();
-if (!postalCode.isPresent()) {
-	queryBuilder.append("where (pmp.diasDesde>=" + diasPlazo + " and pmp.diasHasta<=" + diasPlazo + ") ");
-	if(garantizado=true) 
-		queryBuilder.append(" and pmp.garantizados=1 ");
-	else
-		queryBuilder.append(" and pmp.noGarantizados=1 ");
-	if (postalCode.get().isInterior())
-		queryBuilder.append(" and pmp.aplicaInterior =1 ");
-	else
-		queryBuilder.append(" and pmp.aplicaAMBA =1 ");
-	if(clienteCuit==libradorCuit) {
-		queryBuilder.append(" and pmp.aplicaDocPropios =1 ");
-	}
-	else {
-		Optional<Persona> librador =iPersonRepository.findByDocumentNro(libradorCuit);
-		if(librador.get().isFirstLine())
-			queryBuilder.append(" and pmp.aplicaDocTercPrimLinea =1 ");
-		else
-			queryBuilder.append(" and pmp.aplicaDocTerceros =1 ");
-	}
+linter
 
-}
-String query = queryBuilder.toString();
-#diferencias de dias, anticuado
-Integer diasPlazo = (int) ((fechaPago.getTime() - fechaOperacion.getTime()));
-#notacion para campos de entity
-//    @Temporal(TemporalType.DATE)
-//    @DateTimeFormat(pattern="dd/MM/yyyy")  
-
-#envia mensaje de error segun lugar
-@SneakyThrows permite tratar la funcion 
-throw new DeveloperException();
-
-#notacion rol
-@PreAuthorize("hasRole('ROLE_BACKOFFICE')")
-
+ spring boot con spring security
+java, gitlab en el trabajo y github personal, jdk 7, jdk 8 y jdk11, maven, Sqlserver, SqlDeveloper, Swagger 
+Jboss, jenkings, datapower ibm, andres puto, soap ui, postman, putty, WinSCP, <SqlDeveloper Oracle, Apache Tomcat
 
 	
