@@ -1,7 +1,10 @@
+https://java.codeandcoke.com/apuntes:introduccion
 #encriptador
 System.out.println(bCryptPasswordEncoder.encode("123456"));
 #condicion if misma linea
 .NosisId(nosis.isPresent() ? nosis.get() : null)
+#deja solo los numero
+cuit = cuit.replaceAll("[^\\d]", "");
 #diferencias de dias, anticuado
 Integer diasPlazo = (int) ((fechaPago.getTime() - fechaOperacion.getTime()));
 #compara fechas
