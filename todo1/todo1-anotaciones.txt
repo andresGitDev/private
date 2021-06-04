@@ -1,0 +1,33 @@
+#Clovinn : andres.gonzalez@clovinn.com : 1mas1clovinn
+#Microsoft : rgonzalez@todo1.net :1mas1Teams
+#Atlassian : 1mas1atlassian
+#Confluence : //Documentacion
+#Jira: //Administador de incidencias
+#Bitbucket: user : andresBitbucket //administrador de codigo como github
+#Jenkis //ejecutar y compilar war
+Usuario: rgonzalez ,Password: (j3Nk1N5741) 1mas1jenkis link: http://192.168.103.77/jenkins
+#Credenciales de CloudBees Flow //ejecutar y compilar war nuevo
+Usuario: rgonzalez ,Password: C3F1oWRgZ781 link: https://192.168.99.77/flow
+#Netsuite : 1mas1Netsuite //registro de horas
+#https://192.168.168.210/showLogin.cc : rgonzalez : 1mas1Todo
+#Token de software de RSA SecurID 2.8.0 para Android : ID del dispositivo: BDEB641D545C410173AC2133 
+#VPN : rgonzalez : r1234
+#JBoss : admin , admin1234.
+
+#ping a la base de integracion
+192.168.103.85
+ping indb-scan
+#adicional
+reemplazar archivo host
+reemplazar archivo setting de m2
+reemplazar archivo setting de apache maven
+variable de entorno para maven C:\apache-maven-3.8.1\bin
+
+#realizado de la semana
+Configuracion de correos Todo1, Clovinn
+Instalacion de Sourcetree, Check Point
+App en celular RSA SecurID
+Configuracion de token y vpn
+registro en Teams, Atlassian, Netsuite, Jira, Bitbucket ,Confluence (sin permiso), Jenkis, CloudBees
+Clonado de repositorios PSE
+instalacion de apache, jboss
