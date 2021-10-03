@@ -1,0 +1,36 @@
+INSTALACION	
+1-https://nodejs.org/es/
+comando Node.js command prompt (probar 'node -v' y 'npm -v')
+2-https://www.typescriptlang.org/
+npm install -g typescript
+comando Node.js command prompt (probar 'tsc --version')
+3-https://angular.io/cli
+npm install -g @angular/cli
+comando Node.js command prompt (probar 'ng version')
+repository:https://github.com/angular/angular-cli
+4-https://ionicframework.com/  -para app movil
+npm install -g @ionic/cli
+5-https://atom.io/ -editor
+6-https://code.visualstudio.com/docs/?dv=win -editor
+otros-https://github.com/Klerith/webpack-starter-typescript
+-----------------------------------------------------------------	
+--ANGULAR PROJECT
+ng new myApp 										-sobre carpeta del proyecto nuevo, crea proyecto angular, luego usar npm install
+npm install o npm i  								-desde carpeta, instala modulos necesarios
+ng serve -o  										-desde carpeta, levanta server local y abre navegador con app
+ng serve -p 4201									-cd sobre la carpeta del proyecto, esto ejecuta un server local, puerto 4201, si no se indica es 4200
+ng g c routes/callbacks/coinbase 					-crear component  dentro de src/app
+ng generate component carpeta/archivo				-crear component  dentro de src/app
+ng g s shared/services/account/account-transaction	-crear service
+-----------------------------------------------------------------	
+TypeScrip : lenguaje para modelar JS y luego convertirlo al mismo
+Comandos consola :
+tsc name.ts : compila e archivo ts
+tsc --init : crea archivo de configuracion
+tsc -w : modo observador, para que compile automaticamente
+Tipeados:
+(()=>{})();   : estructura principal de archivo ts, entre las llaves se escribe el codigo
+(nombre:string) : parametro tipo string
+(nombre?:string) : parametro tipo string opcional
+(nombre:string='andres') : parametro tipo string por defecto
+
