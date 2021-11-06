@@ -1,6 +1,6 @@
 -team notebook
 811 454 165
-1Mas1andres
+1mas1Nat
 
 -mfc
 solicitud 1289391
@@ -21,34 +21,6 @@ Autenticación: Guardar Login
 Nombre de Usuario: rmanzanilla
 Password: Fio2021!
 	
--mfc
-en web.xml
-	-Local comentar
-	  <security-constraint>
-    <web-resource-collection>
-      <web-resource-name>MFC-security</web-resource-name>
-      <url-pattern>/*</url-pattern>
-      <http-method>GET</http-method>
-      <http-method>POST</http-method>
-    </web-resource-collection>
-    <user-data-constraint>
-      <transport-guarantee>CONFIDENTIAL</transport-guarantee>
-    </user-data-constraint>
-  </security-constraint>
-  
-  -para cliente descomentar
-  
-en database.propieties
-	-local descomentar (comentar cliente)
-	db.username=ENC(4IKRemTIhTXM0eliK7RmPggdaRVHkBl6)
-	db.password=ENC(QyIaSUodNa5JVzOExfGHRXlvzsWCWbs7)
-	db.url=jdbc:oracle:thin:@192.168.1.43:1521:orcl
-	-cliente descomentar (comentar local)
-	db.username=ENC(4IKRemTIhTXM0eliK7RmPggdaRVHkBl6)
-	db.password=ENC(pc5ispf3DhU12fGXALUGwUqdHHd48eFV)
-	db.url=jdbc:oracle:thin:@10.0.11.6:1702/PRUEBA02
-
-
 linter
 
  spring boot con spring security

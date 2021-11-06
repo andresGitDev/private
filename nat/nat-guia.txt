@@ -7,7 +7,8 @@ vpnclient_setup.msi
 con regedit entrar a Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CVirtA
 cambiar clave DisplayName dejar de cisco en adelante
 
-190.210.204.169
+anterior 	190.210.204.169
+nueva 		190.210.247.32
 USER NATVPN
 CON n@tconsultores
 en transport enable false
