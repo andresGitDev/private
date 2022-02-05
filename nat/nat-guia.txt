@@ -42,7 +42,7 @@ https://git-scm.com/download/win
 Git-2.29.2.3-64-bit.exe
 registro en gitlab
 agonzalez@natconsultores.com.ar
-00Andres00
+']nm00Andres00
 
 #administrador de git
 SourcetreeEnterpriseSetup_3.4.1.msi
