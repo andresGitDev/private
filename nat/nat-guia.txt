@@ -12,6 +12,8 @@ nueva 		190.210.247.32
 USER NATVPN
 CON n@tconsultores
 en transport enable false
+user: agonzalez
+pass: Jupiter12
 
 #type server para unidades de red
 servidor desarrollo
@@ -26,7 +28,7 @@ Inicio98
 
 #type mail
 agonzalez@natconsultores.com.ar
-Inicio18
+12Jupiter
 teams
 Inicio18
 

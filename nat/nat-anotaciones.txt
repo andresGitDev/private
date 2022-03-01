@@ -19,12 +19,10 @@ Puerto: 443
 Certificado de Cliente: Ninguno
 Autenticación: Guardar Login
 Nombre de Usuario: rmanzanilla
-Password: Fio2021!
+Password: Fio2032!
 	
 linter
 
  spring boot con spring security
 java, gitlab en el trabajo y github personal, jdk 7, jdk 8 y jdk11, maven, Sqlserver, SqlDeveloper, Swagger 
 Jboss, jenkings, datapower ibm, andres puto, soap ui, postman, putty, WinSCP, <SqlDeveloper Oracle, Apache Tomcat
-
-	
