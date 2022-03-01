@@ -5,7 +5,8 @@ comando Node.js command prompt (probar 'node -v' y 'npm -v')
 npm install -g typescript
 comando Node.js command prompt (probar 'tsc --version')
 3-https://angular.io/cli
-npm install -g @angular/cli
+npm install -g @angular/cli  --- npm install -g @angular/cli@latest 
+npm uninstall -g @angular/cli
 comando Node.js command prompt (probar 'ng version')
 repository:https://github.com/angular/angular-cli
 4-https://ionicframework.com/  -para app movil
