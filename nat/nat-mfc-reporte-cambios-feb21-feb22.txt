@@ -1,0 +1,71 @@
+07/02/2022 correcion de moneda en null en exposicion resumen, 2hs
+15/02/2022 correcion de moneda en null en impresion exposicion resumen, 2hs 
+17/02/2022 ajuste datos en reporte decisiones, ajuste campo consideracion en ventana de decision, margen de reporte de decisiones,  10 hs
+18/02/2022 ajuste en la query consulta de balances y ultima solicitud,ajuste de campos en reporte decisiones y reodenamiento , 8hs
+21/02/2022 validacion para calificacion subjetiva en reporte decision , 2hs 
+23/02/2022 merge brach (2) y puesta a punto para version de produccion , 4 hs
+25/01/2022 Merge branch 'Incidencia_101454.2' into 'master' sin conflictos,se vuelve a mostrar moneda gs fijo en reporte decision,2 hs
+21/01/2022 cambio origen de campo en reporte decision,ajustes moneda en reporte desicion,ajustes campos en nueva decision,moneda de solicitud en exposicion, arreglo exp cliente y grupo economico ,ajuste campo consideración,Disminucion del logo de Regional al inicio del reporte decision, 9hs
+14/01/2022 Merge branch 'Incidencia_101454' into 'master' sin conflicto,ajuste version , 3hs
+22/12/2021 Incidencia 101621 ajuste subreporte exposicion,ajuste reporte decisiones,agreado busqueda usuario en mayuscula, agregado logica exposicion de cliente,lineas subreporte garantias(ahora limite exposicion), agregado subreporte cliente , 9hs
+17/12/2021 Incidencia 101454 ajuste campo obligatorio en solicitud, 3hs
+16/12/2021 Incidencia 101454 ajustes reporte Decisiones, columnas y ceros,Merge branch 'Incidencia_#98953_ratios' into 'master' sin conflictos,Incidencia 98953 nuevos ajustes reporte Decisiones, columnas y ceros , 8hs
+10/12/2021 Incidencia 98953 nuevos ajustes reporte Decisiones, detalle limite propuesto, 3hs
+07/12/2021 Incidencia 98953 ajuste reporte Decisiones, detalle limite propuesto , 2hs
+06/12/2021 Incidencia 98953 ajuste reporte Decisiones , 6hs
+25/11/2021 Incidencia 98953 metodo actulizacion ratio,Merge branch 'Incidencias_report_Decisiones' into 'master' sin conflictos , 6hs
+23/11/2021 Incidencia 99801 - fecha obligatorio ,2hs
+11/11/2021 Incidencia 99801 - ajustes campos en reporte y pagina , 4hs
+10/11/2021 Incidencia 99801 - cambios en reporte decisiones compilacion, cambios en reporte decisiones, Merge branch 'GANADERO' into 'master' , 8hs
+25/10/2021 cambio en ganadero solapa independiente, 2hs
+22/10/2021 ajuste al guardar ganadero , 2hs
+30/09/2021 Merge branch 'master' into GANADERO,Merge branch 'INCIDENCIA_#92249_2' into 'master' , union final de ramas, sin conflictos , 6hs
+17/09/2021 ajustes de la version 1.1.20, aplicados validaciones a version 1.1.20 , 5hs
+16/09/2021 Merge branch 'INCIDENCIA_#92249_2' into GANADERO, correcion validacion , 6hs
+10/09/2021 Merge branch 'INCIDENCIA_#92249_2' into GANADERO, union de ramas para pull request , 3hs
+08/09/2021 ajuste JS por error de datos en retorno en el cliente,ajuste en ultima validacion,validacion por error en el cliente, no sucede de local , 5hs
+07/09/2021 cambios en vista de proyecciones - agricola , 6hs
+03/09/2021 correcion para que actualice pagina balance luego de vincular/desvincular,correcion en js para que lo tome IE,correccion en JS para que lo tome Internet Explorer,arreglo lista de inmuebles,correcion en retorno de parametros agricola, 8hs
+02/09/2021 agregado mas restricciones a stored procedures,correccion al borrar varias lineas no actualizaba detalle debido a un null,pase de metodo privado a public,mejora en mueble service,mejora en hacienda service,mejora en deuda service,mejora en agricola service,mejora en inmueble service ,16hs
+01/09/2021 nueva version para la incidencia, 1hs
+30/08/2021 ajuste ver o no solapa ganadera, segun todas as actividades de persona,ajuste consulta de actividades, por lista de acividades de persona , 8hs
+27/08/2021 ajuste informacion de ganadera, consulta de busqueda, y metodo checkbox,ajustes de actividades que ven solapa ganadero,cambio tabla de busqueda, metodo ver o no ganadera,ajuste consulta ganadera segun persona y solicitud, y ajuste al guardar y editar ganadera,re ajuste de columnas,ajuste remapeo de tabla,agregado campos descripcion y significado al editar y guardar actividad ganadera,agregado campo significado de descriptivo(tipo de actividad ) al guardar actividad ganadera,agregado campo descripcion de rub_economico al guardar actividad ganadera,agregado mapeo de tabla ge_rub_economicos,agregados campos a ganadero , 24hs
+26/08/2021 version de ajuste de columnas,ajuste de columnas , 2hs
+20/08/2021 ajuste datos de conexion, ajuste datos faltantes en registro ganadero, 8hs
+17/08/2021 Incidencia historica, validaciones agregadas , 4hs
+13/08/2021 Incidencia - validacion no ejecutar stored si solicitud esta cerrada , 6hs
+06/08/2021 nuevos cambios a rubro ganadero, 4hs
+02/08/2021 finalizando rubro ganadero ,4hs
+30/07/2021 iniciado la logica de editar ganadero , 8hs
+29/07/2021 Produccion ganadera agrego borrar y mejoro maquetado ,2hs
+28/07/2021 Produccion ganadera, pantalla y logica, falta finalizar , 12hs
+19/07/2021 Merge branch 'INCIDENCIA_#92249' into 'master' ,valido campo mes vencimiento en pantalla pasivos para que sea obligatorio 6hs
+05/07/2021 cambio version,corrigiendo incidencia ganadería,Validacion de plazo , 6hs
+02/07/2021 validacion de estado de solicitud ,2hs
+01/07/2021 ajuste lista de haciendas en relacion con solicitud, y haciendas no relacionados ,ajuste lista de agricola en relacion con solicitud, y agricola no relacionados,cambio nombre response en service de inmuebles,ajuste lista de pasivos en relacion con solicitud, y pasivos no relacionados, 10hs
+30/06/2021 cambio de nombres en servicio pasivos,lista de muebles cambio de logica en el servicio y corrigiendo consultas,cambio de version,ajuste lista de inmuebles en relacion con solicitud, e inmuebles no relacionados , 10hs
+29/06/2021 lista de inmuebles en relacion con solicitud, e inmuebles no relacionados ,6 hs
+23/06/2021 Merge branch 'INCIDENCA_897' into 'master' , pruebas finales , 4hs
+22/06/2021 se deshabilita debug nat , 1hs
+17/06/2021 version final de la rama y pruebas , 2hs
+16/06/2021 correcion duplicados detalle de deuda,cierre 897, cambio metodo de actualizacion de plazos de deuda, ajuste fecha modificacion , 8hs
+15/06/2021 nuevas pruebas propuestas por ruben , 2hs
+03/06/2021 Merge branch 'INCIDENCIA_894_BALANCE-REG-HIST' into 'master' pruebas , 2hs
+01/06/2021 cierre de incidencia 891 y 898, Merge branch 'INCIDENCIAS_891-898' into 'master' sin conflictos, rollback a version sep 2020 de registro historico de balance , 9hs
+21/05/2021 resuelto incidencias 891 y 898 , 8hs
+19/05/2021 validacion de campos nulos
+17/05/2021 Merge branch 'master' into INCIDENCIAS_891-897 y Merge branch 'Carga_Masiva_Bal_Redu' , ajustes de conflictos , cambios servicio garantia y ajuste de version ,8 hs
+26/04/2021 version final carga masiva de balance reducido, ajustes finales de merge , 6hs
+19/04/2021 cambio validacion de auditado por , 3 hs
+30/03/2021 ajustes de version y cambios formulario ebalance , 3hs
+29/03/2021 ajustes de version, ajustes campo auditado por, cambio boton activar calculo automatico y version,ajustes de nbalance y ebalance , merge con versiones originales de nbalance y ebalance, y nuevos cambios ebalance , 12hs
+26/03/2021 ajuste segun master de nbalance y ebalance, y cambios en ebalance , 3hs
+25/03/2021 ajuste reportes,revision de cambios en reportes, cambio formatearEntero por mascara, cambio "formatearEntero" por "return formatearEntero" ,6hs 
+24/03/2021 ajuste de version y cambios en EstadoController,ajuste salto de linea 19 , 3 hs
+23/03/2021 ajuste datosGarantia linea 308 mal y nueva version , 2hs
+17/03/2021 ajuste datosGarantia-${garantiaProducto.MTO_ASIGNADO}-mal linea , 2hs
+16/03/2021 ajustes en : EstadoAddController-Guardar<visible>,BalanceResumenModel-MON_EN fijo en resumen, BalanceResumenModel-MON_EN,EstadoController-Unused,EstadoController-Alter-Resultado,EstadoController-Alter-Flujo,EstadoController-Nuevo-Flujo,EstadoController , 15 hs
+15/03/2021 Merge branch 'Bal_Reducido_Carga_Masiva',ajustes de conflictos en Carga_Masiva_Bal_Redu , 6hs
+19/02/2021 ajuste de codigo de moneda del producto, en carga masiva de producto , 5hs
+03/02/2021 ajuste completado de fecha desicion y fecha revision, 3hs
+02/02/2021 ajuste de fecha desicion y fecha revision , 8 hs
