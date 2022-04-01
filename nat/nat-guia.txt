@@ -30,7 +30,7 @@ Inicio98
 agonzalez@natconsultores.com.ar
 12Jupiter
 teams
-Inicio18
+Jupiter12
 
 #type eclipse
 eclipse-jee-2020-12-R-win32-x86_64
@@ -44,7 +44,7 @@ https://git-scm.com/download/win
 Git-2.29.2.3-64-bit.exe
 registro en gitlab
 agonzalez@natconsultores.com.ar
-']nm00Andres00
+Jupiter12
 
 #administrador de git
 SourcetreeEnterpriseSetup_3.4.1.msi

@@ -26,3 +26,11 @@ linter
  spring boot con spring security
 java, gitlab en el trabajo y github personal, jdk 7, jdk 8 y jdk11, maven, Sqlserver, SqlDeveloper, Swagger 
 Jboss, jenkings, datapower ibm, andres puto, soap ui, postman, putty, WinSCP, <SqlDeveloper Oracle, Apache Tomcat
+
+declare @id bigint=86
+select l.lst_id as idTransaccion,'1-transaction' as typ,'request:' + (cast(l.lst_date_request as varchar) + ',response:'+ cast(l.lst_date_response as varchar)) as dat from Sistema.log_sif_transactions as l where l.lst_id=@id
+union
+select r.lsrq_lt_id as idTransaccion,'2-request' as typ,r.lsrq_request as dat from Sistema.log_sif_request as r where r.lsrq_lt_id=@id
+union
+select r.lsrs_lt_id as idTransaccion,'3-response' as typ,r.lsrs_response as dat from Sistema.log_sif_response as r where r.lsrs_lt_id=@id
+order by typ
