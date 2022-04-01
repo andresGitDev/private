@@ -1,5 +1,7 @@
 git config --global user.name <usuario> //usuario sin comillas muestra
 git config --global user.email <email>
+git config --global user.name "Andres Gonzalez"
+git config --global user.email esmicuentaperosnal@gmail.com
 git config --global color.ui true //mensaje con colores
 git config --global --list //lista de configuracion
 git init //inicializa la carpeta para subir

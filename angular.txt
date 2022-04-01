@@ -3,6 +3,7 @@ INSTALACION
 comando Node.js command prompt (probar 'node -v' y 'npm -v')
 2-https://www.typescriptlang.org/
 npm install -g typescript
+npm install typescript --save-dev
 comando Node.js command prompt (probar 'tsc --version')
 3-https://angular.io/cli
 npm install -g @angular/cli  --- npm install -g @angular/cli@latest 
@@ -15,6 +16,99 @@ npm install -g @ionic/cli
 6-https://code.visualstudio.com/docs/?dv=win -editor
 otros-https://github.com/Klerith/webpack-starter-typescript
 -----------------------------------------------------------------	
+-plugins
+-----------------------------------------------------------------	
+Nombre: Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+ID: Mikael.Angular-BeastCode
+Descripción: 242 Angular Snippets (TypeScript, Html, Angular Material, Flex Layout, ngRx, RxJS, PWA & Testing)
+Versión: 10.0.3
+Editor: Mikael Morlund
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode
+-----------------------------------------------------------------
+Nombre: Angular 2 TypeScript Emmet
+ID: jakethashi.vscode-angular2-emmet
+Descripción: Support zen-coding syntax for Angular 2 typescript files.
+Versión: 2.0.3
+Editor: jakethashi
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=jakethashi.vscode-angular2-emmet
+-----------------------------------------------------------------
+Nombre: Angular Language Service
+ID: Angular.ng-template
+Descripción: Editor services for Angular templates
+Versión: 13.3.0
+Editor: Angular
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=Angular.ng-template
+-----------------------------------------------------------------
+Nombre: Angular Snippets (Version 13)
+ID: johnpapa.Angular2
+Descripción: Angular version 13 snippets by John Papa
+Versión: 13.0.0
+Editor: John Papa
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2
+-----------------------------------------------------------------	
+Nombre: angular2-inline
+ID: natewallace.angular2-inline
+Descripción: Visual Studio Code language extension for javascript/typescript files that use Angular2.
+Versión: 0.0.17
+Editor: Nate Wallace
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline
+-----------------------------------------------------------------	
+Nombre: Bootstrap 5 & Font Awesome Snippets
+ID: HansUXdev.bootstrap5-snippets
+Descripción: Code snippets for Bootstrap 5 
+Versión: 1.2.5
+Editor: HansUXdev
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=HansUXdev.bootstrap5-snippets
+-----------------------------------------------------------------	
+Nombre: HTML CSS Support
+ID: ecmel.vscode-html-css
+Descripción: CSS Intellisense for HTML
+Versión: 1.11.0
+Editor: ecmel
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css
+-----------------------------------------------------------------	
+Nombre: JavaScript (ES6) code snippets
+ID: xabikos.JavaScriptSnippets
+Descripción: Code snippets for JavaScript in ES6 syntax
+Versión: 1.8.0
+Editor: charalampos karypidis
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+-----------------------------------------------------------------	
+Nombre: JS-CSS-HTML Formatter
+ID: lonefy.vscode-JS-CSS-HTML-formatter
+Descripción: Format ,prettify and beautify JS, CSS, HTML code by using shortcuts, context menu or CLI
+Versión: 0.2.3
+Editor: lonefy
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=lonefy.vscode-JS-CSS-HTML-formatter
+-----------------------------------------------------------------	
+Nombre: jshint
+ID: dbaeumer.jshint
+Descripción: Integrates JSHint into VS Code. JSHint is a linter for JavaScript
+Versión: 0.11.0
+Editor: Microsoft
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint
+-----------------------------------------------------------------	
+Nombre: Material Icon Theme
+ID: PKief.material-icon-theme
+Descripción: Material Design Icons for Visual Studio Code
+Versión: 4.14.1
+Editor: Philipp Kief
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+-----------------------------------------------------------------
+Nombre: Prettier - Code formatter
+ID: esbenp.prettier-vscode
+Descripción: Code formatter using prettier
+Versión: 9.3.0
+Editor: Prettier
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode	
+-----------------------------------------------------------------	
+Nombre: Spanish Language Pack for Visual Studio Code
+ID: MS-CEINTL.vscode-language-pack-es
+Descripción: Language pack extension for Spanish
+Versión: 1.65.3
+Editor: Microsoft
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es
+-----------------------------------------------------------------	
 --ANGULAR PROJECT
 ng new myApp 										-sobre carpeta del proyecto nuevo, crea proyecto angular, luego usar npm install
 npm install o npm i  								-desde carpeta, instala modulos necesarios
@@ -23,6 +117,7 @@ ng serve -p 4201									-cd sobre la carpeta del proyecto, esto ejecuta un serv
 ng g c routes/callbacks/coinbase 					-crear component  dentro de src/app
 ng generate component carpeta/archivo				-crear component  dentro de src/app
 ng g s shared/services/account/account-transaction	-crear service
+ng build --prod										-compila/construye proyecto para produccion
 -----------------------------------------------------------------	
 TypeScrip : lenguaje para modelar JS y luego convertirlo al mismo
 Comandos consola :
@@ -34,4 +129,15 @@ Tipeados:
 (nombre:string) : parametro tipo string
 (nombre?:string) : parametro tipo string opcional
 (nombre:string='andres') : parametro tipo string por defecto
+-----------------------------------------------------------------	
+<ul>
+	<li *ngfor="let user of users" >  
+		{{ user }}
+	</li>
+</ul>
 
+<ul>
+	<li *ngfor="activated" >  //variable definida en componente
+		esta activado
+	</li>
+</ul>
