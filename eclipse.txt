@@ -17,10 +17,15 @@ f7 SIGUIENTE BUCLE
 	cloud bootstrap
 	function
 	task
-	ms ssql server driver
+	MS SQL Server Driver
 	spring boot devtools
 	thymeleaf
 	lombok  --https://www.baeldung.com/lombok-ide
+	tomcat (luego solapa server/agragar/y seguir los pasos)
+		-ayuda/instalar software
+		-buscar server en todos los sitios
+		-instalar web tools platform WTF
+		-instalar Web,XML,m Java EE and OSGi Development
 	
 --para prueba
 dependencia h2

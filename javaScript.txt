@@ -1,0 +1,32 @@
+-funciones script van en stiqueta o importado
+<script> 
+	function mostrar(parametro){
+	}
+</script>
+o
+<script src="archivo.js"> </script> //dentro del archivo se trabaja igual
+-funcion setTimeout se ejecuta luego de tiempo
+setTimeout(funcion,miliSegundos<3000 son 3 segundos>);
+
+-variable que contiene funcion
+var nombreVariable = function() { 	contenido };
+o abreviacion como funcion flecha
+var nombreVariable = () => { 	contenido };
+o si tiene una sola linea
+var nombreVariable = () => 	contenido ;
+o usar funcion flecha
+setTimeout(() => {contenido} ,3000) ;
+
+-opciones de DOM (Documetn Object Model) para JavaScrit
+selector
+document.querySelectorAll(.class)
+ej : document.querySelectorAll(.text)
+document.querySelectorAll(#id)
+ej : document.querySelectorAll(#titulo)
+document.querySelectorAll(tag)
+ej : document.querySelectorAll(div)
+varios
+ej : document.querySelectorAll(div .text)
+insertar html
+(DOM).innerHTML="TExto de prueba"
+ej : document.querySelectorAll(firstHeading).innerHTML="Cambio de titulo"
