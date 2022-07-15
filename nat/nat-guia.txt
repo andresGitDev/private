@@ -19,18 +19,18 @@ pass: Jupiter12
 servidor desarrollo
 \\192.168.1.129
 natconsultores\administrador
-Inicio98
+Inicio98/Jupiter12
 
 servidor de sofware
 \\192.168.1.43
 natconsultores\administrador
-Inicio98
+Inicio98/Jupiter12
 
 #type mail
 agonzalez@natconsultores.com.ar
 12Jupiter
 teams
-Jupiter12
+Jupiter12@
 
 #type eclipse
 eclipse-jee-2020-12-R-win32-x86_64
