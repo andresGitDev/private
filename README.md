@@ -1,2 +1,2 @@
 # private
-Archivos privados varios
+Archivos privados
