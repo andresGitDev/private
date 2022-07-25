@@ -1,0 +1,4 @@
+base sql 2014
+192.168.1.171\SQL2014
+user beta
+pwd 6459
