@@ -21,7 +21,7 @@ f7 SIGUIENTE BUCLE
 	spring boot devtools
 	thymeleaf
 	lombok  --https://www.baeldung.com/lombok-ide
-	tomcat (luego solapa server/agragar/y seguir los pasos)
+	tomcat (luego solapa server/agregar/y seguir los pasos)
 		-ayuda/instalar software
 		-buscar server en todos los sitios
 		-instalar web tools platform WTF
