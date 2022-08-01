@@ -1,5 +1,9 @@
 //eclipse
-
+-que app esta en puerto 8080 
+netstat -ano | findstr LISTENING | findstr 8080
+-eliminar proceso
+taskkill -PID 11808 -F (NUMERO QUE DE COMO RESPUESTA EL COMANDO ANTERIOR)
+-atajos
 Ctrl+Shift+R Busca clases
 Ctrl+Shift+O Importa librerias
 Ctrl+Shift+F formato

@@ -1,0 +1,17 @@
+cluster: PersonalDBCluster
+ip: 192.168.0.101/32 
+name: andresDB
+user: andresDev
+psw: 0andres00
+
+agregar al path
+C:\Program Files\MongoDB\Server\6.0\bin
+
+crear carpetas en disco c
+nombre : data
+dentro carpeta nombre : db
+
+ejecutar linea de comando : 
+mongod --version
+mongod //ejecuta mongodb
+mongo //conecta base
