@@ -26,10 +26,45 @@ f7 SIGUIENTE BUCLE
 	thymeleaf
 	lombok  --https://www.baeldung.com/lombok-ide
 	tomcat (luego solapa server/agregar/y seguir los pasos)
-		-ayuda/instalar software
-		-buscar server en todos los sitios
-		-instalar web tools platform WTF
-		-instalar Web,XML,m Java EE and OSGi Development
+        -ayuda/instalar software
+        -buscar server en todos los sitios
+        -instalar web tools platform WTF
+        -instalar Web,XML,m Java EE and OSGi Development
+--software para eclipse
+    -ayuda/marketplace
+    -buscar server en todos los sitios , Eclipse JST Server Adapters (Apache Tomcat, JOnAS, J2EE)
+    -JavaScript Build Eclipse Wild Web Developer
+    -EclEmma Java code coverage 
+    -Java Development Tools
+    -instalar web tools platform WTF,Maven (Java EE) Integration for Eclipse WTP
+    -Mylyn WikiText
+    -Spring Tools 4 (aka Spring Tools Suite 4)
+    -Wild Web Developer: HTML,CCS,JavaScript ...
+    -instalar Web,XML,m Java EE and OSGi Development
+		
+-EJEMPLO DE APPLICATION.PROPERTIES
+#spring.messages.basename=validation
+spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.datasource.url=jdbc:sqlserver://192.168.1.171\\SQL2014;databaseName=Uretek_Web
+spring.datasource.username=beta
+spring.datasource.password=6459
+#spring.datasource.tomcat.testOnBorrow= true 
+#spring.datasource.tomcat.validationQuery= SELECT 1
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.proc.param_null_passing=true
+spring.jpa.hibernate.ddl-auto= none
+spring.jpa.show-sql=true
+server.port=8088
+
+logging.level.org.springframework.web=INFO
+logging.level.org.hibernate=INFO
+logging.level.org.hibernate.SQL=ERROR
+#logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE# Logging pattern for the console
+logging.level.root=INFO
+logging.pattern.console= "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+logging.pattern.file= "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+logging.file.name=/logs/betasepp/uretek-web.log
 	
 --para prueba
 dependencia h2
