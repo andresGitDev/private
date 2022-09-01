@@ -4,3 +4,32 @@ actual
 Buenas, actualmente busco empleo en modo contractor con pago en usd aunque todavía no tengo inglés conversacional. Si tenes alguna propuesta, te agradezco, buena semana.
 nuevo
 Buenas, actualmente busco empleo en modo contractor con pago en usd aunque todavía no tengo inglés conversacional. Si tenes alguna propuesta asi...no se como me vez para esta propuesta si aplico
+
+linter
+
+ spring boot con spring security
+java, gitlab en el trabajo y github personal, jdk 7, jdk 8 y jdk11, maven, Sqlserver, SqlDeveloper, Swagger 
+Jboss, jenkings, datapower ibm, andres puto, soap ui, postman, putty, WinSCP, <SqlDeveloper Oracle, Apache Tomcat
+
+-Si te van a preguntar de tecnologia: Lombok, Maven, Gitlab o github, jdk1.8, jdk11 y jdk17, bitbucket, json, xml, yml y no recuerdo que más
+-Después recuerdo si te preguntan de tipos de endpoints que trabajaste: GET, POST, DELETE, PUT 
+TIPS que te pueden preguntar/ayudar:
+1.Si ya hay un POST podes usar la misma URL y hacer un PUT.
+2. La diferencia entre POST Y GET es que tenes un cuerpo en el primero. 
+3. También hay casos en los que puedas resolverlo como GET pero si el endpoint guarda en la BD o la actualiza deberías usar un POST (por más que con GET funcione)
+4. Un GET solo consulta. No modifica la BD. Por ende solo puede hacer un select * from o armar una lógica que no implique ningún cambio al sistema.
+-Después recuerdo que también te pueden preguntar que es hibernate
+1. No es un patron de diseño como tal es un ORM 
+2. Hay diferencia entre usar hibernate puro o jpa (nosotros usamos JPA porque puro es todo xml y mapear entidades sin annotations,  osea sin @Table, @Entity, @id, etc)
+3. Se puede hacer una aplicación sin hibernate por ejemplo Garantizar y creo que MFC también.
+4. Si no usas hibernate te conectas por BD utilizando jdbc puro. Hibernate tiene un servlet que utiliza internamente jdbc pero facilita las llamadas a los store procedures y las queries en su totalidad
+-Después también la diferencia entre == e equals que hablamos el otro día. == compara posición de memoria mientras que equals compara carácter, objetos, números, etc
+-Diferencia en un objeto y un primitivo. El objeto Integer puede tener null y el primitivo int nunca, tiene que estar si o si inicializado
+-Para que se usa @Aytowired ? Para inyección de dependencia. Osea instanciarlo y que use siempre solo una instancia toda la app. Podes evitarlo haciendo un constructor
+-Después te pueden preguntar diferencia entre String y StringBuilder. 
+1. Normalmente se usa String si es que no vas a concatenar varios con +.
+2. Si concatenas con +, te crea un espacio de memoria para em string y el string concatenado. Ejemplo si haces  mensage + ':' + resultado, guarda en memoria mensage, luego mensage + ':' y también mensage + ':' + resultado
+3. Si vas a concatenar es preferible hacer StringBuilder(mensage).append(':').append(resultado) y esto te crea un solo espacio de memoria.
+4. También pueden preguntar diferencia entre StringBuilder y StringBuffer. Funcionan exactamente igual pero si tomas los tiempos StringBuffer es más rápido porque no guarda en memoria todo el tiempo, simplemente lo crea y lo destruye (creo que era así jaja)
+-Después te pueden preguntar si usas cola de mensajes. Esto significa apache Kafka, es fácil de usar y básicamente armas un tópico donde escuchas todo el tiempo (en tiempo real) y envías json desde ahí y los pone en cola y los envía. (Esto se usa por ejemplo para hacer transferencias bancarias en las startup)
+-Después pata testear usas junit, para documentar Swagger, para request utilizas Postman si son json y si no usas Soap que envía xml por ejemplo.

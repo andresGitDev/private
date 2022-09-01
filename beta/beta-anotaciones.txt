@@ -1,4 +1,18 @@
-base sql 2014
+-base sql 2014
 192.168.1.171\SQL2014
 user beta
 pwd 6459
+-azure Microsoft
+rgonzalez@betasepp.com.ar	
+Beta2022
+-WebMail	
+rgonzalez@betasepp.com.ar	
+Bet*3574
+sistemas@betasepp.com.ar
+00beta00
+-Certificado VS	
+andresDev	
+Bet@6459
+-TeamViewer
+remoto@betasepp.com.ar
+Betasepp6459
