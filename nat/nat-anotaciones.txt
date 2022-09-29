@@ -1,19 +1,98 @@
--team notebook
+#type team notebook
 811 454 165
 1mas1Nat
 
--mfc
+#type vpn 
+GVCSetup64_4.9.0.1202_EN.exe
+vpnclient_setup.msi
+con regedit entrar a Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CVirtA
+cambiar clave DisplayName dejar de cisco en adelante
+
+anterior 	190.210.204.169
+nueva 		190.210.247.32
+USER NATVPN
+CON n@tconsultores
+en transport enable false
+user: agonzalez
+pass: Jupiter12
+
+#type server para unidades de red
+servidor desarrollo
+\\192.168.1.129
+natconsultores\administrador
+Inicio98/Jupiter12
+
+servidor de sofware
+\\192.168.1.43
+natconsultores\administrador
+Inicio98/Jupiter12
+
+#type mail
+agonzalez@natconsultores.com.ar
+12Jupiter
+teams
+Jupiter12@
+gitlab
+Jupiter12
+postman
+
+
+#type eclipse
+eclipse-jee-2020-12-R-win32-x86_64
+help/eclipse market place/ 
+-spring tools 4 (aka spring tools suite 4) 4.9.0 release
+-wild web developer: html, css, javascript, typescript,node.js,angular,json,yaml (...),xml 0.110
+-javascript build eclipse - outdated - use wild web developer instead
+
+#type git
+https://git-scm.com/download/win
+Git-2.29.2.3-64-bit.exe
+registro en gitlab
+agonzalez@natconsultores.com.ar
+Jupiter12
+
+#administrador de git
+SourcetreeEnterpriseSetup_3.4.1.msi
+
+#type sql server 
+SSMS-Setup-ENU.exe
+
+bases:
+	server 192.168.1.32
+	user sa
+	pass Gauss01
+	
+	server 192.168.1.43,58010\GALILEO
+	user sa
+	pass Galileo01
+
+#type java
+	jdk-11.0.9_windows-x64_bin.exe 
+	cuenta en oracle
+	esmicuentapersonal@gmail.com
+	00Andres00
+
+#type variable de entorno
+-guia
+https://javatutorial.net/set-java-home-windows-10
+-guia rapida
+configuracion avanzada de sistema
+variable de entorno
+nueva, nombre JAVA_HOME, ubicacion, archivos de programa y el JDK a usar
+editar la variable PATH y agregar %JAVA_HOME%\bin
+
+-CLIENTE MFC
 solicitud 1289391
 persona 2019056
 usuario LEB
 
 1335675	6349345 LEB
 
--fiorito
-clave
+--CLIENTE FIORITO
+-clave sistema
 nat12345
 
-Conexión VPN
+-Conexión VPN
 Gateway Remoto: 181.165.165.162
 Puerto: 443
 Certificado de Cliente: Ninguno
@@ -21,8 +100,12 @@ Autenticación: Guardar Login
 Nombre de Usuario: rmanzanilla
 Password: Fio2032!
 	
+-sql
+server name : 10.0.10.18
+user : usrfactoring
+clave: 1234
 
-
+-log sql
 declare @id bigint=86
 select l.lst_id as idTransaccion,'1-transaction' as typ,'request:' + (cast(l.lst_date_request as varchar) + ',response:'+ cast(l.lst_date_response as varchar)) as dat from Sistema.log_sif_transactions as l where l.lst_id=@id
 union
@@ -30,3 +113,9 @@ select r.lsrq_lt_id as idTransaccion,'2-request' as typ,r.lsrq_request as dat fr
 union
 select r.lsrs_lt_id as idTransaccion,'3-response' as typ,r.lsrs_response as dat from Sistema.log_sif_response as r where r.lsrs_lt_id=@id
 order by typ
+
+
+
+
+
+

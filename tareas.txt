@@ -1,0 +1,245 @@
+--revisar tabla ejecutaraccion
+--acciones cuando estan nulos
+--mapear todos los campos de cheques
+--preliquidacion antes de guardar cheque
+--revisar preliquidacion model
+--suma importe co_neto neto a pagar <agregar a operationAbstract>
+--lista de acciones en lugar de model
+--servicio ejecucion
+--flat, boolean del modelcheque para estado de envio y estado de compra
+--solo cheque formalizado para preventa,estado compra y estado venta, servicio traer cheques disponibles para preventa compra=formalizado venta=no vendido
+	--condicion del estado compra y venta 
+--estados de preventa, acciones de operacion?
+--tasa comprador de cheques en detalle de preventa
+--ultima fecha operacion para persona, cuando compra,<vende>,firmante
+--service cerrar operacion y enviar a sif, y cerrar la operacion sin enviar, 
+	--agregar ultima fecha operacion al comprador/pagador y ult fech ope general del client
+	funcion con parametro boolean para enviar o no a sif 
+--tasas comprador de cheques,cuando guarda tasa y desactivar anterior vigente
+--verificar tambien si el vendedor
+--servicio cerrar preventa, y estado de venta, agregar ultima fecha operacion al comprador y ult fech ope general del client,cuando la venta se formaliza cambia el estado de venta, 10 vendido
+	 --se asigna persona compradora? se asigna id preventa al cheque
+--check a checkModel poner id preventa, cantidad de veces 
+--posibles compradores como persona model
+--buscar preventa por id preventa	
+--al guardar pre sale devolver model
+--al model cheque agregar nombre librador y nombre cliente
+--agregado descripcion preventa y monto al model 
+--nosis en cliente de la operacion
+--ES AMBA EN EL CHEQUE SEGUN COPIGO POSTAL
+--servicio de excepciones, hacer
+--cuit duplicado 30709105414 revisar y capturar
+--test de todos los servicios,
+--revisar acciones de cheques
+--ejecutar acciones de operacion
+dar de alta en sif
+--criterios para buscar operaciones, terminar por usuario
+estado de operacion tiene dentro un grupo
+--id electronico del cheque en el model
+--al ingresar un cheque ya envio y recbido verificar si setea operacion
+--lista de usuarios segun rol
+--cambio en el response de tasa por lista de tasas
+--guardar id de producto en chequemodel,  tasa completa en el cheque
+--guardar id de matrix de coeficientes en cheque, ya guarda todo el registro ademas de los valores por separado
+--en preventa es que cheques disponibles debe tener cheques sin vencimiento negativo es decir cero o positivo
+service para editar preventa
+--remapear comprador_consolidado
+	--estadistica_comprador-consolidado
+	--estadistica_persona-consolidada
+--sp 790 : estadisticas_recalcular
+--cheques, agregar campo con_recurso
+--preparar enum con tipos de procesos a recalcular
+--poner en model el enum creado antes
+--validar fecha de emision a futuro
+--permitir cargar cheque si todavia no vencio
+--emision no mas de un año
+--dias al vencimiento al model del cheque
+--banco descripcion en model de cheque
+--descripcion de estados para model de cheque
+--al guardar cheque ojo rompe revisar, era el produco matriz en null
+--lista de cheques disponibles, no mostrar los vencidos
+--calculo de cupo disponible, segun valores ya comprados, y valores en operacion ya confirmados
+--chequeo de estados de cheque en la carga inicial
+--preguntar por cupo de comprador!!! cupo de clientes en preventa hecho pero preguntar, resuelto como cupo firmante/vendedor
+--tarea 0017 valores de comision en porcentaje, revision por service
+--tarea 0029 campos nuevos en persona
+--tarea 0027 - interfaz para stored de busqueda de cheques, estadistica.reportecheque
+--tarea 0030 - alta de persona en sif
+--tarea 0028 - completar excelcon los datos de servicios de sif
+--tarea 0031 - log de transaccion para consumo de sif, detalle de lo enviado, detalle de lo recibido	-definir tipos de servicios	-definir tipos de salidas	-definir tipos de respuestas
+--tarea 0032 - verificar cod error dl sif , agregar mensaje siempre
+--tablas nuevas de documentacion, 5 tablas
+--tarea 0033 definicon de procesos para logica de uso-consulta que traiga cheques ordenados por producto,tasa, comision. ojo producto de nat no es el mismo que fiorito
+--tarea 0007 id transaccion en el cheque, fecha de transaccion, si responde ok tendra numero de operacion	-cambio de estado de cheques	-cambio de estado de operacion
+--lista de menues
+--tablas para accesos a menues
+--relacion para accesos
+--agregar al service params
+--OperationSendService.sendOperationToSif
+--cuando cargo un cheque aceptado y recibido no esta pasando por workflow por lo que no se muestra el martillito
+--tasa del cheque se guarda 55.27% como 0.55 y se envia eso...esta mal
+--validacion de documentos por stored
+--servicio de consulta de clientes en fiorito, resolver
+--campos nuevos en cheques de liquidacion y update luego de preliquidacion
+--servicio y model de resumen de preliquidacion
+--servicio para acciones de cheques por una lista de cheques
+--al cheque desde archivo al editar trae mal tasa que seria el tna, trae 21  
+--al cheque al guardar desde archivo guarda mal tna
+--al guardar definir producto default
+--carga de cheques masivo
+--poder cambiar cliente de la operacion
+--redefinir (ver los campos) de valores de tasa (tna), comision, VALOR DE COMISION (valor gasto)
+--cambiar el id de cliente en la operacion si hay cambio
+--aplicar a todos los cheques TNA,COMISION Y GASTO
+--volver a evaluar preliquidacion de cada cheque
+--pasar cada cheque por wf, para aplicar cambio de estado de cheques
+--al editar operacion tambien poner cheques de 13 20 a 12 20
+--cambiar servicio de tasa producto tasa, buscar default tambien ,preguntar, resuelto en la carga masiva de cheques por archivo , el id de producto se busca en la tabla default
+--mapear la tabla, repositorio de la tabla, service de la tabla y consumo de la tabla
+para porcentaje de gastos tomamos id default de persona
+buscamos que es la linea de producto nuestra y la buscamos en la tabla nueva junto con el cuit
+en cheque esta mat_id, este se busca en producto_matriz, y de ahi se saca convertionId para enviar al sif
+
+
+borrar de cheques
+	@Column(name = "chq_comision_valor")
+	private BigDecimal valueCommission;
+	
+
+--El usuario sube el archivo txt para ser procesado
+El sistema valida que el archivo no haya sido procesado previamente
+--Se toma el archivo txt y se ordena por endosante
+Se genera una operación para cada endosante con estados específicos para cheques y operación, se verifica que no existan en el sistema previamente cargados
+--Operación: Validar operación electrónica
+--Cheque: Validar cheque electrónico
+--El usuario abre La operación electrónica y puede modificar en forma masiva el producto (tasas y gastos) para los cheques de la operación seleccionándolos de la lista
+--Los cheques que están completos con tasa y producto pasan al estado “Chque electrónico verificado y completo” (recibido y aceptado)
+--Los cheques en estado estado “Chque electrónico verificado completo” pueden ser enviados a sif
+
+$(this).attr("dataset.registeryear", $(this).attr("name").replace(/\d+/, contador) );	
+	
+
+
+
+
+class="obligatorio" 
+
+	@Transactional
+	public Boolean confirmPreSale(BigInteger idPreSale) throws Exception {
+		Boolean response = Boolean.FALSE;
+		try {
+			Optional<PreSale> preSale = iPreSaleRepository.findById(idPreSale);
+			if (preSale.isPresent()) {
+				preSale.get().setPreVentaStatus(
+						iPreSaleStateRepository.findById(PreSaleStates.ACEPTADO.getCode().intValue()).get());
+				List<PreSaleChecks> listChecks = iPreSaleChecksRepository.findByPreSale(preSale.get().getId());
+				for (PreSaleChecks preSaleCheck : listChecks) {
+					if (preSaleCheck.getPreVentaStatus().getId() == PreSaleStates.ACEPTADO.getCode().intValue()) {
+						confirmSaleCheck(preSaleCheck.getCheId().getId());
+						preSaleCheck.setFechaCompra(new Date());
+						iPreSaleChecksRepository.save(preSaleCheck);
+					}
+				}
+				iPreSaleRepository.save(preSale.get());
+				personUpdateService.updateFecha(preSale.get().getPersonaComprador().getId(),
+						TypeActionPerson.COMPRADOR);
+				response = true;
+			}
+			return response;
+		} catch (Exception e) {
+			log.error("Fallo confirmacion de pre venta id " + idPreSale + " - " + e.getMessage());
+			throw e;
+		}
+	}
+
+//            String result = Optional.ofNullable(nosis.getResultado())
+//                    .map(ns -> ns.getNovedad())
+//                    .orElse("Rechazo Nosis");
+//  
+
+
+//package ar.com.natfiorito.persistence.repository.sp;
+//
+//import java.math.BigInteger;
+//import java.util.Date;
+//import java.util.List;
+//
+//import org.springframework.data.jpa.repository.JpaRepository;
+//import org.springframework.data.jpa.repository.Query;
+//import org.springframework.data.repository.query.Param;
+//
+//import ar.com.natfiorito.models.OperationsResponse;
+//
+//
+//public interface IOperationsStoredRepository extends JpaRepository<OperationsResponse, Integer> {
+//	@Query(value = "CALL Estadisticas.ReporteOperaciones(:OutMaxCantidadFilas,:ope_nro,:ope_fecha_desde,:ope_fecha_hasta,:ope_estado_cod,:clienteCuit,:cli_pernro,:cliente_razonsocial,:usroficialcliente_nro,:firmantecuit,:firm_pernro,:firm_razonsocial,:cheq_estado_compra_alguno,:cheq_estado_envio_alguno,:cheq_estado_preventa_alguno);", nativeQuery = true)
+//	List<OperationsResponse> findByCriteria(@Param("OutMaxCantidadFilas") Integer outMaxCantidadFilas,
+//			@Param("ope_nro") BigInteger ope_nro, @Param("ope_fecha_desde") Date ope_fecha_desde,
+//			@Param("ope_fecha_hasta") Date ope_fecha_hasta, @Param("ope_estado_cod") Short ope_estado_cod,
+//			@Param("clienteCuit") String clienteCuit, @Param("cli_pernro") BigInteger cli_pernro,
+//			@Param("cliente_razonsocial") String cliente_razonsocial,
+//			@Param("usroficialcliente_nro") BigInteger usroficialcliente_nro,
+//			@Param("firmantecuit") String firmantecuit, @Param("firm_pernro") BigInteger firm_pernro,
+//			@Param("firm_razonsocial") String firm_razonsocial,
+//			@Param("cheq_estado_compra_alguno") Short cheq_estado_compra_alguno,
+//			@Param("cheq_estado_envio_alguno") Short cheq_estado_envio_alguno,
+//			@Param("cheq_estado_preventa_alguno") Short cheq_estado_preventa_alguno);
+//
+//}
+
+
+//			Optional<ProductoMatrizPlazo> productFinal = Optional.of(new ProductoMatrizPlazo());
+//			if (!productList.isPresent()) {
+//				Optional<Persona> cliente = iPersonRepository.findByDocumentNro(referencia.getClienteCuit());
+//				productFinal = iProductoMatrizPlazoRepository.findById(cliente.get().getClienteIdCheques());
+//			} else {
+//				productFinal = Optional.of(productList.get().get(General.First.getCode()));
+//			}
+
+alter table operacion.cheques add chq_preliq_dias_anio Integer --// dias del año
+alter table operacion.cheques add chq_preliq_plazo Integer --// plazo (dias de prorrateo)
+alter table operacion.cheques add chq_preliq_clearing Integer --// Clearing
+alter table operacion.cheques add chq_preliq_fec_pago Date --// fecha de pago
+alter table operacion.cheques add chq_preliq_fec_acreditacion Date --// fecha de acreditacion
+alter table operacion.cheques add chq_preliq_fec_expiracion Date --// fecha de expiracion de la pre liquidacion
+alter table operacion.cheques add chq_preliq_tna float --// tasa nominal anual
+alter table operacion.cheques add chq_preliq_tasa_comision float --// tasa de comision
+alter table operacion.cheques add chq_preliq_tasa_gasto float --// tasa de gastos
+alter table operacion.cheques add chq_preliq_tasa_iva float --// tasa de iva
+alter table operacion.cheques add chq_preliq_importe_chq float --// importe del cheque
+alter table operacion.cheques add chq_preliq_aforo float --// aforo
+alter table operacion.cheques add chq_preliq_impor_aforo float --// importe-aforo(descuento)
+alter table operacion.cheques add chq_preliq_interes_tna float --// intereses segun tna
+alter table operacion.cheques add chq_preliq_gastos float --// gastos
+alter table operacion.cheques add chq_preliq_comisiones float --// comisiones
+alter table operacion.cheques add chq_preliq_gastos_globales float --// gastos globales
+alter table operacion.cheques add chq_preliq_base_Iva float --// base de iva
+alter table operacion.cheques add chq_preliq_impues_intereses float --// impuesto sobre intereses+gastos+comision+gastos globales
+
+//		Optional<String> content = Optional.ofNullable( new String(file.getBytes(),"Utf-8"));
+//		if(content.isPresent()) {
+//			String[] contentText=content.get().split(",");
+//			System.out.println(contentText);
+//		}
+//		try {
+//			File file = new File(new String(multifile.getBytes()));
+//			
+//			BufferedReader buffer= new BufferedReader(new FileReader(file));0
+//		    while(buffer.readLine() != null)
+//	        {
+//	            String lines = buffer.readLine();
+//	            System.out.println(lines);
+//	        }			
+//		} catch (FileNotFoundException e) {
+//		    System.out.println("No se encontro el archivo "+multifile.getName());
+//		}
+
+//		InputStream inputStream = file.getInputStream();
+//		Stream<String> reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8)).lines();
+//		
+//		String text = reader.findFirst().orElseThrow(() -> new IOException());
+//		List<String> contentText = Arrays.asList(text.replaceAll(" ", "").split(",")).stream().map(String::trim)
+//				.collect(Collectors.toList());
+//		for(String line: contentText) {
+//			System.out.println(line);
+//		}
