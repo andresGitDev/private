@@ -16,3 +16,19 @@ Bet@6459
 -TeamViewer
 remoto@betasepp.com.ar
 Betasepp6459
+
+ update o set 
+       o.nombre=c.nombre
+      ,o.cuit=c.cuit
+      ,o.tipo=c.tipo
+      ,o.direccion=c.direccion
+      ,o.localidad=c.localidad
+      ,o.provincia=c.provincia
+      ,o.pais=c.pais
+      ,o.telefono=c.telefono
+      ,o.comoSeEntero=c.comoSeEntero
+      ,o.comoLlegar=c.comoLlegar
+      ,o.codigoPostal=c.codigoPostal
+      ,o.email=c.email
+from [Uretek_Web].[Ventas].[Orden] o inner join [Uretek_Web].[Comercial].[Clientes] c on o.clienteId=c.id
+where o.id<36
