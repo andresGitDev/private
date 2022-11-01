@@ -96,9 +96,9 @@ service para editar preventa
 --al editar operacion tambien poner cheques de 13 20 a 12 20
 --cambiar servicio de tasa producto tasa, buscar default tambien ,preguntar, resuelto en la carga masiva de cheques por archivo , el id de producto se busca en la tabla default
 --mapear la tabla, repositorio de la tabla, service de la tabla y consumo de la tabla
-para porcentaje de gastos tomamos id default de persona
-buscamos que es la linea de producto nuestra y la buscamos en la tabla nueva junto con el cuit
-en cheque esta mat_id, este se busca en producto_matriz, y de ahi se saca convertionId para enviar al sif
+--para porcentaje de gastos tomamos cuit de persona y buscamos 
+--buscamos que es la linea de producto nuestra y la buscamos en la tabla nueva junto con el cuit
+--en cheque esta mat_id, este se busca en producto_matriz, y de ahi se saca convertionId para enviar al sif
 
 
 borrar de cheques
