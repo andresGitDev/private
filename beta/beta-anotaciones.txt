@@ -16,6 +16,15 @@ Bet@6459
 -TeamViewer
 remoto@betasepp.com.ar
 Betasepp6459
+-carpeta 192.168.1.171
+sistemas
+beta6459
+-clave vpn
+Beta6459
+-MV remota
+192.168.1.80
+betasepp
+betasepp6459
 
  update o set 
        o.nombre=c.nombre

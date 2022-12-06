@@ -36,7 +36,6 @@ gitlab
 Jupiter12
 postman
 
-
 #type eclipse
 eclipse-jee-2020-12-R-win32-x86_64
 help/eclipse market place/ 
@@ -85,8 +84,6 @@ editar la variable PATH y agregar %JAVA_HOME%\bin
 solicitud 1289391
 persona 2019056
 usuario LEB
-
-1335675	6349345 LEB
 
 --CLIENTE FIORITO
 -clave sistema
