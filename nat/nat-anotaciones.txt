@@ -30,11 +30,16 @@ Inicio98/Jupiter12
 #type mail
 agonzalez@natconsultores.com.ar
 12Jupiter
-teams
+.discord
+1mas1Discord
+.zoom
+auth google
+.teams
 Jupiter12
-gitlab
+.gitlab
 Jupiter12
-postman
+.postman
+auth google
 
 #type eclipse
 eclipse-jee-2020-12-R-win32-x86_64
@@ -86,8 +91,11 @@ persona 2019056
 usuario LEB
 
 --CLIENTE FIORITO
--clave sistema
-nat12345
+user : correo
+pass : namecorreo
+
+-React Install
+npm install packagename --legacy-peer-deps or npm install packagename --force
 
 -Conexión VPN
 Gateway Remoto: 181.165.165.162
