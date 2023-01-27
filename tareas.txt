@@ -116,6 +116,63 @@ Se genera una operación para cada endosante con estados específicos para chequ
 --Los cheques que están completos con tasa y producto pasan al estado “Chque electrónico verificado y completo” (recibido y aceptado)
 --Los cheques en estado estado “Chque electrónico verificado completo” pueden ser enviados a sif
 
+-registro de usuario : 
+	estado : revisar funcionamiento
+	desarrollo : viable
+	
+-cambio en administracion - personas 
+#DATOS PERSONA
+(general)
+	estado 1 : completar datos de la persona segun cuit
+	desarrollo : si todos los datos los entrega el servicio de Dario es viable (quizas es posible completar por nosis)
+	estado 2 : cambiar titulo "Situacion fiscal" por "Condicion IVA"
+	desarrollo : viable
+	estado 3 : sacar categoria,tipo entidad,alta,tipo origen, modo registro, ultima operacion, existe en sif, cliente camara, cliente caracter,cliente cheques y clientes facturas
+	desarrollo : viable
+	estado 4 : cambiar formato, cliente fecha alta y cliente ultima operacion, por DD/MM/AAAA
+	desarrollo : revision
+	estado 5 : cambiar de lugar cliente ultima operacion a panel izquierdo
+	desarrollo : viable
+	estado 6 :  mostrar nombre de usuario oficial
+	desarrollo : cuando se tenga el dato, es viable
+(adicional)
+	estado : cambiar opciones de actividad
+	desarrollo : revision de donde saca la informacion para ingresar la nueva lista
+(vendedor)
+	estado 1 : valores con formato de puntos
+	desarrollo : viable
+	estado 2 : agrupar solapas vendedor, firmante, comprador y pagador
+	desarrollo : viable
+	estado 3 : cambiar titulo VENDEDOR por CLIENTE	
+	desarrollo : viable
+(firmante)
+	estado 1 : sacar firmante alta, firmante primera linea
+	desarrollo : viable
+(comprador)
+	estado : sacar solapa entera
+	desarrollo : viable
+(pagador)
+	estado : sacar solapa entera
+	desarrollo : viable
+#NOSIS
+	estado 1 : cambios de columnas
+	desarrollo : viable
+	estado 2 : cambio formato de fecha
+	desarrollo : revision
+#RESUMEN
+	estado 1 : sacar columnas
+	desarrollo : viable
+	estado 2 : cambiar los valores 1 y 0 por SI y No
+	desarrollo : viable
+#DOCUMENTACION
+	consulta 1 : fecha de vencimiento se usa en el SP que valida la documentacion
+	consulta 2 : cumplimiento se informa el resultado de la validacion del SP
+	estado 1 : cambiar las categorias
+	desarrollo : estas categorias se cambian segun los requisitos en la base
+	estado 2 : cambiar acceso de carga de campos, dejar categoria , archivo y fecha vencimiento
+	desarrollo : viable
+	
+
 $(this).attr("dataset.registeryear", $(this).attr("name").replace(/\d+/, contador) );	
 	
 

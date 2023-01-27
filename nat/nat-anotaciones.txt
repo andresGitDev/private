@@ -35,7 +35,7 @@ agonzalez@natconsultores.com.ar
 .zoom
 auth google
 .teams
-Jupiter12
+Jupiter13
 .gitlab
 Jupiter12
 .postman
@@ -95,7 +95,11 @@ user : correo
 pass : namecorreo
 
 -React Install
-npm install packagename --legacy-peer-deps or npm install packagename --force
+npm install -g create-react-app
+npx create-react-app app-agonzalez-ecommerce
+npm run build
+npm install packagename --legacy-peer-deps 
+npm install packagename --force
 
 -Conexión VPN
 Gateway Remoto: 181.165.165.162
@@ -119,7 +123,7 @@ union
 select r.lsrs_lt_id as idTransaccion,'3-response' as typ,r.lsrs_response as dat from Sistema.log_sif_response as r where r.lsrs_lt_id=@id
 order by typ
 
-
+"@weknow/react-data-report":"^1.1.4",
 
 
 
