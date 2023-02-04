@@ -1,8 +1,11 @@
 #type team notebook
 811 454 165
 1mas1Nat
+1 247 234 506
+1masqnatnote
 
 #type vpn 
+https://www.fortinet.com/support/product-downloads ( FortiClient VPN Only)
 GVCSetup64_4.9.0.1202_EN.exe
 vpnclient_setup.msi
 con regedit entrar a Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CVirtA
@@ -94,13 +97,6 @@ usuario LEB
 user : correo
 pass : namecorreo
 
--React Install
-npm install -g create-react-app
-npx create-react-app app-agonzalez-ecommerce
-npm run build
-npm install packagename --legacy-peer-deps 
-npm install packagename --force
-
 -Conexión VPN
 Gateway Remoto: 181.165.165.162
 Puerto: 443
@@ -123,8 +119,13 @@ union
 select r.lsrs_lt_id as idTransaccion,'3-response' as typ,r.lsrs_response as dat from Sistema.log_sif_response as r where r.lsrs_lt_id=@id
 order by typ
 
-"@weknow/react-data-report":"^1.1.4",
+-React Install
+npm init -y
 
-
+npm install -g create-react-app
+npx create-react-app app-agonzalez-ecommerce
+npm run build
+npm install packagename --legacy-peer-deps 
+npm install packagename --force
 
 
