@@ -1,3 +1,4 @@
+BACKEND
 --revisar tabla ejecutaraccion
 --acciones cuando estan nulos
 --mapear todos los campos de cheques
@@ -99,13 +100,6 @@ service para editar preventa
 --para porcentaje de gastos tomamos cuit de persona y buscamos 
 --buscamos que es la linea de producto nuestra y la buscamos en la tabla nueva junto con el cuit
 --en cheque esta mat_id, este se busca en producto_matriz, y de ahi se saca convertionId para enviar al sif
-
-
-borrar de cheques
-	@Column(name = "chq_comision_valor")
-	private BigDecimal valueCommission;
-	
-
 --El usuario sube el archivo txt para ser procesado
 El sistema valida que el archivo no haya sido procesado previamente
 --Se toma el archivo txt y se ordena por endosante
@@ -115,6 +109,15 @@ Se genera una operación para cada endosante con estados específicos para chequ
 --El usuario abre La operación electrónica y puede modificar en forma masiva el producto (tasas y gastos) para los cheques de la operación seleccionándolos de la lista
 --Los cheques que están completos con tasa y producto pasan al estado “Chque electrónico verificado y completo” (recibido y aceptado)
 --Los cheques en estado estado “Chque electrónico verificado completo” pueden ser enviados a sif
+
+
+borrar de cheques
+	@Column(name = "chq_comision_valor")
+	private BigDecimal valueCommission;
+
+
+FRONTEND
+logo full y small de fiorito dashboard
 
 -registro de usuario : 
 	estado : revisar funcionamiento
@@ -138,15 +141,20 @@ Se genera una operación para cada endosante con estados específicos para chequ
 (adicional)
 	-estado : cambiar opciones de actividad
 	-desarrollo : la informacion se toma de la siguiente consulta : SELECT * FROM [NatChequesFiorito].[Referencia].[tipo_actividad_bcra]
-(vendedor)/cliente
+(vendedor)
 	-estado 1 : valores con formato de puntos
 	-desarrollo : realizado
-	estado 2 : agrupar solapas vendedor, firmante, comprador y pagador
-	desarrollo : analizando
+x	estado 2 : agrupar solapas vendedor, firmante, comprador y pagador
+x	desarrollo : no conveniente
 	-estado 3 : cambiar titulo VENDEDOR por CLIENTE	
 	-desarrollo : realizado
 (firmante)
 	-estado 1 : sacar firmante alta, firmante primera linea
+	-desarrollo : realizado
+	ADICIONAL
+	-estado 2 : cambiar formato fecha firmante ultima operacion por DD/MM/AAAA
+	-desarrollo : realizado
+	-estado 3 : firmante cupo con formato de puntos
 	-desarrollo : realizado
 (comprador)
 	-estado : sacar solapa entera
@@ -155,22 +163,22 @@ Se genera una operación para cada endosante con estados específicos para chequ
 	-estado : sacar solapa entera
 	-desarrollo : realizado
 #NOSIS
-	estado 1 : cambios de columnas
-	desarrollo : viable
-	estado 2 : cambio formato de fecha
-	desarrollo : revision
+x	estado 1 : cambios de columnas
+x	desarrollo : falta indicaciones de que campos sacar
+	-estado 2 : cambio formato de fecha
+	-desarrollo : realizado desde backend (v 02.00.010)
 #RESUMEN
-	estado 1 : sacar columnas
-	desarrollo : viable
-	estado 2 : cambiar los valores 1 y 0 por SI y No
-	desarrollo : viable
+x	estado 1 : sacar columnas
+x	desarrollo : falta indicaciones de que campos sacar
+	-estado 2 : cambiar los valores 1 y 0 por SI y No
+	-desarrollo : realizado desde backend (v 02.00.011)
 #DOCUMENTACION
-	consulta 1 : fecha de vencimiento se usa en el SP que valida la documentacion
-	consulta 2 : cumplimiento se informa el resultado de la validacion del SP
-	estado 1 : cambiar las categorias
-	desarrollo : estas categorias se cambian segun los requisitos en la base
-	estado 2 : cambiar acceso de carga de campos, dejar categoria , archivo y fecha vencimiento
-	desarrollo : viable
+	-consulta 1 : fecha de vencimiento se usa en el SP que valida la documentacion
+	-consulta 2 : cumplimiento se informa el resultado de la validacion del SP
+	-estado 1 : cambiar las categorias
+	-desarrollo: estas categorias se cambian segun los requisitos en la base (hablar con MT) tabla [NatChequesFiorito].[documentos].[catalogo]
+	-estado 2 : cambiar acceso de carga de campos, dejar categoria , archivo y fecha vencimiento
+	-desarrollo : al momento no hay permisos implementados
 	
 	
 

@@ -2,7 +2,7 @@
 811 454 165
 1mas1Nat
 1 247 234 506
-1masqnatnote
+1mas1natnote
 
 #type vpn 
 https://www.fortinet.com/support/product-downloads ( FortiClient VPN Only)

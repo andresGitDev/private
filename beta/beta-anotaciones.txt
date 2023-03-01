@@ -25,6 +25,9 @@ Beta6459
 192.168.1.80
 betasepp
 betasepp6459
+-FTP
+ftp://ftpsistemas.betasepp.com.ar/
+bac6459
 
  update o set 
        o.nombre=c.nombre
@@ -41,3 +44,7 @@ betasepp6459
       ,o.email=c.email
 from [Uretek_Web].[Ventas].[Orden] o inner join [Uretek_Web].[Comercial].[Clientes] c on o.clienteId=c.id
 where o.id<36
+
+push repo existente
+git remote add origin https://betasepp.visualstudio.com/ViewInvoices/_git/ViewInvoices
+git push -u origin --all
