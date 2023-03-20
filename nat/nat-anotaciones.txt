@@ -1,10 +1,9 @@
-#type team notebook
+-teamvewer
 811 454 165
 1mas1Nat
 1 247 234 506
 1mas1natnote
-
-#type vpn 
+-vpn
 https://www.fortinet.com/support/product-downloads ( FortiClient VPN Only)
 GVCSetup64_4.9.0.1202_EN.exe
 vpnclient_setup.msi
@@ -19,7 +18,7 @@ en transport enable false
 user: agonzalez
 pass: Jupiter12
 
-#type server para unidades de red
+-unidades red
 servidor desarrollo
 \\192.168.1.129
 natconsultores\administrador

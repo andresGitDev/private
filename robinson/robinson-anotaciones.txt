@@ -1,3 +1,13 @@
 -anydeskk-pc-dev
 491396703
 BuenosAires23
+-github
+hernancvelo@gmail.com
+Hernan.usb7
+-sesion
+090216
+Miraflores*.0123
+
+
+
+Lo tercero es tener que poner esa query en un SP, se que me dijiste que no, pero le estuve dando la vuelta y no tengo otra manera de hacerlo, por donde lo encare no permite seguir y te explico. En la unica que es viable, tendría que mapear todas las tablas involucradas en la query, veo que usas vistas lo cual complica el uso de Hibernate, y si tenes alguna tabla por fuera de la base de conexión se rompe la consulta y no trae los datos correctos, Hibernate es el framework para agilizar la comunicación entre la aplicación y la base, por este motivo en estos casos la query se resuelven desde la base, y con un sp se lo llama sin problemas, mapeando el resultado sin inconvenientes. Por otro lado, vos perderías autonomía sobre esa query, si mañana queres cambiar algo dependes de mí,y eso no es buena práctica, ya de por si no se ejecutaría por la primera razón. 

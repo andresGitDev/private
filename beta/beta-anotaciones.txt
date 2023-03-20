@@ -2,6 +2,12 @@
 192.168.1.171\SQL2014
 user beta
 pwd 6459
+-gibLab
+beta6459
+repo invoices-gustavo
+dev : glpat-s1aioE1TiG73nxersBcq
+repo invoices-german
+dev : glpat-qM9PTgtxgEp98Tno7kGD
 -azure Microsoft
 rgonzalez@betasepp.com.ar	
 Beta2022
@@ -9,7 +15,7 @@ Beta2022
 rgonzalez@betasepp.com.ar	
 Bet*3574
 sistemas@betasepp.com.ar
-00beta00
+Beta$2853
 -Certificado VS	
 andresDev	
 Bet@6459
@@ -28,6 +34,15 @@ betasepp6459
 -FTP
 ftp://ftpsistemas.betasepp.com.ar/
 bac6459
+-afip ws
+url
+https://www.afip.gob.ar/fe/qr/?p=
+json
+{"ver":1,"fecha":"2022-12-19","cuit":30709834424,"ptoVta":4,"tipoCmp":1,"nroCmp":40806,"importe":3811.50,"moneda":"PES","ctz":1.00,"tipoDocRec":80,"nroDocRec":30677290478,"tipoCodAut":"E","codAut":72514019873726}
+json encryp
+eyJ2ZXIiOjEsImZlY2hhIjoiMjAyMi0xMi0xOSIsImN1aXQiOjMwNzA5ODM0NDI0LCJwdG9WdGEiOjQsInRpcG9DbXAiOjEsIm5yb0NtcCI6NDA4MDYsImltcG9ydGUiOjM4MTEuNTAsIm1vbmVkYSI6IlBFUyIsImN0eiI6MS4wMCwidGlwb0RvY1JlYyI6ODAsIm5yb0RvY1JlYyI6MzA2NzcyOTA0NzgsInRpcG9Db2RBdXQiOiJFIiwiY29kQXV0Ijo3MjUxNDAxOTg3MzcyNn0=
+complete
+https://www.afip.gob.ar/fe/qr/?p=eyJ2ZXIiOjEsImZlY2hhIjoiMjAyMi0xMi0xOSIsImN1aXQiOjMwNzA5ODM0NDI0LCJwdG9WdGEiOjQsInRpcG9DbXAiOjEsIm5yb0NtcCI6NDA4MDYsImltcG9ydGUiOjM4MTEuNTAsIm1vbmVkYSI6IlBFUyIsImN0eiI6MS4wMCwidGlwb0RvY1JlYyI6ODAsIm5yb0RvY1JlYyI6MzA2NzcyOTA0NzgsInRpcG9Db2RBdXQiOiJFIiwiY29kQXV0Ijo3MjUxNDAxOTg3MzcyNn0=
 
  update o set 
        o.nombre=c.nombre
@@ -45,6 +60,5 @@ bac6459
 from [Uretek_Web].[Ventas].[Orden] o inner join [Uretek_Web].[Comercial].[Clientes] c on o.clienteId=c.id
 where o.id<36
 
-push repo existente
-git remote add origin https://betasepp.visualstudio.com/ViewInvoices/_git/ViewInvoices
-git push -u origin --all
+REACT_APP_contextPath=/view-invoices-gustavo
+
