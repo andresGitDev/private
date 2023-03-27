@@ -1,0 +1,8 @@
+13/03/23 preparacion de pruebas de consulta a swagger de fiorito (6hs aprox)
+14/03/23 test sobre pruebas creadas y ajustes por cambios encontrados en contexto ssl (10hs aprox)
+15/03/23 ajustes en services de produccion por cambios en contexto sll y test de los mismos (6hs aprox)
+17/03/23 creacion de service en nat para consumo de services de fiorito para cartera de pre venta (7hs aprox)
+20/03/23 creacion de secuencia de log en services de nat para cartera de pre venta (2hs aprox)
+22/03/23 craacion de services para recolectar informacion de pre venta y cheques en nat (6hs aprox)
+23/03/23 configuracion parametros de url, path y body para api fiorito (2hs aprox)
+24/03/23 unificacion de service de recolector de informacion y service de consumo de api de fiorito, y ajustes necesarios(10hs aprox)
