@@ -128,3 +128,20 @@ npm install packagename --legacy-peer-deps
 npm install packagename --force
 
 
+Ctrl+Shift+R Busca clases
+Ctrl+Shift+O Importa librerias
+Ctrl+D borra linea
+Ctrl+Shift+C Comenta
+Ctrl+H Busca texto
+
+-en un primer proyecto tener en cuenta
+--tipo proyecto spring started proyect 
+--packaging tipo war
+--dependencias 
+    cloud bootstrap
+    function
+    task
+    ms ssql server driver
+    spring boot devtools
+    thymeleaf
+    https://www.baeldung.com/lombok-ide
