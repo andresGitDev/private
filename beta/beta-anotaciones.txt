@@ -44,6 +44,10 @@ eyJ2ZXIiOjEsImZlY2hhIjoiMjAyMi0xMi0xOSIsImN1aXQiOjMwNzA5ODM0NDI0LCJwdG9WdGEiOjQs
 complete
 https://www.afip.gob.ar/fe/qr/?p=eyJ2ZXIiOjEsImZlY2hhIjoiMjAyMi0xMi0xOSIsImN1aXQiOjMwNzA5ODM0NDI0LCJwdG9WdGEiOjQsInRpcG9DbXAiOjEsIm5yb0NtcCI6NDA4MDYsImltcG9ydGUiOjM4MTEuNTAsIm1vbmVkYSI6IlBFUyIsImN0eiI6MS4wMCwidGlwb0RvY1JlYyI6ODAsIm5yb0RvY1JlYyI6MzA2NzcyOTA0NzgsInRpcG9Db2RBdXQiOiJFIiwiY29kQXV0Ijo3MjUxNDAxOTg3MzcyNn0=
 
+-betasepp-qr/
+http://testing.betasepp.com.ar:9110/qr-api/generate?data=https://www.afip.gob.ar/fe/qr/?p=eyJ2ZXIiOjEsImZlY2hhIjoiMjAyMy0wMy0wMSIsImN1aXQiOjIwMjAyNTEyOTE4LCJwdG9WdGEiOiAzLCJ0aXBvQ21wIjogMSwibnJvQ21wIjoxNDk1LCJpbXBvcnRlIjoxNDkxMzMuMzMsIm1vbmVkYSI6IlBFUyIsImN0eiI6MS4wMCwidGlwb0RvY1JlYyI6ODAsIm5yb0RvY1JlYyI6MzA2NDc2MDQxMjUsInRpcG9Db2RBdXQiOiJFIiwiY29kQXV0Ijo3MzA5ODk1MTE3NTk0NH0=
+http://testing.betasepp.com.ar:9110/qr-api/generate?data=texto
+
  update o set 
        o.nombre=c.nombre
       ,o.cuit=c.cuit
@@ -59,6 +63,3 @@ https://www.afip.gob.ar/fe/qr/?p=eyJ2ZXIiOjEsImZlY2hhIjoiMjAyMi0xMi0xOSIsImN1aXQ
       ,o.email=c.email
 from [Uretek_Web].[Ventas].[Orden] o inner join [Uretek_Web].[Comercial].[Clientes] c on o.clienteId=c.id
 where o.id<36
-
-REACT_APP_contextPath=/view-invoices-gustavo
-
