@@ -115,11 +115,9 @@ borrar de cheques
 	@Column(name = "chq_comision_valor")
 	private BigDecimal valueCommission;
 
-
 FRONTEND
-logo full y small de fiorito dashboard
-
--registro de usuario : 
+--logo full y small de fiorito dashboard
+--registro de usuario : 
 	estado : revisar funcionamiento
 	desarrollo : viable
 	
@@ -183,9 +181,6 @@ x	desarrollo : falta indicaciones de que campos sacar
 	
 
 $(this).attr("dataset.registeryear", $(this).attr("name").replace(/\d+/, contador) );	
-	
-
-
 
 
 class="obligatorio" 

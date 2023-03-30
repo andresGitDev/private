@@ -5,6 +5,3 @@ bg-info /verde marino
 bg-success / verde
 bg-warning / amarillo
 bg-primary /azul
-
-llamado a controller
-1:39:44
