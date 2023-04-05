@@ -49,14 +49,12 @@ NombreControllerTest{ //referido a //A
 	
 	@Before
 	MetodoInit{
-		
 	}
 	
 	@Test
 	NombreMetodoTest{ //referido a //C
 		when //D //simula ejecucion de repositorio/servicio
 		llamada //C obtener respuesta para luego hacer las comprobaciones
-		
 		comprobaciones
 	}
 }

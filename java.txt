@@ -17,8 +17,7 @@ Optional<Persona> persona = Optional.ofNullable(new Persona());
 #envia mensaje de error segun lugar
 #split
 String[] methods = actionsRun.get().getCoustomMethod().split(";");
-
-#anotaciones para entitys
+#anotaciones para entities
 @Data
 @Builder
 @NoArgsConstructor 
