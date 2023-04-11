@@ -1,3 +1,4 @@
+PROGRAMACION
 -data github
 https://api.github.com/users/andresGitDev
 -postman
@@ -18,3 +19,7 @@ https://api.github.com/users/andresGitDev
 -gravatar
 andresdevgravatar
 1mas1andres
+
+ADICIONAL
+-SamsungAcount
+1mas1Samsung
