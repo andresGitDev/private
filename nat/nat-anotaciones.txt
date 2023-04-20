@@ -1,8 +1,17 @@
 -teamvewer
 811 454 165
 1mas1Nat
-1 247 234 506
+1247234506
 1mas1natnote
+-oracle nat mfc
+los datos del developer en NAT:
+Name: Nat_Regional
+Usuario: SCRIESGO
+Contraseña: scriesgo
+nombre del host: 192.168.1.43
+Puerto: 1521
+SID: orcl
+Nombre del servicio: SCRIESGO
 -vpn
 https://www.fortinet.com/support/product-downloads ( FortiClient VPN Only)
 GVCSetup64_4.9.0.1202_EN.exe
