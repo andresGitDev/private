@@ -179,13 +179,13 @@ x	desarrollo : falta indicaciones de que campos sacar
 	-desarrollo : al momento no hay permisos implementados
 	
 	
-tasaTipo 1.adelantada|0.tasa|2.vencida
-tasaGlobal porcentaje
-importeAforado 0 default
-importeInteres se calcula por backend
-importeGastos
-importeComision 0 default
-tasaDescuento 0 default
+requerido-tasaTipo 1.adelantada|0.tasa|2.vencida
+requerido-tasaGlobal porcentaje
+requerido-importeAforado 0 default
+requerido-importeGastos
+default-importeInteres se calcula por backend
+default-importeComision 0 default
+default-tasaDescuento 0 default
 	
 
 $(this).attr("dataset.registeryear", $(this).attr("name").replace(/\d+/, contador) );	
