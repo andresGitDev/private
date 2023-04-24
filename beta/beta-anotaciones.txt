@@ -13,7 +13,7 @@ rgonzalez@betasepp.com.ar
 Beta2022
 sistemas@betasepp
 beta2017
--WebMail	
+-WebMail: https://ferozo.email/?_task=mail&_mbox=INBOX
 rgonzalez@betasepp.com.ar	
 Bet*3574
 sistemas@betasepp.com.ar
