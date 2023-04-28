@@ -1,3 +1,7 @@
+-chatgpt
+mail agonzalez@natconsultores.com.ar
+fecha 01/01/1975
+tel 1138699793
 -base sql 2014
 192.168.1.171\SQL2014
 user beta
