@@ -1,15 +1,15 @@
 02/05/2023
 03/05/2023
 04/05/2023
-05/05/2023 pruebas conjuntas de operaciones y pre venta en sistema web para envio por medio de servicios a sif, test por swagguer, verificaciones de datos (2.10hs)
+05/05/2023 pruebas conjuntas de operaciones y pre venta en sistema web para envio por medio de servicios a sif, test por swagguer, verificaciones de datos (2.30hs)
 08/05/2023
 09/05/2023
 10/05/2023
-11/05/2023
+11/05/2023 preparacion de campos en el frontend para tasas e importes necesarios para la preventa (2hs)
 12/05/2023
 15/05/2023
 16/05/2023
-17/05/2023
+17/05/2023 mejoras en la disponibilidad de cheques para venta de cartera, segun fecha de operacion (4.30hs)
 18/05/2023
 19/05/2023
 22/05/2023

@@ -154,3 +154,14 @@ Ctrl+H Busca texto
     spring boot devtools
     thymeleaf
     https://www.baeldung.com/lombok-ide
+	
+	
+List<CheckBank> checks = getChecksByOperation(idOperation);
+return checks.stream().map(ch -> {
+	try {
+		return checkToCheque.checkBankToChequeModel(ch);
+	} catch (DeveloperException e) {
+		log.error(ErrorCheck.SEARCH.getMessageFull());
+		log.warning(e);
+		return null;
+	}
