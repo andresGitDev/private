@@ -11,10 +11,10 @@
 16/05/2023
 17/05/2023 mejoras en la disponibilidad de cheques para venta de cartera, segun fecha de operacion (4.30hs)
 18/05/2023
-19/05/2023
-22/05/2023
-23/05/2023
-24/05/2023
+19/05/2023 pruebas de operaciones, confirmacion de cheques en sif, pruebas de preventa y envios de las mismas a sif (3hs)
+22/05/2023 pruebas de servicios de generacion de venta de sif por fallos de envios por sistema (2hs)
+23/05/2023 deteccion de diferencias en el servicio de preventa (no informado por el servicio de SIF), realizando cambios necesarios (3hs)
+24/05/2023 nuevas pruebas de operaciones, confirmacion de cheques en sif, pruebas de preventa y envios de las mismas a sif, revision de log de los nuevos metodos (4hs)
 25/05/2023
 26/05/2023
 29/05/2023
