@@ -6,5 +6,3 @@ Nat
 -fiorito-campos
 -fiorito-migracion
 -fioritio-sp-operaciones
-Mio
--dolar-api
