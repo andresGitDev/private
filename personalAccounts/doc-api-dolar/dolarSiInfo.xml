@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<cotiza>
+<Capital_Federal>
+<casa22>
+	<nombre>Banco Industrial</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>22</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6044643</latitud>
+		<longitud>-58.3764305</longitud>
+	</geolocalizacion>
+	<telefono>0810-666-0505</telefono>
+	<direccion>Sarmiento 530</direccion>
+	<horario>Lun a Vie de 10:00 a 16:00 hs.</horario>
+</casa22>
+<casa6>
+	<nombre>Banco Nación</nombre>
+	<compra>238,00</compra>
+	<venta>248,00</venta>
+	<agencia>6</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6066825</latitud>
+		<longitud>-58.3732849</longitud>
+	</geolocalizacion>
+	<telefono>0810-666-4444</telefono>
+	<direccion>Bartolome Mitre 326</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs.</horario>
+</casa6>
+<casa37>
+	<nombre>Banco Piano</nombre>
+	<compra>No Cotiza</compra>
+	<venta>248,90</venta>
+	<agencia>37</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6040027</latitud>
+		<longitud>-58.3737393</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4321-9200</telefono>
+	<direccion>San Martín 347</direccion>
+	<horario>Lun a Vie de 10:00 a 16:00 Hs</horario>
+</casa37>
+<casa3>
+	<nombre>Multifinanzas Compañía Financiera S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>3</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6044505</latitud>
+		<longitud>-58.3750861</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-2900</telefono>
+	<direccion>Sarmiento 448</direccion>
+	<horario>Lun a Vie de 09:00 a 16:00 hrs.</horario>
+</casa3>
+<casa217>
+	<nombre>Banco Hipotecario</nombre>
+	<compra>237,20</compra>
+	<venta>248,30</venta>
+	<agencia>217</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.606094</latitud>
+		<longitud>-58.3744605</longitud>
+	</geolocalizacion>
+	<telefono>0800-666-1009</telefono>
+	<direccion>Reconquista 151</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs.</horario>
+</casa217>
+<casa334>
+	<nombre>Nuevo Banco del Chaco</nombre>
+	<compra>237,50</compra>
+	<venta>252,45</venta>
+	<agencia>334</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6046656</latitud>
+		<longitud>-58.3800647</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4325-7736</telefono>
+	<direccion>Sarmiento 781</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs.</horario>
+</casa334>
+<casa335>
+	<nombre>Banco de la Pampa</nombre>
+	<compra>237,80</compra>
+	<venta>247,60</venta>
+	<agencia>335</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6040785</latitud>
+		<longitud>-58.3743857</longitud>
+	</geolocalizacion>
+	<telefono>0810-2222-257</telefono>
+	<direccion>Reconquista 319</direccion>
+	<horario>Sin información</horario>
+</casa335>
+<casa336>
+	<nombre>Banco BBVA</nombre>
+	<compra>238,01</compra>
+	<venta>249,69</venta>
+	<agencia>336</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6072922</latitud>
+		<longitud>-58.3744225</longitud>
+	</geolocalizacion>
+	<telefono>0800-333-0303</telefono>
+	<direccion>Reconquista 40</direccion>
+	<horario>Sin información</horario>
+</casa336>
+<casa337>
+	<nombre>Banco Roela</nombre>
+	<compra>240,00</compra>
+	<venta>250,00</venta>
+	<agencia>337</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6010765</latitud>
+		<longitud>-58.3799437</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4394-2220</telefono>
+	<direccion>Tucumán 767</direccion>
+	<horario>Sin información</horario>
+</casa337>
+<casa341>
+	<nombre>Banco de Córdoba</nombre>
+	<compra>239,00</compra>
+	<venta>249,00</venta>
+	<agencia>341</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6065577</latitud>
+		<longitud>-58.373454</longitud>
+	</geolocalizacion>
+	<telefono>0810-222-6267</telefono>
+	<direccion>Bartolomé Mitre 337</direccion>
+	<horario>Sin información</horario>
+</casa341>
+<casa342>
+	<nombre>Banco Galicia</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>342</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6054278</latitud>
+		<longitud>-58.3746159</longitud>
+	</geolocalizacion>
+	<telefono>0810-444-6500</telefono>
+	<direccion>Tte. Gral. Juan D. Peron 407</direccion>
+	<horario>Sin información</horario>
+</casa342>
+<casa340>
+	<nombre>Metrópolis Compañía Financiera S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>340</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6042816</latitud>
+		<longitud>-58.3738762</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5554-5800</telefono>
+	<direccion>Sarmiento 356</direccion>
+	<horario>Lun a Vie de 10 a 16 hrs.</horario>
+</casa340>
+<casa338>
+	<nombre>Cambio Alpe S.A</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>338</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.604589</latitud>
+		<longitud>-58.3755897</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4393-0100</telefono>
+	<direccion>Sarmiento 480</direccion>
+	<horario>Lun a Vie de 10 a 17 hrs.</horario>
+</casa338>
+<casa339>
+	<nombre>Francisco Vaccaro S.A.</nombre>
+	<compra>242,50</compra>
+	<venta>252,00</venta>
+	<agencia>339</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5636043</latitud>
+		<longitud>-58.4560302</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4783-6823</telefono>
+	<direccion>Vuelta de Obligado 1876</direccion>
+	<horario>Lun a Vie de 9:30 a 15:30 hrs.</horario>
+</casa339>
+<casa343>
+	<nombre>Transatlantica S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>343</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5963034</latitud>
+		<longitud>-58.3767384</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-3400</telefono>
+	<direccion>Marcelo T. de Alvear 510</direccion>
+	<horario/>
+</casa343>
+<casa401><nombre>Banco Santander</nombre><compra>236,98</compra><venta>249,23</venta><agencia>401</agencia><horario>Lun. a Vie. de 10:00 a 15:00 hs.</horario><telefono>(011) 4341-1000</telefono><direccion>Bartolomé Mitre 480</direccion></casa401><casa402><nombre>Banco de la Ciudad de Buenos Aires</nombre><compra>238,00</compra><venta>248,00</venta><agencia>402</agencia><horario>Lun a Vie de 10:00 a 15:00 hs</horario><telefono>(011) 4329-8716</telefono><direccion>Florida 302</direccion></casa402><casa403><nombre>Banco Supervielle</nombre><compra>238,00</compra><venta>250,00</venta><agencia>403</agencia><horario>Lun. a Vie. de 10:00 a 15:00 hs.</horario><telefono>(011) 4324-8000</telefono><direccion>Bartolomé Mitre 434</direccion></casa403><casa404><nombre>Banco Patagonia</nombre><compra>237,00</compra><venta>249,00</venta><agencia>404</agencia><horario>Lun. a Vie. de 10:00 a 15:00 hs.</horario><telefono>(011) 4132-6300</telefono><direccion>Tte. Gral. J. D. Peron 500</direccion></casa404><casa405><nombre>Banco Comafi</nombre><compra>236,72</compra><venta>245,02</venta><agencia>405</agencia><horario>Lun. a Vie. de 10:00 a 15:00 hs.</horario><telefono>(011) 4347-0400</telefono><direccion>Av. Presidente Roque Saenz Peña 660</direccion></casa405><casa407><nombre>ARS Cambio S.A.S.</nombre><compra>199,00</compra><venta>205,00</venta><agencia>407</agencia><horario>9:00 a 17:30 hs.</horario><telefono>21503353</telefono><direccion>Lavalle 742, local 1</direccion></casa407><casa408><nombre>Cambios Roca S.A.</nombre><compra>220,00</compra><venta>243,00</venta><agencia>408</agencia><horario>De 10:00 a 16:00 hs.</horario><telefono>(011) 3986-5855</telefono><direccion>25 de Mayo 252</direccion></casa408><casa409><nombre>Cambio Rimini S.R.L.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>409</agencia><horario>De 10:00 a 16:00 hs.</horario><telefono>(011) 6150-5355</telefono><direccion>Paraguay 654</direccion></casa409><casa410><nombre>SBT Cambio S.A.</nombre><compra>239,50</compra><venta>248,00</venta><agencia>410</agencia><telefono>(011) 6091-1655</telefono><direccion>Florida 909</direccion></casa410><casa411><nombre>Banco de la Provincia de Buenos Aires</nombre><compra>238,00</compra><venta>248,00</venta><agencia>411</agencia><horario>De 10:00 a 15:00 hs.</horario><telefono>(011) 4370-0000</telefono><direccion>San Martín 137</direccion></casa411><casa412><nombre>Industrial and Commercial Bank of China </nombre><compra>238,25</compra><venta>245,50</venta><agencia>412</agencia><horario>De 10:00 a 15:00 hs.</horario><telefono>(011) 4820-2000</telefono><direccion>Bv. Cecilia Grierson 355</direccion></casa412><casa413><nombre>BruBank S.A.U.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>413</agencia><telefono>(011) 5275-0638</telefono><direccion>Av. del Libertador 6680</direccion></casa413><casa414><nombre>Rebanking</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>414</agencia><telefono>(011) 5217-2900</telefono><direccion>Maipu 272</direccion></casa414><casa415><nombre>Wilobank S.A.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>415</agencia><telefono>0810-777-9262</telefono><direccion>Bonpland 1745</direccion></casa415><casa467><nombre>Cambio Estelar S.A.</nombre><compra>242,00</compra><venta>252,00</venta><agencia>467</agencia><telefono>(011) 5272-6787</telefono><direccion>Rosario Vera Peñaloza 465</direccion></casa467><casa476><nombre>Banco Bica S.A.</nombre><compra>236,61</compra><venta>249,76</venta><agencia>476</agencia><telefono>(011) 4549-3361</telefono><direccion>Macacha Güemes 348 y 368</direccion></casa476><casa480><nombre>Banco de Formosa S.A.</nombre><compra>228,76</compra><venta>254,98</venta><agencia>480</agencia><telefono>(011) 4311-2000</telefono><direccion>25 de mayo 0454</direccion></casa480><casa481><nombre>Banco del Chubut S.A.</nombre><compra>238,68</compra><venta>251,68</venta><agencia>481</agencia><telefono>(011) 4331-7979</telefono><direccion>25 de mayo 273</direccion></casa481><casa484><nombre>Banco Itaú Argentina S.A.</nombre><compra>236,90</compra><venta>248,50</venta><agencia>484</agencia><telefono>0810-345-4999</telefono><direccion>Juana Manso 505</direccion></casa484><casa487><nombre>Banco Julio S.A.</nombre><compra>235,40</compra><venta>245,40</venta><agencia>487</agencia><telefono>(011) 5239-8560</telefono><direccion>25 de mayo 499</direccion></casa487><casa488><nombre>Banco Provincia de Tierra del Fuego</nombre><compra>238,60</compra><venta>247,10</venta><agencia>488</agencia><telefono>(011) 3984-1800</telefono><direccion>Sarmiento 741</direccion></casa488><casa490><nombre>Banco Provincia del Neuquén S.A.</nombre><compra>239,50</compra><venta>248,50</venta><agencia>490</agencia><telefono>(011) 4342-4481</telefono><direccion>Maipú 50</direccion></casa490><casa491><nombre>Banco Rioja Sociedad Anónima Unipersonal</nombre><compra>232,81</compra><venta>244,11</venta><agencia>491</agencia><telefono>(011) 4394-8200</telefono><direccion>Reconquista 353</direccion></casa491><casa503><nombre>Dieza S.A.S.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>503</agencia><telefono>(011) 4924-3339</telefono><direccion>Riglos 1055</direccion></casa503><casa508><nombre>Montevideo Cambio y Turismo S.A.</nombre><compra>200,00</compra><venta>266,00</venta><agencia>508</agencia><telefono>(011) 5218-0206</telefono><direccion>Florida 580</direccion></casa508></Capital_Federal>
+<Mar_del_Plata>
+<casa23>
+	<nombre>Jonestur S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>23</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-37.9996065</latitud>
+		<longitud>-57.5488366</longitud>
+	</geolocalizacion>
+	<telefono>(0223) 494-7020</telefono>
+	<direccion>San Martín 2574</direccion>
+	<horario>Lun a Vie 10:00 a 19.30 hs</horario>
+</casa23>
+<casa24>
+	<nombre>La Moneta Cambio S.A.</nombre>
+	<compra>209,00</compra>
+	<venta>217,00</venta>
+	<agencia>24</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-38.0001285</latitud>
+		<longitud>-57.5499804</longitud>
+	</geolocalizacion>
+	<telefono>(0223) 499-8100</telefono>
+	<direccion>Rivadavia 2623</direccion>
+	<horario>Lun a Vie de 10:00 a 16:00 hs</horario>
+</casa24>
+<casa400>
+  <nombre>Mar del Plata Exchange S.A.</nombre>
+  <compra>No Cotiza</compra>
+  <venta>No Cotiza</venta>
+  <agencia>400</agencia>
+  <direccion>Luro 2599</direccion>
+</casa400>
+</Mar_del_Plata>
+<Rosario>
+<casa26>
+	<nombre>Transatlántica S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>26</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-32.9456975</latitud>
+		<longitud>-60.6451887</longitud>
+	</geolocalizacion>
+	<telefono>(0341) 411-3100</telefono>
+	<direccion>Córdoba 1463</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs.</horario>
+</casa26>
+<casa28>
+	<nombre>Daminato Viajes y Cambios S.A.</nombre>
+	<compra>244,00</compra>
+	<venta>254,00</venta>
+	<agencia>28</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-32.9473503</latitud>
+		<longitud>-60.6390517</longitud>
+	</geolocalizacion>
+	<telefono>(0341) 530-2050</telefono>
+	<direccion>San Martin 858</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs.</horario>
+</casa28>
+<casa419><nombre>Carbatur Viajes S.R.L.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>419</agencia><horario>De 10:00 a 17:00 hs.</horario><telefono>(0341) 448-5152</telefono><direccion>Córdoba 1441</direccion></casa419></Rosario>
+<Mendoza>
+<casa58>
+	<nombre>Montemar Compañía Financiera S.A.</nombre>
+	<compra>238,00</compra>
+	<venta>245,45</venta>
+	<agencia>58</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-32.8899702</latitud>
+		<longitud>-68.8417007</longitud>
+	</geolocalizacion>
+	<telefono>(0261) 449-4500</telefono>
+	<direccion>Av. San Martín 1152</direccion>
+	<horario>Lun a Vie de 08:30 a 18:00 hs – Sáb 09:30 a 13:00 hs</horario>
+</casa58>
+<casa100>
+	<nombre>Banco San Juan</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>100</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-32.8873474</latitud>
+		<longitud>-68.8391479</longitud>
+	</geolocalizacion>
+	<telefono>0800-8888-275</telefono>
+	<direccion>Necochea 31</direccion>
+	<horario>Lun a Vie de 08:00 a 13:00 hs</horario>
+</casa100>
+</Mendoza>
+<Cordoba>
+<casa112>
+	<nombre>Banco de Córdoba</nombre>
+	<compra>239,00</compra>
+	<venta>249,00</venta>
+	<agencia>112</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-31.417604</latitud>
+		<longitud>-64.183106</longitud>
+	</geolocalizacion>
+	<telefono>(0351) 420-7507</telefono>
+	<direccion>San Jerónimo 110</direccion>
+	<horario/>
+</casa112>
+<casa348>
+	<nombre>Transatlántica S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>348</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-31.4154124</latitud>
+		<longitud>-64.1839916</longitud>
+	</geolocalizacion>
+	<telefono>(0351) 569-0060</telefono>
+	<direccion>25 de Mayo 130</direccion>
+	<horario/>
+</casa348>
+<casa67>
+	<nombre>Montemar Compañia Financiera S.A.</nombre>
+	<compra>238,00</compra>
+	<venta>245,45</venta>
+	<agencia>67</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-31.4154179</latitud>
+		<longitud>-64.1839737</longitud>
+	</geolocalizacion>
+	<telefono>(0351) 424-4576</telefono>
+	<direccion>25 de Mayo 131</direccion>
+	<horario>Lun a Vie de 08:30 a 18:00 hs – Sáb 09:30 a 13:00 hs</horario>
+</casa67>
+<casa416><nombre>Banco Julio S.A.</nombre><compra>235,40</compra><venta>245,40</venta><agencia>416</agencia><horario>De 08:30 a 11:30 hs.</horario><telefono>(0351) 526-2266</telefono><direccion>San Jerónimo 135</direccion></casa416><casa417><nombre>Banco Dino S.A.</nombre><compra>241,00</compra><venta>249,00</venta><agencia>417</agencia><horario>De 09:00 a 16:00 hs.</horario><telefono>(0351) 554-9600</telefono><direccion>Rodriguez del Busto 4086</direccion></casa417><casa509><nombre>Neocam S.A.S.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>509</agencia><telefono>(0358) 561-9629</telefono><direccion>Constitución 780</direccion></casa509></Cordoba>
+<La_Plata>
+<casa350>
+	<nombre>Casa de Cambio Los Tilos S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>350</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.918309</latitud>
+		<longitud>-57.9571847</longitud>
+	</geolocalizacion>
+	<telefono>(0221) 489-6510</telefono>
+	<direccion>Calle 48 843</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs.</horario>
+</casa350>
+<casa418><nombre>Jaiss Cambio Haus Der Veran S.A.</nombre><compra>No Cotiza</compra><venta>395,00</venta><agencia>418</agencia><horario>De 09:00 a 18:00 hs.</horario><telefono>(0221) 620-0270</telefono><direccion>Calle 49 Nº 621</direccion></casa418></La_Plata>
+<Tucuman>
+<casa115>
+	<nombre>Maguitur S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>115</agencia>
+	<horario/>
+	<geolocalizacion>
+		<latitud>-26.8288858</latitud>
+		<longitud>-65.2082948</longitud>
+	</geolocalizacion>
+	<telefono>(0381) 431-0032</telefono>
+	<direccion>San Martín 765</direccion>
+	<horario/>
+</casa115></Tucuman>
+<Dolar>
+<casa344>
+	<nombre>Oficial</nombre>
+	<compra>241,160</compra>
+	<venta>251,160</venta>
+	<agencia>344</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud/>
+		<longitud/>
+	</geolocalizacion>
+	<telefono>0810-666-4444</telefono>
+	<direccion/>
+	<decimales>3</decimales></casa344>
+<casa380>
+	<nombre>Blue</nombre>
+	<compra>483,000</compra>
+	<venta>488,000</venta>
+	<agencia>380</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud/>
+		<longitud/>
+	</geolocalizacion>
+	<telefono/>
+	<direccion/>
+	<decimales>3</decimales></casa380>
+<casa44>
+<nombre>Mayorista Bancos</nombre>
+<compra>240,100</compra>
+<venta>240,500</venta>
+<agencia>44</agencia>
+<geolocalizacion>
+<latitud>-34.6033922</latitud>
+<longitud>-58.439710</longitud>
+</geolocalizacion>
+<telefono>4556-8995</telefono>
+<direccion>Uruguay 4532</direccion>
+	<observaciones/>
+	<decimales>3</decimales></casa44>
+<casa49>
+<nombre>BCRA de Referencia</nombre>
+<compra>238,412</compra>
+<venta>251,674</venta>
+<agencia>49</agencia>
+<observaciones/>
+	<decimales>3</decimales></casa49>
+<casa47>
+<nombre>Banco Nación Billete</nombre>
+<compra>237,500</compra>
+<venta>249,500</venta>
+<agencia>47</agencia>
+<observaciones/>
+	<decimales>3</decimales></casa47>
+<casa210>
+<nombre>Banco Nación Público</nombre>
+<compra>237,500</compra>
+<venta>249,500</venta>
+<agencia>210</agencia>
+<observaciones/>
+	<decimales>3</decimales></casa210>
+</Dolar>
+<Monedas>
+	<casa193>
+		<nombre>Dólar / Euro</nombre>
+		<compra>No Cotiza</compra>
+		<venta>0,932</venta>
+		<agencia>193</agencia>
+		<decimales>3</decimales>
+	</casa193>
+	<casa270>
+		<nombre>Dólar / Real</nombre>
+		<compra>No Cotiza</compra>
+		<venta>5,061</venta>
+		<agencia>270</agencia>
+		<decimales>3</decimales>
+	</casa270>
+	<casa50>
+		<nombre>Dólar / Libra Esterlina</nombre>
+		<compra>No Cotiza</compra>
+		<venta>0,805</venta>
+		<agencia>50</agencia>
+		<decimales>3</decimales>
+	</casa50>
+	<casa81>
+		<nombre>Dólar / Peso Chileno</nombre>
+		<compra>No Cotiza</compra>
+		<venta>802,500</venta>
+		<agencia>81</agencia>
+		<decimales>3</decimales>
+	</casa81>
+	<casa55>
+		<nombre>Dólar / Peso Uruguayo</nombre>
+		<compra>No Cotiza</compra>
+		<venta>38,830</venta>
+		<agencia>55</agencia>
+		<decimales>3</decimales>
+	</casa55>
+	<casa393>
+		<nombre>Dólar / Yuan</nombre>
+		<compra>No Cotiza</compra>
+		<venta>7,078</venta>
+		<agencia>393</agencia>
+		<decimales>3</decimales>
+	</casa393>
+</Monedas>
+<Bonos>
+</Bonos>
+<Bolsa_Ar>
+<casa130>
+<nombre>BOLSA</nombre>
+<compra>14.541.819,00</compra>
+<venta>0</venta>
+<mejor_compra>True</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<afluencia/>
+<agencia>130</agencia>
+<ventaCero>TRUE</ventaCero>
+<observaciones/>
+</casa130>
+<casa131>
+<nombre>BURCAP</nombre>
+<compra>No Cotiza</compra>
+<venta>0</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<afluencia/>
+<agencia>131</agencia>
+<observaciones/>
+<ventaCero>TRUE</ventaCero>
+</casa131>
+<casa133>
+<nombre>M.AR</nombre>
+<compra>No Cotiza</compra>
+<venta>0</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>True</mejor_venta>
+<afluencia/>
+<agencia>133</agencia>
+<observaciones/>
+<ventaCero>TRUE</ventaCero>
+</casa133>
+<casa132>
+<nombre>MERVAL</nombre>
+<compra>346.369,01</compra>
+<venta>0</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<afluencia/>
+<agencia>132</agencia>
+<observaciones/>
+<ventaCero>TRUE</ventaCero>
+</casa132>
+</Bolsa_Ar>
+<Indices_mundo>
+<casa138>
+<nombre>BRASIL - BOVESPA</nombre>
+<compra>111.224,60</compra>
+<venta>0,81</venta>
+<mejor_compra>True</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<afluencia/>
+<agencia>138</agencia>
+<observaciones/>
+</casa138>
+<casa139>
+<nombre>CHILE - CHILE SELECTIVO</nombre>
+<compra>5.598,83</compra>
+<venta>0,01</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>139</agencia>
+<observaciones/>
+</casa139>
+<casa134>
+<nombre>EEUU - DOW JONES</nombre>
+<compra>33.093,34</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>134</agencia>
+<observaciones/>
+</casa134>
+<casa135>
+<nombre>EEUU - NASDAQ-GRAL</nombre>
+<compra>12.975,69</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>135</agencia>
+<observaciones/>
+</casa135>
+<casa140>
+<nombre>ESPAÑA - IBEX 35</nombre>
+<compra>9.206,80</compra>
+<venta>0,29</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>True</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>140</agencia>
+<observaciones/>
+</casa140>
+<casa137>
+<nombre>MEJICO - IPC Mexico</nombre>
+<compra>54.212,67</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>137</agencia>
+<observaciones/>
+</casa137>
+</Indices_mundo>
+<Riesgo_pais>
+<casa141>
+<nombre>Argentina</nombre>
+<compra>2.590,00</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>True</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>141</agencia>
+<observaciones/>
+</casa141>
+<casa142>
+<nombre>Brasil</nombre>
+<compra>259,00</compra>
+<venta>-1,89</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>142</agencia>
+<observaciones/>
+</casa142>
+<casa143>
+<nombre>México</nombre>
+<compra>230,00</compra>
+<venta>-2,13</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>143</agencia>
+<observaciones/>
+</casa143>
+<casa144>
+<nombre>Uruguay</nombre>
+<compra>122,00</compra>
+<venta>-2,40</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>True</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>144</agencia>
+<observaciones/>
+</casa144>
+</Riesgo_pais>
+<Agro>
+<casa292>
+<nombre>Trigo (u$s/t.)</nombre>
+<compra>221,11</compra>
+<venta>-2,31</venta>
+<agencia>292</agencia>
+</casa292>
+<casa293>
+<nombre>Maiz (u$s/t.)</nombre>
+<compra>237,39</compra>
+<venta>-0,17</venta>
+<agencia>293</agencia>
+</casa293>
+<casa294>
+<nombre>Soja Rosario ($/t.)</nombre>
+<compra>99.000,00</compra>
+<venta>2,75</venta>
+<agencia>294</agencia>
+</casa294>
+<casa295>
+<nombre>Soja Chicago (U$S/t.)</nombre>
+<compra>485,38</compra>
+<venta>-1,22</venta>
+<agencia>295</agencia>
+</casa295>
+</Agro>
+<Energia>
+<casa296>
+<nombre>Petroleo WTI (u$s / Barril)</nombre>
+<compra>70,43</compra>
+<venta>-3,47</venta>
+<agencia>296</agencia>
+</casa296>
+<casa297>
+<nombre>Petroleo BRENT (u$s / Barril)</nombre>
+<compra>74,59</compra>
+<venta>-3,22</venta>
+<agencia>297</agencia>
+</casa297>
+<casa298>
+<nombre>Gas Natural (u$s / MMBtu)</nombre>
+<compra>2,32</compra>
+<venta>4,17</venta>
+<agencia>298</agencia>
+</casa298>
+</Energia>
+<Metales>
+<casa299>
+<nombre>Plata (u$s / Onza)</nombre>
+<compra>23,20</compra>
+<venta>0,20</venta>
+<agencia>299</agencia>
+</casa299>
+<casa300>
+<nombre>Cobre (u$s/ t.)</nombre>
+<compra>8.082,00</compra>
+<venta>No Cotiza</venta>
+<agencia>300</agencia>
+</casa300>
+<casa301>
+<nombre>Oro internacional - Nueva York (u$s / Onza)</nombre>
+<compra>1.955,90</compra>
+<venta>0,59</venta>
+<agencia>301</agencia>
+</casa301>
+</Metales>
+<Intervencion_bcra>
+<casa145>
+<nombre>BCRA (En millones de dólares)</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>21/07/06</fecha>
+<recorrido>12:30</recorrido>
+<afluencia/>
+<agencia>145</agencia>
+<observaciones/>
+</casa145>
+</Intervencion_bcra>
+<Plazos_fijos>
+<casa159>
+<nombre>Banco Ciudad</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>159</agencia>
+<observaciones/>
+</casa159>
+<casa171>
+<nombre>Banco Comafi</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>171</agencia>
+<observaciones/>
+</casa171>
+<casa154>
+<nombre>Banco Credicop</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>154</agencia>
+<observaciones/>
+</casa154>
+<casa167>
+<nombre>Banco Galicia</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>167</agencia>
+<observaciones/>
+</casa167>
+<casa165>
+<nombre>Banco Hipotecario</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>165</agencia>
+<observaciones/>
+</casa165>
+<casa156>
+<nombre>Banco Itau</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>156</agencia>
+<observaciones/>
+</casa156>
+<casa151>
+<nombre>Banco Macro</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>151</agencia>
+<observaciones/>
+</casa151>
+<casa158>
+<nombre>Banco Masventas</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>158</agencia>
+<observaciones/>
+</casa158>
+<casa146>
+<nombre>Banco Nación</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>146</agencia>
+<observaciones/>
+</casa146>
+<casa149>
+<nombre>Banco Patagonia</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>149</agencia>
+<observaciones/>
+</casa149>
+<casa148>
+<nombre>Banco Privado</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>148</agencia>
+<observaciones/>
+</casa148>
+<casa147>
+<nombre>Banco Provincia</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>147</agencia>
+<observaciones/>
+</casa147>
+<casa153>
+<nombre>Banco Supervielle</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>153</agencia>
+<observaciones/>
+</casa153>
+<casa169>
+<nombre>BBVA</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>169</agencia>
+<observaciones/>
+</casa169>
+<casa152>
+<nombre>Citi</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>152</agencia>
+<observaciones/>
+</casa152>
+<casa155>
+<nombre>HSBC Bank</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>155</agencia>
+<observaciones/>
+</casa155>
+<casa170>
+<nombre>Santander Rio</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>170</agencia>
+<observaciones/>
+</casa170>
+<casa163>
+<nombre>Standard Bank</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>163</agencia>
+<observaciones/>
+</casa163>
+</Plazos_fijos>
+<Reservas_y_circulante>
+	<casa394>
+		<nombre>Reservas (En millones de dólares)</nombre>
+		<compra>33,06</compra>
+		<venta>No Cotiza</venta>
+		<agencia>394</agencia>
+		<observaciones>Valor expresado en millones de dólares</observaciones>
+	</casa394>
+	<casa395>
+		<nombre>Circulante (En millones de pesos)</nombre>
+		<compra>4.299,94</compra>
+		<venta>No Cotiza</venta>
+		<agencia>395</agencia>
+		<observaciones>Valor expresado en millones de pesos</observaciones>
+	</casa395>
+</Reservas_y_circulante>
+<Euro>
+<casa351>
+	<nombre>Transatlántica S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>351</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5962976</latitud>
+		<longitud>-58.3766155</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-3400</telefono>
+	<direccion>Marcelo T. de Alvear 510</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa351>
+<casa352>
+	<nombre>Cambio Alpe S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>352</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.604589</latitud>
+		<longitud>-58.3755897</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4393-0100</telefono>
+	<direccion>Sarmiento 480</direccion>
+	<horario>Lun a Vie de 10:00 a 17:00 hs</horario>
+</casa352>
+<casa353>
+	<nombre>Vaccaro S.A.</nombre>
+	<compra>270,74</compra>
+	<venta>290,27</venta>
+	<agencia>353</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5636467</latitud>
+		<longitud>-58.4543447</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4783 6823</telefono>
+	<direccion>Vuelta de Obligado 1876</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa353>
+<casa354>
+	<nombre>Multifinanzas Compañía Financiera S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>354</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6044505</latitud>
+		<longitud>-58.3750861</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-2900</telefono>
+	<direccion>Sarmiento 448</direccion>
+	<horario>Lun a Vie de 09:00 a 16:00 hs</horario>
+</casa354>
+<casa355>
+	<nombre>Banco de Córdoba</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>355</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6065577</latitud>
+		<longitud>-58.373454</longitud>
+	</geolocalizacion>
+	<telefono>0810-222-6267</telefono>
+	<direccion>Bartolomé Mitre 337</direccion>
+	<horario/>
+</casa355>
+<casa356>
+	<nombre>Banco Galicia</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>356</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6054278</latitud>
+		<longitud>-58.3746159</longitud>
+	</geolocalizacion>
+	<telefono>0810-444-6500</telefono>
+	<direccion>Tte. Gral. Juan D. Peron 407</direccion>
+	<horario/>
+</casa356>
+<casa357>
+	<nombre>Banco Roela</nombre>
+	<compra>255,00</compra>
+	<venta>275,00</venta>
+	<agencia>357</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6010765</latitud>
+		<longitud>-58.3799437</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4394-2220</telefono>
+	<direccion>Tucumán 767</direccion>
+	<horario/>
+</casa357>
+<casa358>
+	<nombre>Banco BBVA</nombre>
+	<compra>255,40</compra>
+	<venta>267,10</venta>
+	<agencia>358</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6072922</latitud>
+		<longitud>-58.3744225</longitud>
+	</geolocalizacion>
+	<telefono>0800-333-0303</telefono>
+	<direccion>Reconquista 40</direccion>
+	<horario/>
+</casa358>
+<casa359>
+	<nombre>Banco de la Pampa</nombre>
+	<compra>258,20</compra>
+	<venta>268,70</venta>
+	<agencia>359</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6040785</latitud>
+		<longitud>-58.3743857</longitud>
+	</geolocalizacion>
+	<telefono>0810-2222-257</telefono>
+	<direccion>Reconquista 319</direccion>
+	<horario/>
+</casa359>
+<casa360>
+	<nombre>Nuevo Banco del Chaco</nombre>
+	<compra>256,50</compra>
+	<venta>273,17</venta>
+	<agencia>360</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6046656</latitud>
+		<longitud>-58.3800647</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4325-7736</telefono>
+	<direccion>Sarmiento 781</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa360>
+<casa361>
+	<nombre>Banco Hipotecario</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>361</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.606094</latitud>
+		<longitud>-58.3744605</longitud>
+	</geolocalizacion>
+	<telefono>0800-666-1009</telefono>
+	<direccion>Reconquista 151</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa361>
+<casa176>
+	<nombre>Banco Nación</nombre>
+	<compra>256,50</compra>
+	<venta>266,50</venta>
+	<agencia>176</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6066825</latitud>
+		<longitud>-58.3732849</longitud>
+	</geolocalizacion>
+	<telefono>0810-666-4444</telefono>
+	<direccion>Bartolome Mitre 326</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa176>
+<casa420><nombre>Cambios Roca S.A.</nombre><compra>232,00</compra><venta>252,50</venta><agencia>420</agencia><telefono>(011) 3986-5855</telefono><direccion>25 de Mayo 252</direccion></casa420><casa421><nombre>Montevideo Cambio y Turismo S.A.</nombre><compra>200,00</compra><venta>310,00</venta><agencia>421</agencia><telefono>(011) 5218-0206</telefono><direccion>Florida 580</direccion></casa421><casa422><nombre>Banco Julio S.A.</nombre><compra>252,00</compra><venta>263,00</venta><agencia>422</agencia><telefono>(0351) 526-2266</telefono><direccion>San Jerónimo 135</direccion></casa422><casa423><nombre>Mardeltur Cambio S.R.L.</nombre><compra>270,00</compra><venta>280,00</venta><agencia>423</agencia><telefono>(0223) 480-1747</telefono><direccion>12 de Octubre 3273</direccion></casa423><casa434><nombre>Carbatur Viajes S.R.L.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>434</agencia><telefono>(0341) 448-5152</telefono><direccion>Córdoba 1441</direccion></casa434><casa443><nombre>Banco Piano</nombre><compra>No Cotiza</compra><venta>268,25</venta><agencia>443</agencia><telefono>(011) 4321-9200</telefono><direccion>San Martín 347</direccion></casa443><casa447><nombre>Banco Santander</nombre><compra>251,98</compra><venta>264,23</venta><agencia>447</agencia><telefono>(011) 4341-1000</telefono><direccion>Bartolomé Mitre 480</direccion></casa447><casa448><nombre>Banco de la Ciudad de Buenos Aires</nombre><compra>256,50</compra><venta>266,50</venta><agencia>448</agencia><telefono>(011) 4329-8716</telefono><direccion>Florida 302</direccion></casa448><casa450><nombre>Banco Supervielle</nombre><compra>254,00</compra><venta>266,00</venta><agencia>450</agencia><telefono>(011) 4324-8000</telefono><direccion>Bartolomé Mitre 434</direccion></casa450><casa454><nombre>Banco Patagonia</nombre><compra>255,96</compra><venta>263,96</venta><agencia>454</agencia><telefono>(011) 4132-6300</telefono><direccion>Tte. Gral. J. D. Peron 500</direccion></casa454><casa455><nombre>Banco Comafi</nombre><compra>253,40</compra><venta>262,79</venta><agencia>455</agencia><telefono>(011) 4347-0400</telefono><direccion>Av. Presidente Roque Saenz Peña 660</direccion></casa455><casa456><nombre>Rebanking</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>456</agencia><telefono>(011) 5217-2900</telefono><direccion>Maipu 272</direccion></casa456><casa460><nombre>Banco Julio S.A.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>460</agencia><telefono>(0351) 526-2266</telefono><direccion>San Jerónimo 135</direccion></casa460><casa461><nombre>Daminato Viajes y Cambios S.A.</nombre><compra>262,00</compra><venta>282,00</venta><agencia>461</agencia><telefono>(0341) 530-2050</telefono><direccion>San Martin 858</direccion></casa461><casa466><nombre>Cambio Estelar S.A.</nombre><compra>252,00</compra><venta>272,00</venta><agencia>466</agencia><telefono>(011) 5272-6787</telefono><direccion>Rosario Vera Peñaloza 465</direccion></casa466><casa468><nombre>Tourfé S.A</nombre><compra>250,00</compra><venta>290,91</venta><agencia>468</agencia><telefono>(0342) 455-0157</telefono><direccion>San Martín 2500</direccion></casa468><casa472><nombre>La Moneta Cambio S.A.</nombre><compra>234,00</compra><venta>244,00</venta><agencia>472</agencia><telefono>(0223) 499-8100</telefono><direccion>Rivadavia 2623</direccion></casa472><casa477><nombre>Banco Bica S.A.</nombre><compra>265,73</compra><venta>272,23</venta><agencia>477</agencia><telefono>(011) 4549-3361</telefono><direccion>Macacha Güemes 348 y 368</direccion></casa477><casa485><nombre>Banco Itaú Argentina S.A.</nombre><compra>249,00</compra><venta>264,30</venta><agencia>485</agencia><telefono>0810-345-4999</telefono><direccion>Juana Manso 505</direccion></casa485><casa489><nombre>Banco Provincia de Tierra del Fuego</nombre><compra>256,50</compra><venta>265,55</venta><agencia>489</agencia><telefono>(011) 3984-1800</telefono><direccion>Sarmiento 741</direccion></casa489><casa492><nombre>Banco Rioja Sociedad Anónima Unipersonal</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>492</agencia><telefono>(011) 4394-8200</telefono><direccion>Reconquista 353</direccion></casa492><casa495><nombre>Montemar Compañia Financiera S.A.</nombre><compra>225,00</compra><venta>248,17</venta><agencia>495</agencia><telefono>(0351) 424-4576</telefono><direccion>25 de Mayo 131</direccion></casa495><casa496><nombre>El Dorado S.A.</nombre><compra>250,00</compra><venta>280,00</venta><agencia>496</agencia><telefono>(0362) 443-5680</telefono><direccion>José María Paz 50</direccion></casa496><casa502><nombre>García Navarro y Cía. S.A.</nombre><compra>271,46</compra><venta>290,13</venta><agencia>502</agencia><telefono>(0291) 455-3344</telefono><direccion>San Martín 171</direccion></casa502><casa504><nombre>Fenus S.A.S.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>504</agencia><telefono>(0291) 427-0120</telefono><direccion>Irigoyen 344</direccion></casa504></Euro>
+<Real>
+<casa362>
+	<nombre>Transatlántica S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>362</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5962976</latitud>
+		<longitud>-58.3766155</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-3400</telefono>
+	<direccion>Marcelo T. de Alvear 510</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa362>
+<casa363>
+	<nombre>Cambio Alpe S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>363</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.604589</latitud>
+		<longitud>-58.3755897</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4393-0100</telefono>
+	<direccion>Sarmiento 480</direccion>
+	<horario>Lun a Vie de 10:00 a 17:00 hs</horario>
+</casa363>
+<casa364>
+	<nombre>Vaccaro S.A.</nombre>
+	<compra>45,04</compra>
+	<venta>52,31</venta>
+	<agencia>364</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5636467</latitud>
+		<longitud>-58.4543447</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4783 6823</telefono>
+	<direccion>Vuelta de Obligado 1876</direccion>
+	<horario>-58.4543447</horario>
+</casa364>
+<casa237>
+	<nombre>Multifinanzas Compañía Financiera S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>237</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6044505</latitud>
+		<longitud>-58.3750861</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-2900</telefono>
+	<direccion>Sarmiento 448</direccion>
+	<horario>Lun a Vie de 09:00 a 16:00 hs</horario>
+</casa237>
+<casa365>
+	<nombre>Banco BBVA</nombre>
+	<compra>46,55</compra>
+	<venta>47,75</venta>
+	<agencia>365</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6072922</latitud>
+		<longitud>-58.3744225</longitud>
+	</geolocalizacion>
+	<telefono>0800-333-0303</telefono>
+	<direccion>Reconquista 40</direccion>
+	<horario/>
+</casa365>
+<casa366>
+	<nombre>Nuevo Banco del Chaco</nombre>
+	<compra>47,45</compra>
+	<venta>60,19</venta>
+	<agencia>366</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6046656</latitud>
+		<longitud>-58.3800647</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4325-7736</telefono>
+	<direccion>Sarmiento 781</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa366>
+<casa230>
+	<nombre>Banco Nación</nombre>
+	<compra>47,45</compra>
+	<venta>51,45</venta>
+	<agencia>230</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6066825</latitud>
+		<longitud>-58.3732849</longitud>
+	</geolocalizacion>
+	<telefono>0810-666-4444</telefono>
+	<direccion>Bartolome Mitre 326</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa230>
+<casa424><nombre>ARS Cambio S.A.S.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>424</agencia><telefono>(011) 2150-3353</telefono><direccion>Lavalle 450</direccion></casa424><casa425><nombre>Cambios Roca S.A.</nombre><compra>37,00</compra><venta>44,00</venta><agencia>425</agencia><telefono>(011) 3986-5855</telefono><direccion>25 de Mayo 252</direccion></casa425><casa426><nombre>Cambio Posadas S.A.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>426</agencia><telefono>0800-220-226246</telefono><direccion>Posadas 1562</direccion></casa426><casa427><nombre>Montevideo Cambio y Turismo S.A.</nombre><compra>35,00</compra><venta>55,00</venta><agencia>427</agencia><telefono>(011) 5218-0206</telefono><direccion>Florida 580</direccion></casa427><casa428><nombre>Jaiss Cambio Haus Der Veran S.A.</nombre><compra>No Cotiza</compra><venta>60,00</venta><agencia>428</agencia><telefono>(0221) 620-0270</telefono><direccion>Calle 49 Nº 621</direccion></casa428><casa429><nombre>Mardeltur Cambio S.R.L.</nombre><compra>55,00</compra><venta>60,00</venta><agencia>429</agencia><telefono>(0223) 480-1747</telefono><direccion>12 de Octubre 3273</direccion></casa429><casa430><nombre>Cambio Estelar S.A.</nombre><compra>47,00</compra><venta>52,00</venta><agencia>430</agencia><telefono>(011) 5272-6787</telefono><direccion>Rosario Vera Peñaloza 465</direccion></casa430><casa433><nombre>Carbatur Viajes S.R.L.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>433</agencia><telefono>(0341) 448-5152</telefono><direccion>Córdoba 1441</direccion></casa433><casa445><nombre>Banco Piano</nombre><compra>No Cotiza</compra><venta>52,30</venta><agencia>445</agencia><telefono>(011) 4321-9200</telefono><direccion>San Martín 347</direccion></casa445><casa449><nombre>Banco de la Ciudad de Buenos Aires</nombre><compra>47,45</compra><venta>51,45</venta><agencia>449</agencia><telefono>(011) 4329-8716</telefono><direccion>Florida 302</direccion></casa449><casa453><nombre>Banco Supervielle</nombre><compra>43,58</compra><venta>53,41</venta><agencia>453</agencia><telefono>(011) 4324-8000</telefono><direccion>Bartolomé Mitre 434</direccion></casa453><casa457><nombre>Montemar Compañia Financiera S.A.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>457</agencia><telefono>(0351) 424-4576</telefono><direccion>25 de Mayo 131</direccion></casa457><casa462><nombre>Daminato Viajes y Cambios S.A.</nombre><compra>47,00</compra><venta>59,00</venta><agencia>462</agencia><telefono>(0341) 530-2050</telefono><direccion>San Martin 858</direccion></casa462><casa471><nombre>Tourfé S.A</nombre><compra>45,00</compra><venta>56,36</venta><agencia>471</agencia><telefono>(0342) 455-0157</telefono><direccion>San Martín 2500</direccion></casa471><casa473><nombre>La Moneta Cambio S.A.</nombre><compra>47,00</compra><venta>52,00</venta><agencia>473</agencia><telefono>(0223) 499-8100</telefono><direccion>Rivadavia 2623</direccion></casa473><casa478><nombre>Banco Bica S.A.</nombre><compra>47,50</compra><venta>51,50</venta><agencia>478</agencia><telefono>(011) 4549-3361</telefono><direccion>Macacha Güemes 348 y 368</direccion></casa478><casa482><nombre>Banco del Chubut S.A.</nombre><compra>47,45</compra><venta>51,75</venta><agencia>482</agencia><telefono>(011) 4331-7979</telefono><direccion>25 de mayo 273</direccion></casa482><casa486><nombre>Banco Itaú Argentina S.A.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>486</agencia><telefono>0810-345-4999</telefono><direccion>Juana Manso 505</direccion></casa486><casa493><nombre>Banco Rioja Sociedad Anónima Unipersonal</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>493</agencia><telefono>(011) 4394-8200</telefono><direccion>Reconquista 353</direccion></casa493><casa497><nombre>El Dorado S.A.</nombre><compra>45,00</compra><venta>60,00</venta><agencia>497</agencia><telefono>(0362) 443-5680</telefono><direccion>José María Paz 50</direccion></casa497><casa505><nombre>Fenus S.A.S.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>505</agencia><telefono>(0291) 427-0120</telefono><direccion>Irigoyen 344</direccion></casa505></Real>
+<Uruguayo>
+<casa367>
+	<nombre>Transatlántica S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>367</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5962976</latitud>
+		<longitud>-58.3766155</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-3400</telefono>
+	<direccion>Marcelo T. de Alvear 510</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa367>
+<casa368>
+	<nombre>Cambio Alpe S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>368</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.604589</latitud>
+		<longitud>-58.3755897</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4393-0100</telefono>
+	<direccion>Sarmiento 480</direccion>
+	<horario>Lun a Vie de 10:00 a 17:00 hs</horario>
+</casa368>
+<casa369>
+	<nombre>Vaccaro S.A.</nombre>
+	<compra>5,98</compra>
+	<venta>7,02</venta>
+	<agencia>369</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5636467</latitud>
+		<longitud>-58.4543447</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4783 6823</telefono>
+	<direccion>Vuelta de Obligado 1876</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa369>
+<casa245>
+	<nombre>Multifinanzas Compañía Financiera S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>245</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6044505</latitud>
+		<longitud>-58.3750861</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-2900</telefono>
+	<direccion>Sarmiento 448</direccion>
+	<horario>Lun a Vie de 09:00 a 16:00 hs</horario>
+</casa245>
+<casa370>
+	<nombre>Banco BBVA</nombre>
+	<compra>5,90</compra>
+	<venta>6,10</venta>
+	<agencia>370</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6072922</latitud>
+		<longitud>-58.3744225</longitud>
+	</geolocalizacion>
+	<telefono>0800-333-0303</telefono>
+	<direccion>Reconquista 40</direccion>
+	<horario/>
+</casa370>
+<casa435><nombre>Montevideo Cambio y Turismo S.A.</nombre><compra>4,00</compra><venta>7,50</venta><agencia>435</agencia><telefono>(011) 5218-0206</telefono><direccion>Florida 580</direccion></casa435><casa440><nombre>Cambio Estelar S.A.</nombre><compra>4,80</compra><venta>5,80</venta><agencia>440</agencia><telefono>(011) 5272-6787</telefono><direccion>Rosario Vera Peñaloza 465</direccion></casa440><casa442><nombre>Carbatur Viajes S.R.L.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>442</agencia><telefono>(0341) 448-5152</telefono><direccion>Córdoba 1441</direccion></casa442><casa446><nombre>Banco Piano</nombre><compra>No Cotiza</compra><venta>6,68</venta><agencia>446</agencia><telefono>(011) 4321-9200</telefono><direccion>San Martín 347</direccion></casa446><casa459><nombre>Montemar Compañia Financiera S.A.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>459</agencia><telefono>(0351) 424-4576</telefono><direccion>25 de Mayo 131</direccion></casa459><casa463><nombre>Daminato Viajes y Cambios S.A.</nombre><compra>5,80</compra><venta>7,00</venta><agencia>463</agencia><telefono>(0341) 530-2050</telefono><direccion>San Martin 858</direccion></casa463><casa470><nombre>Tourfé S.A</nombre><compra>4,50</compra><venta>8,48</venta><agencia>470</agencia><telefono>(0342) 455-0157</telefono><direccion>San Martín 2500</direccion></casa470><casa475><nombre>La Moneta Cambio S.A.</nombre><compra>4,00</compra><venta>5,50</venta><agencia>475</agencia><telefono>(0223) 499-8100</telefono><direccion>Rivadavia 2623</direccion></casa475><casa479><nombre>Banco Bica S.A.</nombre><compra>5,60</compra><venta>5,90</venta><agencia>479</agencia><telefono>(011) 4549-3361</telefono><direccion>Macacha Güemes 348 y 368</direccion></casa479><casa499><nombre>El Dorado S.A.</nombre><compra>5,67</compra><venta>6,57</venta><agencia>499</agencia><telefono>(0362) 443-5680</telefono><direccion>José María Paz 50</direccion></casa499></Uruguayo>
+<Guarani>
+<casa377>
+	<nombre>Cambio Alpe S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>377</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.604589</latitud>
+		<longitud>-58.3755897</longitud>
+	</geolocalizacion>
+	<decimales>4</decimales>
+	<telefono>(011) 4393-0100</telefono>
+	<direccion>Sarmiento 480</direccion>
+	<horario>Lun a Vie de 10:00 a 17:00 hs</horario>
+</casa377>
+<casa378>
+	<nombre>Vaccaro S.A.</nombre>
+	<compra>0,0342</compra>
+	<venta>0,0395</venta>
+	<agencia>378</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5636467</latitud>
+		<longitud>-58.4543447</longitud>
+	</geolocalizacion>
+	<decimales>4</decimales>
+	<telefono>(011) 4783 6823</telefono>
+	<direccion>Vuelta de Obligado 1876</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa378>
+<casa396>
+	<nombre>La Moneta Cambio S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>396</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-38.0001285</latitud>
+		<longitud>-57.5499804</longitud>
+	</geolocalizacion>
+	<decimales>4</decimales>
+	<telefono>(0223) 499-8100</telefono>
+	<direccion>Rivadavia 2623</direccion>
+	<horario>Lun a Vie de 10:00 a 16:00 hs</horario>
+</casa396>
+<casa397>
+	<nombre>Tourfé S.A</nombre>
+	<compra>0,0100</compra>
+	<venta>0,0300</venta>
+	<agencia>397</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-31.6467334</latitud>
+		<longitud>-60.7087547</longitud>
+	</geolocalizacion>
+	<decimales>4</decimales>
+	<telefono>(0342) 455-0157</telefono>
+	<direccion>San Martín 2500</direccion>
+	<horario>Lun a Vie de 8:30 a 12:30 y 16:00 a 19:00 hs</horario>
+</casa397>
+<casa436><nombre>Montevideo Cambio y Turismo S.A.</nombre><compra>0,01</compra><venta>0,04</venta><agencia>436</agencia><telefono>(011) 5218-0206</telefono><direccion>Florida 580</direccion></casa436><casa437><nombre>Carbatur Viajes S.R.L.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>437</agencia><telefono>(0341) 448-5152</telefono><direccion>Córdoba 1441</direccion></casa437><casa500><nombre>El Dorado S.A.</nombre><compra>0,03</compra><venta>0,06</venta><agencia>500</agencia><telefono>(0362) 443-5680</telefono><direccion>José María Paz 50</direccion></casa500></Guarani>
+<Chileno>
+<casa371>
+	<nombre>Transatlántica S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>371</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5962976</latitud>
+		<longitud>-58.3766155</longitud>
+	</geolocalizacion>
+	<decimales>3</decimales>
+	<telefono>(011) 5217-3400</telefono>
+	<direccion>Marcelo T. de Alvear 510</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa371>
+<casa372>
+	<nombre>Cambio Alpe S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>372</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.604589</latitud>
+		<longitud>-58.3755897</longitud>
+	</geolocalizacion>
+	<decimales>3</decimales>
+	<telefono>(011) 4393-0100</telefono>
+	<direccion>Sarmiento 480</direccion>
+	<horario>Lun a Vie de 10:00 a 17:00 hs</horario>
+</casa372>
+<casa373>
+	<nombre>Vaccaro S.A.</nombre>
+	<compra>0,256</compra>
+	<venta>0,313</venta>
+	<agencia>373</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5636467</latitud>
+		<longitud>-58.4543447</longitud>
+	</geolocalizacion>
+	<decimales>3</decimales>
+	<telefono>(011) 4783 6823</telefono>
+	<direccion>Vuelta de Obligado 1876</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa373>
+<casa251>
+	<nombre>Multifinanzas Compañía Financiera S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>251</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.6044505</latitud>
+		<longitud>-58.3750861</longitud>
+	</geolocalizacion>
+	<decimales>3</decimales>
+	<telefono>(011) 5217-2900</telefono>
+	<direccion>Sarmiento 448</direccion>
+	<horario>Lun a Vie de 09:00 a 16:00 hs</horario>
+</casa251>
+<casa438><nombre>Montevideo Cambio y Turismo S.A.</nombre><compra>0,10</compra><venta>0,44</venta><agencia>438</agencia><telefono>(011) 5218-0206</telefono><direccion>Florida 580</direccion></casa438><casa439><nombre>Cambio Estelar S.A.</nombre><compra>0,08</compra><venta>0,20</venta><agencia>439</agencia><telefono>(011) 5272-6787</telefono><direccion>Rosario Vera Peñaloza 465</direccion></casa439><casa441><nombre>Carbatur Viajes S.R.L.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>441</agencia><telefono>(0341) 448-5152</telefono><direccion>Córdoba 1441</direccion></casa441><casa452><nombre>Banco Supervielle</nombre><compra>0,26</compra><venta>0,31</venta><agencia>452</agencia><telefono>(011) 4324-8000</telefono><direccion>Bartolomé Mitre 434</direccion></casa452><casa458><nombre>Montemar Compañia Financiera S.A.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>458</agencia><telefono>(0351) 424-4576</telefono><direccion>25 de Mayo 131</direccion></casa458><casa464><nombre>Daminato Viajes y Cambios S.A.</nombre><compra>0,18</compra><venta>0,38</venta><agencia>464</agencia><telefono>(0341) 530-2050</telefono><direccion>San Martin 858</direccion></casa464><casa469><nombre>Tourfé S.A</nombre><compra>0,15</compra><venta>0,36</venta><agencia>469</agencia><telefono>(0342) 455-0157</telefono><direccion>San Martín 2500</direccion></casa469><casa474><nombre>La Moneta Cambio S.A.</nombre><compra>0,18</compra><venta>0,28</venta><agencia>474</agencia><telefono>(0223) 499-8100</telefono><direccion>Rivadavia 2623</direccion></casa474><casa483><nombre>Banco del Chubut S.A.</nombre><compra>0,26</compra><venta>0,31</venta><agencia>483</agencia><telefono>(011) 4331-7979</telefono><direccion>25 de mayo 273</direccion></casa483><casa494><nombre>Banco Rioja Sociedad Anónima Unipersonal</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>494</agencia><telefono>(011) 4394-8200</telefono><direccion>Reconquista 353</direccion></casa494><casa501><nombre>El Dorado S.A.</nombre><compra>0,27</compra><venta>0,32</venta><agencia>501</agencia><telefono>(0362) 443-5680</telefono><direccion>José María Paz 50</direccion></casa501><casa507><nombre>Fenus S.A.S.</nombre><compra>0,24</compra><venta>0,28</venta><agencia>507</agencia><telefono>(0291) 427-0120</telefono><direccion>Irigoyen 344</direccion></casa507></Chileno>
+<Franco>
+<casa274>
+<nombre>Aeromar S.A.</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>274</agencia>
+<observaciones/>
+</casa274>
+<casa252>
+<nombre>Cambio Internacional</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>252</agencia>
+<observaciones/>
+</casa252>
+<casa271>
+<nombre>Cambio Montevideo</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>271</agencia>
+<observaciones/>
+</casa271>
+<casa253>
+<nombre>Giovinazzo</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>253</agencia>
+<observaciones/>
+</casa253>
+<casa254>
+<nombre>Italtur</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>254</agencia>
+<observaciones/>
+</casa254>
+<casa255>
+<nombre>Puente</nombre>
+<compra>No Cotiza</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>True</mejor_compra>
+<mejor_venta>True</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>255</agencia>
+<observaciones/>
+</casa255>
+</Franco>
+<Libra>
+<casa374>
+	<nombre>Transatlántica S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>374</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5962976</latitud>
+		<longitud>-58.3766155</longitud>
+	</geolocalizacion>
+	<telefono>(011) 5217-3400</telefono>
+	<direccion>Marcelo T. de Alvear 510</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa374>
+<casa375>
+	<nombre>Cambio Alpe S.A.</nombre>
+	<compra>No Cotiza</compra>
+	<venta>No Cotiza</venta>
+	<agencia>375</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.604589</latitud>
+		<longitud>-58.3755897</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4393-0100</telefono>
+	<direccion>Sarmiento 480</direccion>
+	<horario>-58.3755897</horario>
+</casa375>
+<casa376>
+	<nombre>Vaccaro S.A.</nombre>
+	<compra>277,43</compra>
+	<venta>306,33</venta>
+	<agencia>376</agencia>
+	<observaciones/>
+	<geolocalizacion>
+		<latitud>-34.5636467</latitud>
+		<longitud>-58.4543447</longitud>
+	</geolocalizacion>
+	<telefono>(011) 4783 6823</telefono>
+	<direccion>Vuelta de Obligado 1876</direccion>
+	<horario>Lun a Vie de 10:00 a 15:00 hs</horario>
+</casa376>
+<casa431><nombre>Mardeltur Cambio S.R.L.</nombre><compra>250,00</compra><venta>280,00</venta><agencia>431</agencia><telefono>(0223) 480-1747</telefono><direccion>12 de Octubre 3273</direccion></casa431><casa432><nombre>Carbatur Viajes S.R.L.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>432</agencia><telefono>(0341) 448-5152</telefono><direccion>Córdoba 1441</direccion></casa432><casa444><nombre>Banco Piano</nombre><compra>No Cotiza</compra><venta>312,73</venta><agencia>444</agencia><telefono>(011) 4321-9200</telefono><direccion>San Martín 347</direccion></casa444><casa451><nombre>Banco Supervielle</nombre><compra>238,71</compra><venta>590,00</venta><agencia>451</agencia><telefono>(011) 4324-8000</telefono><direccion>Bartolomé Mitre 434</direccion></casa451><casa465><nombre>Daminato Viajes y Cambios S.A.</nombre><compra>300,00</compra><venta>400,00</venta><agencia>465</agencia><telefono>(0341) 530-2050</telefono><direccion>San Martin 858</direccion></casa465><casa498><nombre>El Dorado S.A.</nombre><compra>273,39</compra><venta>316,56</venta><agencia>498</agencia><telefono>(0362) 443-5680</telefono><direccion>José María Paz 50</direccion></casa498><casa506><nombre>Fenus S.A.S.</nombre><compra>No Cotiza</compra><venta>No Cotiza</venta><agencia>506</agencia><telefono>(0291) 427-0120</telefono><direccion>Irigoyen 344</direccion></casa506></Libra>
+<Oro_ciudad>
+<casa276>
+<nombre>18 Kilates</nombre>
+<compra>13.596,57</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>276</agencia>
+<observaciones/>
+</casa276>
+<casa277>
+<nombre>24 Kilates</nombre>
+<compra>19.423,67</compra>
+<venta>No Cotiza</venta>
+<mejor_compra>False</mejor_compra>
+<mejor_venta>False</mejor_venta>
+<fecha>05/05/15</fecha>
+<recorrido>16:30</recorrido>
+<afluencia/>
+<agencia>277</agencia>
+<observaciones/>
+</casa277>
+</Oro_ciudad>
+<Lingotes_ciudad>
+	<casa285>
+		<nombre>1.000 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>285</agencia>
+		<observaciones/>
+	</casa285>
+	<casa284>
+		<nombre>500 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>284</agencia>
+		<observaciones/>
+	</casa284>
+	<casa283>
+		<nombre>250 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>283</agencia>
+		<observaciones/>
+	</casa283>
+	<casa282>
+		<nombre>100 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>3.099.303,00</venta>
+		<agencia>282</agencia>
+		<observaciones/>
+	</casa282>
+	<casa281>
+		<nombre>50 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>1.550.166,00</venta>
+		<agencia>281</agencia>
+		<observaciones/>
+	</casa281>
+	<casa280>
+		<nombre>10 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>310.856,00</venta>
+		<agencia>280</agencia>
+		<observaciones/>
+	</casa280>
+	<casa279>
+		<nombre>5 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>155.942,00</venta>
+		<agencia>279</agencia>
+		<observaciones/>
+	</casa279>
+	<casa278>
+		<nombre>1 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>32.011,00</venta>
+		<agencia>278</agencia>
+		<observaciones/>
+	</casa278>
+</Lingotes_ciudad>
+<Monedas_ciudad>
+	<casa286>
+		<nombre>Mexicanos</nombre>
+		<compra>1.362,00</compra>
+		<venta>1.525,00</venta>
+		<agencia>286</agencia>
+		<observaciones/>
+	</casa286>
+	<casa287>
+		<nombre>Chilenos</nombre>
+		<compra>665,00</compra>
+		<venta>744,00</venta>
+		<agencia>287</agencia>
+		<observaciones/>
+	</casa287>
+	<casa288>
+		<nombre>Libras Ant.</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>288</agencia>
+		<observaciones/>
+	</casa288>
+	<casa289>
+		<nombre>Libras Eliz.</nombre>
+		<compra>269,00</compra>
+		<venta>301,00</venta>
+		<agencia>289</agencia>
+		<observaciones/>
+	</casa289>
+	<casa290>
+		<nombre>Krugerrand</nombre>
+		<compra>1.130,00</compra>
+		<venta>1.265,00</venta>
+		<agencia>290</agencia>
+		<observaciones/>
+	</casa290>
+	<casa291>
+		<nombre>Argentinos de Oro</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>291</agencia>
+		<observaciones/>
+	</casa291>
+</Monedas_ciudad>
+<Lingotes_alpe>
+	<casa381>
+		<nombre>100 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>381</agencia>
+	</casa381>
+	<casa382>
+		<nombre>50 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>382</agencia>
+	</casa382>
+	<casa383>
+		<nombre>20 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>383</agencia>
+	</casa383>
+	<casa384>
+		<nombre>10 gr</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>384</agencia>
+	</casa384>
+</Lingotes_alpe>
+<Monedas_alpe>
+	<casa385>
+		<nombre>Argentino 81</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>385</agencia>
+	</casa385>
+	<casa386>
+		<nombre>Chileno</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>386</agencia>
+	</casa386>
+	<casa387>
+		<nombre>Kruger Rand</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>387</agencia>
+	</casa387>
+	<casa388>
+		<nombre>Libras</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>388</agencia>
+	</casa388>
+	<casa389>
+		<nombre>Maple</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>389</agencia>
+	</casa389>
+	<casa390>
+		<nombre>Mexicanos</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>390</agencia>
+	</casa390>
+	<casa391>
+		<nombre>Onzas Buena Ent</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>391</agencia>
+	</casa391>
+	<casa392>
+		<nombre>Panda</nombre>
+		<compra>No Cotiza</compra>
+		<venta>No Cotiza</venta>
+		<agencia>392</agencia>
+	</casa392>
+</Monedas_alpe>
+<cotizador>
+	<casa302><compra>234,31</compra><venta>247,75</venta><agencia>302</agencia><nombre>Dolar</nombre>
+		<decimales>3</decimales></casa302>
+	<casa303><compra>251,75</compra><venta>271,05</venta><agencia>303</agencia><nombre>Euro</nombre>
+		<decimales>3</decimales></casa303>
+	<casa304><compra>45,65</compra><venta>53,92</venta><agencia>304</agencia><nombre>Real</nombre>
+		<decimales>3</decimales></casa304>
+	<casa305><compra>267,91</compra><venta>367,60</venta><agencia>305</agencia><nombre>Libra Esterlina</nombre>
+		<decimales>3</decimales></casa305>
+	<casa307><compra>5,14</compra><venta>6,66</venta><agencia>307</agencia><nombre>Peso Uruguayo</nombre><decimales>3</decimales></casa307>
+	<casa308><compra>0,198</compra><venta>0,319</venta><agencia>308</agencia><nombre>Peso Chileno</nombre><decimales>3</decimales></casa308>
+	<casa398><compra>0,0211</compra><venta>0,0424</venta><agencia>398</agencia><nombre>Guaraní</nombre><decimales>4</decimales></casa398>
+</cotizador>
+<valores_principales>
+	<casa349>
+		<compra>241,16</compra>
+		<venta>251,16</venta>
+		<agencia>349</agencia>
+		<nombre>Dolar Oficial</nombre>
+		<variacion>0,32</variacion>
+		<ventaCero>TRUE</ventaCero>
+		<decimales>2</decimales>
+	</casa349>
+	<casa310>
+		<compra>483,00</compra>
+		<venta>488,00</venta>
+		<agencia>310</agencia>
+		<nombre>Dolar Blue</nombre>
+		<variacion>-0,41</variacion>
+		<ventaCero>TRUE</ventaCero>
+		<decimales>2</decimales>
+	</casa310>
+	<casa311>
+		<compra>No Cotiza</compra>
+		<venta>0</venta>
+		<agencia>311</agencia>
+		<nombre>Dolar Soja</nombre>
+		<variacion>0</variacion>
+		<ventaCero>TRUE</ventaCero>
+		<decimales>3</decimales></casa311>
+	<casa312>
+		<compra>473,64</compra>
+		<venta>479,12</venta>
+		<agencia>312</agencia>
+		<nombre>Dolar Contado con Liqui</nombre>
+		<variacion>-0,13</variacion>
+		<ventaCero>TRUE</ventaCero>
+		<decimales>2</decimales></casa312>
+	<casa313>
+		<compra>470,010</compra>
+		<venta>468,830</venta>
+		<agencia>313</agencia>
+		<nombre>Dolar Bolsa</nombre>
+		<variacion>-0,300</variacion>
+		<ventaCero>TRUE</ventaCero>
+		<decimales>3</decimales></casa313>
+	<casa399>
+		<compra>9.852,070</compra>
+		<venta>0</venta>
+		<agencia>399</agencia>
+		<nombre>Bitcoin</nombre>
+		<variacion>-100,00</variacion>
+		<ventaCero>TRUE</ventaCero>
+		<decimales>3</decimales>
+  </casa399>
+  <casa406>
+    <nombre>Dolar turista</nombre>
+    <compra>No Cotiza</compra>
+    <venta>439,53</venta>
+    <agencia>406</agencia>
+    <variacion>0,32</variacion>
+    <ventaCero>TRUE</ventaCero>
+		<decimales>2</decimales>
+  </casa406>
+</valores_principales>
+<valor_general_dolar> 
+	<oficial>
+		<Capital_federal>
+			<nombre>Capital Federal</nombre>	
+			<compra>No Cotiza</compra>
+			<venta>No Cotiza</venta>
+		</Capital_federal>
+		<La_Plata>
+			<nombre>La Plata</nombre>	
+			<compra>No Cotiza</compra>
+			<venta>No Cotiza</venta>
+		</La_Plata>
+		<Mar_del_Plata>
+			<nombre>Mar del Plata</nombre>	
+			<compra>No Cotiza</compra>
+			<venta>No Cotiza</venta>
+		</Mar_del_Plata>
+		<Rosario>
+			<nombre>Rosario</nombre>		
+			<compra>No Cotiza</compra>
+			<venta>No Cotiza</venta>
+		</Rosario>
+		<Tucuman>
+			<nombre>Tucuman</nombre>		
+			<compra>No Cotiza</compra>
+			<venta>No Cotiza</venta>
+		</Tucuman>
+		<Cordoba>
+			<nombre>Cordoba</nombre>	
+			<compra>No Cotiza</compra>
+			<venta>No Cotiza</venta>
+		</Cordoba>
+		<Mendoza>
+			<nombre>Mendoza</nombre>		
+			<compra>No Cotiza</compra>
+			<venta>No Cotiza</venta>
+		</Mendoza>
+	</oficial>
+	<blue>
+		<nombre>Dolar Blue</nombre>
+		<compra>483,00</compra>
+		<venta>488,00</venta>
+	</blue>
+	<real>
+		<nombre>Real</nombre>
+		<compra>45,65</compra>
+		<venta>53,92</venta>
+	</real>
+	<euro>
+		<nombre>Euro</nombre>
+		<compra>251,75</compra>
+		<venta>271,05</venta>
+	</euro>
+</valor_general_dolar>	
+<evolucion_dolar>
+<oficial>
+	<mes>
+		<d1>251,16</d1>
+		<d2>231,68</d2>
+		<d3>232,69</d3>
+		<d4>233,72</d4>
+		<d5>235,34</d5>
+		<d6>235,34</d6>
+		<d7>235,34</d7>
+		<d8>238,18</d8>
+		<d9>238,18</d9>
+		<d10>239,23</d10>
+		<d11>239,62</d11>
+		<d12>239,59</d12>
+		<d13>239,59</d13>
+		<d14>239,59</d14>
+		<d15>241,35</d15>
+		<d16>241,39</d16>
+		<d17>242,37</d17>
+		<d18>242,91</d18>
+		<d19>243,02</d19>
+		<d20>243,02</d20>
+		<d21>243,02</d21>
+		<d22>243,59</d22>
+		<d23>245,02</d23>
+		<d24>246,09</d24>
+		<d25>246,09</d25>
+		<d26>246,09</d26>
+		<d27>246,09</d27>
+		<d28>246,09</d28>
+		<d29>248,68</d29>
+		<d30>249,68</d30>
+		<d31>250,35</d31>
+	</mes>
+	<anio>
+		<enero>187,84</enero>
+		<febrero>198,21</febrero>	
+		<marzo>202,65</marzo>
+		<abril>221,83</abril>
+		<mayo>232,61</mayo>
+		<junio>127,10</junio>
+		<julio>129,94</julio>
+		<agosto>141,06</agosto>
+		<septiembre>148,90</septiembre>
+		<octubre>152,61</octubre>
+		<noviembre>167,30</noviembre>
+		<diciembre>170,32</diciembre>
+	</anio>	
+</oficial>
+<blue>
+	<mes>
+		<d1>488,00</d1>
+		<d2>479,00</d2>
+		<d3>469,00</d3>
+		<d4>468,00</d4>
+		<d5>469,00</d5>
+		<d6>469,00</d6>
+		<d7>469,00</d7>
+		<d8>470,00</d8>
+		<d9>474,00</d9>
+		<d10>472,00</d10>
+		<d11>475,00</d11>
+		<d12>475,00</d12>
+		<d13>475,00</d13>
+		<d14>475,00</d14>
+		<d15>477,00</d15>
+		<d16>488,00</d16>
+		<d17>490,00</d17>
+		<d18>487,00</d18>
+		<d19>488,00</d19>
+		<d20>488,00</d20>
+		<d21>488,00</d21>
+		<d22>487,00</d22>
+		<d23>491,00</d23>
+		<d24>492,00</d24>
+		<d25>492,00</d25>
+		<d26>492,00</d26>
+		<d27>492,00</d27>
+		<d28>492,00</d28>
+		<d29>492,00</d29>
+		<d30>492,00</d30>
+		<d31>492,00</d31>
+	</mes>
+	<anio>
+		<enero>364,61</enero>
+		<febrero>378,36</febrero>	
+		<marzo>369,29</marzo>
+		<abril>417,07</abril>
+		<mayo>465,58</mayo>
+		<junio>215,77</junio>
+		<julio>280,68</julio>
+		<agosto>291,55</agosto>
+		<septiembre>281,30</septiembre>
+		<octubre>278,90</octubre>
+		<noviembre>300,17</noviembre>
+		<diciembre>306,42</diciembre>
+	</anio>	
+</blue>
+<real>
+	<mes>
+		<d1>53,920</d1>
+		<d2>51,300</d2>
+		<d3>51,340</d3>
+		<d4>51,340</d4>
+		<d5>51,710</d5>
+		<d6>51,710</d6>
+		<d7>51,710</d7>
+		<d8>51,780</d8>
+		<d9>52,060</d9>
+		<d10>52,060</d10>
+		<d11>52,060</d11>
+		<d12>52,460</d12>
+		<d13>52,460</d13>
+		<d14>52,460</d14>
+		<d15>52,780</d15>
+		<d16>52,780</d16>
+		<d17>53,080</d17>
+		<d18>53,080</d18>
+		<d19>53,080</d19>
+		<d20>53,080</d20>
+		<d21>53,080</d21>
+		<d22>53,230</d22>
+		<d23>53,280</d23>
+		<d24>53,290</d24>
+		<d25>53,290</d25>
+		<d26>53,290</d26>
+		<d27>53,290</d27>
+		<d28>53,290</d28>
+		<d29>53,350</d29>
+		<d30>53,920</d30>
+		<d31>53,920</d31>
+	</mes>
+	<anio>
+		<enero>41,00</enero>
+		<febrero>43,93</febrero>	
+		<marzo>44,29</marzo>
+		<abril>48,23</abril>
+		<mayo>50,52</mayo>
+		<junio>26,50</junio>
+		<julio>26,00</julio>
+		<agosto>31,13</agosto>
+		<septiembre>33,80</septiembre>
+		<octubre>33,35</octubre>
+		<noviembre>35,07</noviembre>
+		<diciembre>36,61</diciembre>
+	</anio>	
+</real>
+<euro>
+	<mes>
+		<d1>271,050</d1>
+		<d2>256,890</d2>
+		<d3>259,230</d3>
+		<d4>259,230</d4>
+		<d5>260,820</d5>
+		<d6>260,820</d6>
+		<d7>260,820</d7>
+		<d8>261,780</d8>
+		<d9>263,250</d9>
+		<d10>263,250</d10>
+		<d11>263,250</d11>
+		<d12>265,980</d12>
+		<d13>265,980</d13>
+		<d14>265,980</d14>
+		<d15>266,460</d15>
+		<d16>266,460</d16>
+		<d17>267,960</d17>
+		<d18>267,960</d18>
+		<d19>267,960</d19>
+		<d20>267,960</d20>
+		<d21>267,960</d21>
+		<d22>268,970</d22>
+		<d23>269,930</d23>
+		<d24>270,020</d24>
+		<d25>270,020</d25>
+		<d26>270,020</d26>
+		<d27>270,020</d27>
+		<d28>270,020</d28>
+		<d29>270,250</d29>
+		<d30>271,050</d30>
+		<d31>271,050</d31>
+	</mes>
+	<anio>
+		<enero>200,39</enero>
+		<febrero>214,43</febrero>	
+		<marzo>217,48</marzo>
+		<abril>243,43</abril>
+		<mayo>256,45</mayo>
+		<junio>136,63</junio>
+		<julio>135,39</julio>
+		<agosto>144,97</agosto>
+		<septiembre>151,47</septiembre>
+		<octubre>150,39</octubre>
+		<noviembre>162,57</noviembre>
+		<diciembre>178,84</diciembre>
+	</anio>	
+</euro> 
+</evolucion_dolar>
+<ultima>
+	<!--<zona0><fecha/><hora/><nombre/></zona0>-->
+	<zona1><nombre>Capital_Federal</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona1>
+	<zona2><nombre>Mar_del_Plata</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona2>
+	<zona3><nombre>Rosario</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona3>
+	<zona4><nombre>Mendoza</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona4>
+	<zona5><nombre>Cordoba</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona5>
+	<zona6><nombre>BCRA</nombre><fecha>25/02/2016</fecha><hora>12:30</hora></zona6>
+	<zona7><nombre>La_Plata</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona7>
+	<zona8><nombre>Mas_Informacion</nombre><fecha>25/02/2016</fecha><hora>12:30</hora></zona8>
+	<zona9><nombre>Tucuman</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona9>
+	<zona10><nombre>cotizador</nombre><fecha>01/06/2023</fecha><hora>18:00</hora><automatico>1</automatico></zona10>
+	<zona11><nombre>NULL</nombre><fecha>25/02/2016</fecha><hora>12:30</hora></zona11>
+	<zona12><nombre>DOLAR</nombre><fecha>01/06/2023</fecha><hora>15:00</hora></zona12>
+	<zona13><nombre>MONEDAS</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona13>
+	<zona14><nombre>BONOS</nombre><fecha>13/05/2016</fecha><hora>15:30</hora></zona14>
+	<zona15><nombre>QUASIMONEDAS</nombre><fecha>25/02/2016</fecha><hora>12:30</hora></zona15>
+	<zona16><nombre>INDOL</nombre><fecha>25/02/2016</fecha><hora>12:30</hora></zona16>
+	<zona17><nombre>BOLSA_AR</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona17>
+	<zona18><nombre>INDICES_MUNDO</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona18>
+	<zona19><nombre>RIESGO_PAIS</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona19>
+	<zona20><nombre>INTERVENCION_BCRA</nombre><fecha>01/07/2021</fecha><hora>10:00</hora></zona20>
+	<zona21><nombre>PLAZOS_FIJOS</nombre><fecha>06/11/2016</fecha><hora>11:30</hora></zona21>
+	<zona22><nombre>RESERVAS_Y_CIRCULANTE</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona22>
+	<zona23><nombre>EURO</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona23>
+	<zona24><nombre>ORO</nombre><fecha>05/11/2015</fecha><hora>14:45</hora></zona24>
+	<zona25><nombre>Real</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona25>
+	<zona26><nombre>Uruguayo</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona26>
+	<zona27><nombre>Chileno</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona27>
+	<zona28><nombre>Franco</nombre><fecha>27/11/2016</fecha><hora>11:30</hora></zona28>
+	<zona29><nombre>Libra</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona29>
+	<zona30><nombre>Oro_ciudad</nombre><fecha>30/05/2023</fecha><hora>11:00</hora></zona30>
+	<zona31><nombre>Lingotes_ciudad</nombre><fecha>30/05/2023</fecha><hora>11:00</hora></zona31>
+	<zona32><nombre>Monedas_ciudad</nombre><fecha>31/03/2016</fecha><hora>14:30</hora></zona32>
+	<zona33><nombre>Otra</nombre><fecha>25/02/2016</fecha><hora>12:30</hora></zona33>
+	<zona34><nombre>AGRO</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona34>
+	<zona35><nombre>ENERGIA</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona35>
+	<zona36><nombre>METALES</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona36>
+	<zona37><nombre>valores_principales</nombre><fecha>01/06/2023</fecha><hora>15:00</hora></zona37>
+	<zona38><nombre>Monedas_superville</nombre><fecha>23/11/2016</fecha><hora>15:30</hora></zona38>
+	<zona39><nombre>Lingotes_superville</nombre><fecha>23/11/2016</fecha><hora>15:30</hora></zona39>
+	<zona40><nombre>Monedas_piano</nombre><fecha>23/11/2016</fecha><hora>15:30</hora></zona40>
+	<zona41><nombre>Lingotes_piano</nombre><fecha>23/11/2016</fecha><hora>15:30</hora></zona41>
+	<zona42><nombre>Metales</nombre><fecha>23/11/2016</fecha><hora>15:30</hora></zona42>
+	<zona43><nombre>NULL</nombre><fecha>23/11/2016</fecha><hora>15:30</hora></zona43>
+	<zona44><nombre>Guarani</nombre><fecha>30/05/2023</fecha><hora>10:30</hora></zona44>
+	<zona45><nombre>Lingotes_alpe</nombre><fecha>06/09/2021</fecha><hora>13:00</hora></zona45>
+	<zona46><nombre>Monedas_alpe</nombre><fecha>06/09/2021</fecha><hora>13:00</hora></zona46>
+</ultima>
+</cotiza>
