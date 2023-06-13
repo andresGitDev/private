@@ -1,0 +1,7 @@
+1) Fecha, estado y código postal
+
+2) Aceptación de cotización firmada y factura adelanto pagada
+
+3) Todos los stand by por fecha es decir los que no contestaron una vez recibido
+
+4) Fecha de finalización de todas las finalizadas
