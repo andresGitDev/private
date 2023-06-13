@@ -1,2 +1,0 @@
-1-se cancelo proceso de grabar factura antes de terminar. solucion : grabo factura por separado, y se completo la informacion faltante
-2-no sale nombre de asegurado en siniestro (1200735, 736, 737, 738, 739). solucion: tiene que volver hacerlo desde el sistema de gestion (sistema web)
