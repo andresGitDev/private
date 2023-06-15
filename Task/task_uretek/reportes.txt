@@ -1,7 +1,9 @@
-1) Fecha, estado y código postal
+1) Fecha, estado y código postal : PARAMETRO COD POSTAL (ordenado por fecha y estado)
 
-2) Aceptación de cotización firmada y factura adelanto pagada
+2) Aceptación de cotización firmada : ESTADO "ACEPTACION CONFIRMADA" (ordenado por fecha)
 
-3) Todos los stand by por fecha es decir los que no contestaron una vez recibido
+y factura adelanto pagada : ESTADO "ANTICIPO ABONADO" (ordenado por fecha)
 
-4) Fecha de finalización de todas las finalizadas
+3) Todos los stand by por fecha es decir los que no contestaron una vez recibido: ESTADO "PRESUPUESTO STANBY" (ordenado por fecha)
+
+4) Fecha de finalización de todas las finalizadas : ESTADO "OBRA FINALIZADO" (ordenado por fecha)
