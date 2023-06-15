@@ -1,8 +1,7 @@
 Beta
 -remitos-api
 -uretek-listados
--ito-facturacion
--odoo-videos
+-nieto-facturacion
 Nat
 -fiorito-campos
 -fiorito-migracion
