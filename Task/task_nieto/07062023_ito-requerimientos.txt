@@ -7,7 +7,7 @@ REALIZADO 22/04/2022
 A REVISARLO, ¿DONDE QUIERE EL CAMBIO? 
 
 3-Las ventas diarias "B" que aparecen todas al mismo cliente Medrano Maita, tienen que modificarlo y poner "Ventas diarias" o "Ventas consumidor final" con ese cuit genérico, así como lo están cargando está mal.
-A REVISARLO, ¿DONDE QUIERE EL CAMBIO?
+LO RESUELVE EL CLIENTE, tema en afip por cuit para CF tiene otro nombre
 
 4-Cuando me prepares las compras, adjuntá también las notas de crédito y mandame foto de como armás el banco. 
 LO RESUELVE EL CLIENTE
