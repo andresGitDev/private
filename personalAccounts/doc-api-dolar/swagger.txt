@@ -1,2 +1,0 @@
-http://localhost:9095/ctz-api/swagger-ui/index.html?configUrl=/ctz-api/v3/api-docs/swagger-config
-http://testing.betasepp.com.ar:9110/ctz-api/swagger-ui/index.html?configUrl=/ctz-api/v3/api-docs/swagger-config
