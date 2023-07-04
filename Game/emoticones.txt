@@ -59,7 +59,8 @@
 :_crystal_::FoodDE::WoodDE::cwd_snail::cwd_chips::cwd_coin::cwd_heart::cwd_skull::tribesmanstand::letter_3::furryTiger::ancientbird::romopolis_temple::hotMilk::HappyTrooper:
 :furrySmile::TheSnake::cl_trngl::cl_scqr::cl_srcl::IIO::UIO::OIO::YIO::hentaiterrorist1::hentaiterrorist3::hentaiterrorist2::swhbilly::swhrare::tr4::tr6::tr2::ln_huey::ln_zipper:
 :question_mark_pink::BL3Thumbsdown::ooops::jamesmurphy::iv_godtierfood::iv_whosthatmassmurderer::Sakura_Girl_4::thewordofgod::UltimateGhost::HintToken::the_ultimate_trooper:
-:OnlyFap4_Girl_2::OnlyFap4_Girl_3::makarovp::tgt::tbu::nobat::Demon_DB::Demon_ouo::Demon_O_O::fan::serum::seagulls::red_kraken::fatfish:
+:OnlyFap4_Girl_2::OnlyFap4_Girl_3::makarovp::tgt::tbu::nobat::Demon_DB::Demon_ouo::Demon_O_O::fan::serum::seagulls::red_kraken::fatfish::dragonplague::treasureplague::gobletplague:
 
 repetidos
-:seagulls:
+:treasureplague:
+:dragonplague:
