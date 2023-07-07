@@ -2,4 +2,4 @@ repositorio
 https://betasepp.visualstudio.com/WebService/_git/WebService
 
 url
-https://cot.test.arba.gov.ar/TransporteBienes/SeguridadCliente/presentarRemitos.do
+https://www.sistemasagiles.com.ar/trac/wiki/RemitoElectronicoCotArba
