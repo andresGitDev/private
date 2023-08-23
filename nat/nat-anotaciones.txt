@@ -1,8 +1,10 @@
 -teamvewer
 811454165
 1mas1Nat
-1247234506
+1247234506/1984005704
 1mas1natnote
+1323046158
+ycwyhv
 -oracle nat mfc
 los datos del developer en NAT:
 Name: Nat_Regional
@@ -27,6 +29,18 @@ en transport enable false
 user: agonzalez
 pass: Jupiter12
 
+-192.168.10.148
+sa
+SeptimaTapa92
+
+-winSCP
+190.210.5.185
+cloudiplan
+1planCloud
+
+administrador
+1accessT
+
 -unidades red
 servidor desarrollo
 \\192.168.1.129
@@ -46,7 +60,7 @@ agonzalez@natconsultores.com.ar
 .zoom
 auth google
 .teams
-Jupiter13
+Jupiter10
 .gitlab
 Jupiter12
 .postman
