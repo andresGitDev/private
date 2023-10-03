@@ -27,7 +27,7 @@ USER NATVPN
 CON n@tconsultores
 en transport enable false
 user: agonzalez
-pass: Jupiter12
+pass: Jupiter12/Inicio01
 
 -192.168.10.148
 sa
