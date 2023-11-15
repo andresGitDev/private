@@ -5,6 +5,7 @@
 1mas1natnote
 1323046158
 ycwyhv
+
 -oracle nat mfc
 los datos del developer en NAT:
 Name: Nat_Regional
@@ -14,6 +15,7 @@ nombre del host: 192.168.1.43
 Puerto: 1521
 SID: orcl
 Nombre del servicio: SCRIESGO
+
 -vpn
 https://www.fortinet.com/support/product-downloads ( FortiClient VPN Only)
 GVCSetup64_4.9.0.1202_EN.exe
@@ -41,6 +43,8 @@ cloudiplan
 administrador
 1accessT
 
+/opt/tomcat/webapps
+
 -unidades red
 servidor desarrollo
 \\192.168.1.129
@@ -60,7 +64,7 @@ agonzalez@natconsultores.com.ar
 .zoom
 auth google
 .teams
-Jupiter10
+Jupiter12@
 .gitlab
 Jupiter12
 .postman
@@ -126,6 +130,34 @@ Certificado de Cliente: Ninguno
 Autenticación: Guardar Login
 Nombre de Usuario: rmanzanilla
 Password: Fio2032!
+
+escritorio remoto
+10.0.10.18/10.0.10.17
+
+Conexión VPN para nat consultores
+Gateway Remoto:
+181.165.165.162:443
+190.104.242.114:443
+200.68.94.155:443
+Certificado de Cliente: Ninguno
+Autenticación: Guardar Login
+Nombre de Usuario: rmanzanilla
+Password: Fio2032!
+Hostname: SRVBD01 (Producción)
+ 
+ESCRITORIO REMOTO PRODUCCION
+Ip Address: 10.0.10.17
+Username: fioritofactoring.net\rmanzanilla
+Password: Fio2032!
+ 
+ESCRITORIO REMOTO DESARROLLO
+Ip Address: 10.0.10.18
+Username: fioritofactoring.net\rmanzanilla
+Password: Fio2032!
+ 
+SIF
+user: full
+Pass: full
 	
 -sql
 server name : 10.0.10.18
