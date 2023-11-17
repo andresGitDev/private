@@ -79,6 +79,20 @@ public class DeveloperException extends Exception{
 Persona cupoComprador = iPersonRepository.findByDocumentNro(document).orElseThrow(DeveloperException::new);
 
 ---------------------
+para tomar username
+
+	@PostMapping("/insertNew")
+	public ResponseEntity<String> insertNew(Cotizacion newCotizacion) throws DeveloperException {
+		String username = (String) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+		User user = userService.findByUsername(username).get();
+		if (user.getSystemType().equals((short) 1)) { // isIntern = true
+			cotizacionStateService.save(newCotizacion);
+			return ResponseEntity.ok("save");
+		} else {
+			return ResponseEntity.ok("no permitido");
+		}
+	}
+---------------------
 
 Estamos utilizando Java 17 en este curso, sin embargo, generalmente Oracle sugiere instalar la versión más actual y no tiene problema usar la versión más reciente pues así evita los problemas de compatibilidad.
 
