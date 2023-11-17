@@ -34,6 +34,4 @@ TIPS que te pueden preguntar/ayudar:
 -Después te pueden preguntar si usas cola de mensajes. Esto significa apache Kafka, es fácil de usar y básicamente armas un tópico donde escuchas todo el tiempo (en tiempo real) y envías json desde ahí y los pone en cola y los envía. (Esto se usa por ejemplo para hacer transferencias bancarias en las startup)
 -Después pata testear usas junit, para documentar Swagger, para request utilizas Postman si son json y si no usas Soap que envía xml por ejemplo.
 
-
-
 revisar residencia uruguay
