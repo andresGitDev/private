@@ -1,5 +1,0 @@
-repositorio
-https://betasepp.visualstudio.com/WebService/_git/WebService
-
-url
-https://www.sistemasagiles.com.ar/trac/wiki/RemitoElectronicoCotArba
