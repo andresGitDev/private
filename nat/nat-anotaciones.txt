@@ -49,7 +49,7 @@ administrador
 servidor desarrollo
 \\192.168.1.129
 natconsultores\administrador
-Inicio98/Jupiter12
+Inicio98/Jupiter12/Ambasador57
 
 servidor de sofware
 \\192.168.1.43
@@ -113,6 +113,16 @@ configuracion avanzada de sistema
 variable de entorno
 nueva, nombre JAVA_HOME, ubicacion, archivos de programa y el JDK a usar
 editar la variable PATH y agregar %JAVA_HOME%\bin
+
+-CLIENTE MOVIL
+SQL
+movil-db.cgbttjhmnprg.us-east-2.rds.amazonaws.com
+ewansgrqa
+ewansgrqa
+
+ewansgr
+ewansgr
+
 
 -CLIENTE MFC
 solicitud 1289391
