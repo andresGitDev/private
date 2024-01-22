@@ -35,3 +35,5 @@ TIPS que te pueden preguntar/ayudar:
 -Después pata testear usas junit, para documentar Swagger, para request utilizas Postman si son json y si no usas Soap que envía xml por ejemplo.
 
 revisar residencia uruguay
+
+INJUNABLE

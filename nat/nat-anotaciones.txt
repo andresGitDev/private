@@ -164,6 +164,11 @@ ESCRITORIO REMOTO DESARROLLO
 Ip Address: 10.0.10.18
 Username: fioritofactoring.net\rmanzanilla
 Password: Fio2032!
+
+ESCRITORIO REMOTO CLOUD
+Ip Address: 192.168.10.148
+Username: NAT\Administrator
+Password: Kangaron10
  
 SIF
 user: full
