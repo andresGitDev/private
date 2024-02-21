@@ -1,10 +1,13 @@
 -teamvewer
-811454165
-1mas1Nat
-1247234506/1984005704
+1984005704
 1mas1natnote
+
+userario Facundo
+pass facundo
+
+casa
 1323046158
-ycwyhv
+13Casa13andres
 
 -oracle nat mfc
 los datos del developer en NAT:
@@ -47,7 +50,7 @@ administrador
 
 -unidades red
 servidor desarrollo
-\\192.168.1.129
+\\192.168.10.148
 natconsultores\administrador
 Inicio98/Jupiter12/Ambasador57
 

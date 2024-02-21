@@ -312,3 +312,16 @@ alter table operacion.cheques add chq_preliq_impues_intereses float --// impuest
 //		for(String line: contentText) {
 //			System.out.println(line);
 //		}
+
+api 11
+server.port=8017
+auth 12
+server.port=8018
+alta 13
+server.port=8019
+workflow 14
+server.port=8020
+style 15
+server.port=8021
+custom 16
+server.port=8022
