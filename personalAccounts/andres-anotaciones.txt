@@ -41,15 +41,15 @@ Andres2023
 -Steam 2022
 https://s.team/y22/gcrkdrcv?l=spanish
 -SamsungAcount
-1mas1Samsung
+	1mas1myPassword
 -Telepase
 13mas13rubi
 -Mega
-13mas13rubi
--Face
-13mas13Rubi
+	1mas1myPassword
+-Face/Instagram
+	1mas1myPassword
 -Telecentro
-1mas1Rojo$
+	1mas1myPassword$
 -Twich
 13mas13Rubi
 -Mercadolibre

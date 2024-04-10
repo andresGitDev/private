@@ -1,38 +1,38 @@
 -base sql 2014
-192.168.1.171\SQL2014
-user beta
-pwd 6459
+	192.168.1.171\SQL2014
+	user beta
+	pwd 6459
 -gibLab
-beta6459
+	beta6459
 repo invoices-gustavo
 dev : glpat-s1aioE1TiG73nxersBcq
 repo invoices-german
 dev : glpat-qM9PTgtxgEp98Tno7kGD
 -azure Microsoft
 rgonzalez@betasepp.com.ar	
-Beta2022
+	Beta2022
 sistemas@betasepp
-beta2017
+	beta2017
 -WebMail: https://ferozo.email/?_task=mail&_mbox=INBOX
 rgonzalez@betasepp.com.ar	
-Bet*3574
+	Bet*3574
 sistemas@betasepp.com.ar
-Beta$2853
+	Beta$6459
 -Certificado VS	
 andresDev	
-Bet@6459
+	Bet@6459
 -TeamViewer
 remoto@betasepp.com.ar
-Betasepp6459
+	Betasepp6459
 -carpeta 192.168.1.171
 sistemas
-beta6459
+	beta6459
 -clave vpn
-Beta6459
+	Beta6459
 -MV remota
 192.168.1.80
-betasepp
-betasepp6459
+	betasepp
+	betasepp6459
 -FTP
 ftp://ftpsistemas.betasepp.com.ar/
 bac6459

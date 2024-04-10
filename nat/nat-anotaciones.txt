@@ -1,77 +1,79 @@
 -teamvewer
-1984005704
-1mas1natnote
+	1984005704
+	1mas1natnote
 
-userario Facundo
-pass facundo
+	userario Facundo
+	pass facundo
 
 casa
-1323046158
-13Casa13andres
+	1323046158
+	13Casa13andres
 
 -oracle nat mfc
-los datos del developer en NAT:
-Name: Nat_Regional
-Usuario: SCRIESGO
-Contraseña: scriesgo
-nombre del host: 192.168.1.43
-Puerto: 1521
-SID: orcl
-Nombre del servicio: SCRIESGO
+	los datos del developer en NAT:
+	Name: Nat_Regional
+	Usuario: SCRIESGO
+	Contraseña: scriesgo
+	nombre del host: 192.168.1.43
+	Puerto: 1521
+	SID: orcl
+	Nombre del servicio: SCRIESGO
 
 -vpn
-https://www.fortinet.com/support/product-downloads ( FortiClient VPN Only)
-GVCSetup64_4.9.0.1202_EN.exe
-vpnclient_setup.msi
-con regedit entrar a Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CVirtA
-cambiar clave DisplayName dejar de cisco en adelante
+	https://www.fortinet.com/support/product-downloads ( FortiClient VPN Only)
+	GVCSetup64_4.9.0.1202_EN.exe
+	vpnclient_setup.msi
+	con regedit entrar a Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CVirtA
+	cambiar clave DisplayName dejar de cisco en adelante
 
-anterior 	190.210.204.169
-nueva 		190.210.247.32
-USER NATVPN
-CON n@tconsultores
-en transport enable false
-user: agonzalez
-pass: Jupiter12/Inicio01
+	anterior 	190.210.204.169
+	nueva 		190.210.247.32
+	USER NATVPN
+	CON n@tconsultores
+	en transport enable false
+	user: agonzalez
+	pass: Jupiter12/Inicio01
 
 -192.168.10.148
-sa
-SeptimaTapa92
+	sa
+	SeptimaTapa92
 
 -winSCP
-190.210.5.185
-cloudiplan
-1planCloud
+	190.210.5.185
+	cloudiplan
+	1planCloud
 
-administrador
-1accessT
+	administrador
+	1accessT
 
-/opt/tomcat/webapps
+	/opt/tomcat/webapps
 
 -unidades red
-servidor desarrollo
-\\192.168.10.148
-natconsultores\administrador
-Inicio98/Jupiter12/Ambasador57
+	servidor desarrollo
+	\\192.168.10.148
+	natconsultores\administrador
+	Inicio98/Jupiter12/Ambasador57
 
 servidor de sofware
-\\192.168.1.43
-natconsultores\administrador
-Inicio98/Jupiter12
+	\\192.168.1.43
+	natconsultores\administrador
+	Inicio98/Jupiter12
 
 #type mail
-agonzalez@natconsultores.com.ar
-12Jupiter
-.discord
-1mas1Discord
-.zoom
-auth google
-.teams
-Jupiter12@
-.gitlab
-Jupiter12
-.postman
-auth google
+	nat.ewan.notificacion@gmail.com
+	natewan2023
+	agonzalez@natconsultores.com.ar
+	12Jupiter
+	.discord
+		1mas1Discord
+	.zoom
+		auth google
+	.teams
+		Jupiter12@
+	.gitlab
+		Jupiter12
+	.postman
+		auth google
 
 #type eclipse
 eclipse-jee-2020-12-R-win32-x86_64
@@ -119,13 +121,18 @@ editar la variable PATH y agregar %JAVA_HOME%\bin
 
 -CLIENTE MOVIL
 SQL
-movil-db.cgbttjhmnprg.us-east-2.rds.amazonaws.com
+movil-db.cgbttjhmnprg.us-east-2.rds.amazonaws.com:8080
+
 ewansgrqa
 ewansgrqa
 
 ewansgr
 ewansgr
 
+TOMCAT
+http://ec2-3-140-0-17.us-east-2.compute.amazonaws.com:8080/
+http://movilsgr.natconsultores.com:8080/
+admin/movilsgr2023
 
 -CLIENTE MFC
 solicitud 1289391
