@@ -313,40 +313,12 @@ alter table operacion.cheques add chq_preliq_impues_intereses float --// impuest
 //		}
 
 
-personal: video de winSCP y workflow
-
-movil:
-solicitudes cerradas en pendientes, relevar cuando este productoes, ir resolver con paginado
+personal: workflow
 
 bind : 
 -4 estados, vinculacion-renovacion-ampliacion son iguales y 
--ver cashflow con santiago 
--si quitamos lineas, que hacemos si fianza global es mayor?
--en que instancia debemos validar obligatorio fianza global
 
 tareas nuevas
 Ajuste por inflación - proceso nuevo
 Indicadores filtrados - metodo nuevo
-Grupo economico - relevar campo que existe en titular
 
-Resumen de Tareas
- 
-Facu
-Bind 
-Movil 206,209,240,241,246
-Fiorito 17
- 
-Matias
-Bind 111,88
-Movil 222
- 
-Lautaro
-Bind 
-Movil 226, Backlog(235,236,227,228,229,230,231,232,233,234)
-Subs 13,14,19
- 
-Andres
-Fiorito 19
-Subs 
-Bind 77,29
-Movil 211
