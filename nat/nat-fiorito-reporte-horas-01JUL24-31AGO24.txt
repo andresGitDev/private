@@ -1,0 +1,71 @@
+refactor de los siguiente objetos de java
+
+1-documentService.convertFile: convierte el archivo cvs en una lista de cheques
+	-se quito obtener datos de cuit de sif
+	-se quito obtener datos de cuit de nosis porque daba un time out por no usarse
+	-se quito obtener datos de cuit de afip
+2-eliminado relacion de nosis con cheques
+3-eliminado relacion de nosis con operaciones
+4-eliminado de consulta a nosis en cheques y operacion
+5-eliminado de core a nosis en cheques y operacion
+6-OperationService.getNewOperation(dateOperation,idClient)
+	-Se cambio crear 3 objetos, operacion-documento-cheque, por solo operacion
+	-Se independiza el metodo para lograr guardar mas rapido
+7-Se anula la creacion de documentos, ya que lo hace la operacion, esto agiliza el proceso
+8-Se mejora el mapeo de cheques, ya no se crea el objeto a guardar, se agrega a la lista dentro de operacion
+9-Cambio de retorno de cheques, el quitan campos que no se usan en el mapeo, y se crea un objeto de cheque resumido
+10-Se cambia la relacion del objeto estado de cheques, antes se obtenia, ahora ya lo trae cheque al consultar la operacion
+11-Se cambia la relacion del objeto porcentajes de cheques, antes se obtenia, ahora ya lo trae cheque al consultar la operacion
+12-Cambio de busqueda de datos por cuit, se cambia la consulta a nosis por la consulta a afip, 
+13-Se quita el update a persona, cuando se crea/consulta operaciones, se gana tiempo al evitar obtener la persona y luego guardarla
+14-Se quita de OperationService.getNewOperation(dateOperation,idClient) todas las consultas de persona de mas y se deja solo una, antes en cada cambio se consultaba el estado de la persona
+15-Refactor del SP [estadisticas].[ReporteOperaciones], se cambia la relacion de documentos con cheques
+16-Se cambia las siguientes busquedas, antes era [busco operacion]-[busco documentos]-[busco cheques] por [busco operacion], en los siguiente metodos se logra el refactor 1 por dia, sumando las pruebas
+	-CheckFioritoService
+	-DataFioritoService
+	-OperationFioritoService
+	-OperationSendService
+	-PreSaleFioritoService
+	-PreSaleSendService
+	-OperationCoreService
+	-OperationPeriodService
+	-OperationService
+17-Se detecta cambios necesarios a partir de los refactor anteriores, en los siguientes metodos, se logra un en algunos casos terminar 1 por dia, en otros mas de uno por dia
+	-CheckForSaleService
+	-ChequesService
+	-CompradorConsolidadoService
+	-CompradorTasaService
+	-DocumentsService
+	-EvaluationService
+	-LibradorService
+	-PersonaService
+	-PersonConsolidatedService
+	-PersonUpdateService
+	-PreSaleService
+	-ValidationService
+18-Se empieza las primeras pruebas de subida de archivos csv entregadas por el cliente, en todos los casos surgieron correcciones de validacion de campos
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-09T112640.0651
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-09T121922.2141
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-09T133421.7441
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-13T113301.5451
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-13T123241.3131
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-15T103956.7621
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-15T104846.7151
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-12T103844.514
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-13T120702.4931
+	-Lista de Cheques Recibidos - Documento 30695593585 - 2024-08-15T104846.715
+19-A partir de las pruebas anteriores se corrige los siguientes objetos
+	-PersonaService
+
+se desarrollo los siguientes metodos y objetos
+
+1-CheckResumeResponse: objeto resumido de un cheque
+2-CheckFioritoService.checkStatus(cmc7) : resumen de estado de un cheque en un CheckResumeResponse
+3-PersonaTo: objeto resumido de una persona
+4-DatosAfipService.getData(cuit) : resumen de datos de afip en tipo personaTo para no traer datos que no se usan
+5-Nueva relacion de cheque con documento, antes la relacion era documento-operacion, ahora es operacion-documento-cheque, para facilitar la recuperacion y guardado de operaciones
+6-Nueva consulta de operacion, ahora el objeto operacion enlista los documentos y cheques asociados en una sola consulta, antes se buscaba la operacion luego los documentos y luego los cheques
+
+
+
+
