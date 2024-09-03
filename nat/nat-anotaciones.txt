@@ -45,11 +45,11 @@ casa
 
 -winSCP
 	190.210.5.185
-	cloudiplan
-	1planCloud
+	cloudiplan/1planCloud
+	administrador/1accessT
 
-	administrador
-	1accessT
+	190.210.5.189
+	root/5ambientM
 
 	/opt/tomcat/webapps
 
@@ -65,10 +65,10 @@ servidor de sofware
 	Inicio98/Jupiter12
 
 #type mail
-	nat.ewan.notificacion@gmail.com
-	natewan2023
-	agonzalez@natconsultores.com.ar
-	12Jupiter
+	.nat.ewan.notificacion@gmail.com
+		natewan2023
+	.agonzalez@natconsultores.com.ar
+		12Jupiter
 	.discord
 		1mas1Discord
 	.zoom
@@ -81,11 +81,8 @@ servidor de sofware
 		auth google
 
 #type eclipse
-eclipse-jee-2020-12-R-win32-x86_64
-help/eclipse market place/ 
--spring tools 4 (aka spring tools suite 4) 4.9.0 release
--wild web developer: html, css, javascript, typescript,node.js,angular,json,yaml (...),xml 0.110
--javascript build eclipse - outdated - use wild web developer instead
+	-spring tools 4 (aka spring tools suite 4) 4.9.0 release
+
 
 #type git
 	registro en gitlab
@@ -108,17 +105,18 @@ bases:
 	00Andres00
 
 #type variable de entorno
--guia
-https://javatutorial.net/set-java-home-windows-10
--guia rapida
-configuracion avanzada de sistema
-variable de entorno
-nueva, nombre JAVA_HOME, ubicacion, archivos de programa y el JDK a usar
-editar la variable PATH y agregar %JAVA_HOME%\bin
+	-guia
+	https://javatutorial.net/set-java-home-windows-10
+	-guia rapida
+	configuracion avanzada de sistema
+	variable de entorno
+	nueva, nombre JAVA_HOME, ubicacion, archivos de programa y el JDK a usar
+	editar la variable PATH y agregar %JAVA_HOME%\bin
 
 -CLIENTE MOVIL
 	SQL
-	movil-db.cgbttjhmnprg.us-east-2.rds.amazonaws.com:8080
+	movil-db.cgbttjhmnprg.us-east-2.rds.amazonaws.com:8080//viejo
+	movil-db-std.cgbttjhmnprg.us-east-2.rds.amazonaws.com:8080//nuevo
 
 	ewansgrqa
 	ewansgrqa
@@ -128,6 +126,7 @@ editar la variable PATH y agregar %JAVA_HOME%\bin
 
 	TOMCAT
 	http://ec2-3-140-0-17.us-east-2.compute.amazonaws.com:8080/
+	http://movil-db-std.cgbttjhmnprg.us-east-2.rds.amazonaws.com:8080/
 	http://movilsgr.natconsultores.com:8080/
 	admin/movilsgr2023
 
@@ -211,36 +210,26 @@ Ctrl+Shift+O Importa librerias
     https://www.baeldung.com/lombok-ide
 	
 	
-List<CheckBank> checks = getChecksByOperation(idOperation);
-return checks.stream().map(ch -> {
-	try {
-		return checkToCheque.checkBankToChequeModel(ch);
-	} catch (DeveloperException e) {
-		log.error(ErrorCheck.SEARCH.getMessageFull());
-		log.warning(e);
-		return null;
-	}
-	
-token para sgr+
+-token para sgr+
 
-http://190.210.5.185:8080/ewansgrexternalfiles/v1/file/caratulasgr/1/ZwHv3SxGCOWLUf
-https://ewansgr-desa.bind.com.ar/ewansgrexternalfiles/v1/file/caratulasgr/1/e325ea69-836f
-https://ewansgr-qa.bind.com.ar/ewansgrexternalfiles/v1/file/caratulasgr/1/e-p713be99-113ax
-https://ewansgr.bind.com.ar/ewansgrexternalfiles/v1/file/caratulasgr/1/x-gh33iop0-13re7
+	http://190.210.5.185:8080/ewansgrexternalfiles/v1/file/caratulasgr/1/ZwHv3SxGCOWLUf
+	https://ewansgr-desa.bind.com.ar/ewansgrexternalfiles/v1/file/caratulasgr/1/e325ea69-836f
+	https://ewansgr-qa.bind.com.ar/ewansgrexternalfiles/v1/file/caratulasgr/1/e-p713be99-113ax
+	https://ewansgr.bind.com.ar/ewansgrexternalfiles/v1/file/caratulasgr/1/x-gh33iop0-13re7
 
-https://ewansgr-desa.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
-https://ewansgr-qa.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
-https://ewansgr.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
+	https://ewansgr-desa.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
+	https://ewansgr-qa.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
+	https://ewansgr.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
 
 
-https://ewansgr-desa.bind.com.ar/ewansgrexternalfiles/v1/file/nosisReport
+	https://ewansgr-desa.bind.com.ar/ewansgrexternalfiles/v1/file/nosisReport
 
-cloud : ZwHv3SxGCOWLUf
-desa : e325ea69-836f
-qa: 	e-p713be99-113ax
-prod: 	x-gh33iop0-13re7
+	cloud : ZwHv3SxGCOWLUf
+	desa : e325ea69-836f
+	qa: 	e-p713be99-113ax
+	prod: 	x-gh33iop0-13re7
 
-https://ewansgr.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
+	https://ewansgr.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
 
 -BIND 
 	vpn
@@ -248,6 +237,7 @@ https://ewansgr.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
 	INDUSTRIAL\tu_usuario
 	Usuario: xgonand
 	Clave:  MB12iD+VaP
+	Clave: 1mas1bind+A
 	
 	remoto sql : cpawewandes
 	CPAWDBSGR
@@ -271,3 +261,8 @@ IPLAN
 	 
 	Consolas: https://iplancloud.iplan.com.ar
 	Instancia: LX-TOMCAT-SRV	 
+	root/5ambientM
+	
+	sudo systemctl stop tomcat
+	sudo systemctl start tomcat
+	chmod 777 logs //permisos para logs

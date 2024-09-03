@@ -1,31 +1,33 @@
+-WIFI
+	MTZ4EMY4QDZA
 -team viewer casa
-1323046158
-13Casa13andres
+	1323046158
+	13Casa13andres
 -chatgpt
-mail agonzalez@natconsultores.com.ar
-fecha 01/01/1975
-tel 1138699793
-PROGRAMACION
+	mail agonzalez@natconsultores.com.ar
+	fecha 01/01/1975
+	tel 1138699793
+	PROGRAMACION
 -data github
-https://api.github.com/users/andresGitDev
+	https://api.github.com/users/andresGitDev
 -postman
-1mas1postman
+	1mas1yPassword
 -github
-@andresGitDev
-1mas1git
+	@andresGitDev
+	1mas1git
 -Microsoft
-1mas1andres
+	1mas1andres
 -Dropbox
-1mas1dropbox
+	1mas1myPassword
 -Linkedin
-1mas1popeye
+	1mas1popeye
 -UniversoBit
-1mas1trece
+	1mas1trece
 -Oracle
-13mas13Rub!
+	13mas13Rub!
 -gravatar
-andresdevgravatar
-13mas13Rubi
+	andresdevgravatar
+	1mas1myPassword
 
 ADICIONAL
 -MiArgentina
@@ -35,11 +37,9 @@ ADICIONAL
 20303977865
 Andres21071983
 -VisaHome
-dni
-Andres2023
-2023Andres
--Steam 2022
-https://s.team/y22/gcrkdrcv?l=spanish
+	dni
+	Andres2023
+	2023Andres
 -SamsungAcount
 	1mas1myPassword
 -Telepase

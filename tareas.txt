@@ -312,13 +312,8 @@ alter table operacion.cheques add chq_preliq_impues_intereses float --// impuest
 //			System.out.println(line);
 //		}
 
-
 personal: workflow
-
-bind : 
--4 estados, vinculacion-renovacion-ampliacion son iguales y 
 
 tareas nuevas
 Ajuste por inflación - proceso nuevo
-Indicadores filtrados - metodo nuevo
 

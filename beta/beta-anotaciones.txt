@@ -65,3 +65,30 @@ http://testing.betasepp.com.ar:9110/qr-api/generate?data=texto
       ,o.email=c.email
 from [Uretek_Web].[Ventas].[Orden] o inner join [Uretek_Web].[Comercial].[Clientes] c on o.clienteId=c.id
 where o.id<36
+
+
+Desc	Cant	AltoDeVeta	Ancho	Prof	SupMel		SupFondo	Laca_o_Texturada
+Desc	Cant	AltoDeVeta	Ancho	Prof	SupMel		SupFondo	Laca_o_Texturada
+Desc	Cant	AltoDeVeta	Ancho	Prof	AltoAlacena	SupMel		Laca_o_Texturada
+Desc	Cant	AltoDeVeta	Ancho1	Ancho2	Prof		SupMel		Laca_o_Texturada
+Desc	Cant	AltoDeVeta	Ancho	Prof	SupMel		SupFondo	Laca_o_Texturada
+
+"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho" & chr(9) & "Profundidad" & chr(9) & "SupMel" & chr(9) & "SupFondo" & chr(9) & "Laca o Texturada"
+"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho" & chr(9) & "Profundidad" & chr(9) & "SupMel" & chr(9) & "SupFondo" & chr(9) & "Laca o Texturada"
+"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho" & chr(9) & "Profundidad" & chr(9) & "Alto Alacena" & chr(9) & "SupMel" & chr(9) & "Laca o Texturada"
+"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho 1" & chr(9) & "Ancho 2" & chr(9) & "Profundidad" & chr(9) & "SupMel" & chr(9) & "Laca o Texturada"
+"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho" & chr(9) & "Profundidad" & chr(9) & "SupMel" & chr(9) & "SupFondo" & chr(9) & "Laca o Texturada"
+
+
+
+descripcion (1,2,3,4,5)
+cantidad (1,2,3,3,4,5)
+altoDeVeta (1,2,3,4,5)
+ancho (1,2,3,5)
+ancho1 (4)
+ancho2 (4)
+altoAlacena (3)
+prof (1,2,3,4,5)
+supMel (1,2,3,4,5)
+supFondo (1,2,5)
+laca_o_Texturada (1,2,3,4,5)

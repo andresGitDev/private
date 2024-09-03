@@ -1,3 +1,5 @@
+Entonces ya somos: Gachi, Pachi, ella, el novio, el exnovio y estos dos pelotudos, que somos de Sagitario
+
 original
 Buenas, perdon la demora en la respuesta, estuve trabajando en proyectos que ya han cerrado. Actualmente busco empleo en modo contractor con pago en usd aunque todavía no tengo inglés conversacional.
 actual
@@ -9,7 +11,7 @@ linter
 
  spring boot con spring security
 java, gitlab en el trabajo y github personal, jdk 7, jdk 8 y jdk11, maven, Sqlserver, SqlDeveloper, Swagger 
-Jboss, jenkings, datapower ibm, andres puto, soap ui, postman, putty, WinSCP, <SqlDeveloper Oracle, Apache Tomcat
+Jboss, jenkings, datapower ibm, soap ui, postman, putty, WinSCP, SqlDeveloper Oracle, Apache Tomcat
 
 -Si te van a preguntar de tecnologia: Lombok, Maven, Gitlab o github, jdk1.8, jdk11 y jdk17, bitbucket, json, xml, yml y no recuerdo que más
 -Después recuerdo si te preguntan de tipos de endpoints que trabajaste: GET, POST, DELETE, PUT 
@@ -37,3 +39,20 @@ TIPS que te pueden preguntar/ayudar:
 revisar residencia uruguay
 
 INJUNABLE
+
+numeros vendidos 36k pesos
+
+18K
+005,007 puyol PAGO
+010 santi PAGO
+014,015,023 escombro PAGO
+024 bocha PAGO
+050 magico PAGO
+083 andres PAGO
+
+025,035,041 diego
+057 aldo
+069,077 enano
+082 misil
+086 facu
+099,100 peque

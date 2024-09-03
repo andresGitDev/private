@@ -1,4 +1,12 @@
--correo
-administradr : https://nwh01.servidoraweb.net:2096/webmaillogout.cgi
-andres.gonzalez@evs.com.ar
-1mas1myPassword
+-correo personal
+	administradr : https://nwh01.servidoraweb.net:2096/webmaillogout.cgi
+	andres.gonzalez@evs.com.ar
+	1mas1myPassword
+
+-correo para app
+	esmisegundacuentapersonal@gmail
+	iovb rtsj mrak tzop
+	
+	
+-frontend
+"build": "react-scripts build",
