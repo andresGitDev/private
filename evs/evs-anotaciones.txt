@@ -7,6 +7,53 @@
 	esmisegundacuentapersonal@gmail
 	iovb rtsj mrak tzop
 	
+	no_reply@evs.com.ar
+	(~0lFsn]eP0b
 	
+	sistema@evs.com.ar
+	&46uV;DP7mzK
+	
+	system.notification.no.answer@gmail.com
+	1mas1system+A
+	jpye qvlu yzgq gklb
+	
+-maquina virtual
+	4.204.26.162
+	evsmanager/Evs*5289458852
+	
+	tomcat
+	evs/evs+5282
+	
+-database
+	evsdb.database.windows.net
+	evs_manager/Tito*5289458852
+	
+	#spring.datasource.url=jdbc:sqlserver://192.168.1.171\\SQL2014;databaseName=EVS_Manager_WSFE
+	#spring.datasource.username=beta
+	#spring.datasource.password=6459
+	
+-database evs
+	tomcat
+		http://evs.zapto.org:9110/
+		evs/evs+5282
+	Virtual Machine	
+		evs.zapto.org:9537
+		evs/evs*524163
+		
+	SQL 
+		local correcto
+			SRV-EVSMANAGER\EVS_MANAGER2024
+			evs_manager/Tito*5289458852
+		externo para sql manager
+			evs.zapto.org,9230\EVS_MANAGER2024
+			evs_manager/Tito*5289458852
+		externo sprintboot
+			spring.datasource.url=jdbc:sqlserver://evs.zapto.org:9230;databaseName=EVS_Manager_WSFE
+		
+	DynDNS	evs.zapto.org
+
+	
+-mi ip publica : https://miip.es/
+
 -frontend
 "build": "react-scripts build",

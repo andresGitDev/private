@@ -133,6 +133,8 @@ bases:
 
 
 --CLIENTE FIORITO
+	30678597194
+
 	user : correo
 	pass : namecorreo
 
@@ -230,14 +232,19 @@ Ctrl+Shift+O Importa librerias
 	prod: 	x-gh33iop0-13re7
 
 	https://ewansgr.bind.com.ar/ewansgrexternalfiles/v1/file/healthCheck
+	
+	https://admplataforma-garantias.bind.com.ar/#!/requestNosisReport/42917/legal-entity/30712519629
 
--BIND 
+-BIND https://ss.bind.com.ar:19251/authorization.do
 	vpn
 	172.17.6.5
 	INDUSTRIAL\tu_usuario
 	Usuario: xgonand
-	Clave:  MB12iD+VaP
-	Clave: 1mas1bind+A
+	Clave: Bind.Nat.2024
+	
+	Acceso VPN Bind
+	Usuario: xantodie
+	Clave: Cormoran32
 	
 	remoto sql : cpawewandes
 	CPAWDBSGR
@@ -266,3 +273,5 @@ IPLAN
 	sudo systemctl stop tomcat
 	sudo systemctl start tomcat
 	chmod 777 logs //permisos para logs
+	
+	='
