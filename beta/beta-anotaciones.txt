@@ -66,29 +66,15 @@ http://testing.betasepp.com.ar:9110/qr-api/generate?data=texto
 from [Uretek_Web].[Ventas].[Orden] o inner join [Uretek_Web].[Comercial].[Clientes] c on o.clienteId=c.id
 where o.id<36
 
-
-Desc	Cant	AltoDeVeta	Ancho	Prof	SupMel		SupFondo	Laca_o_Texturada
-Desc	Cant	AltoDeVeta	Ancho	Prof	SupMel		SupFondo	Laca_o_Texturada
-Desc	Cant	AltoDeVeta	Ancho	Prof	AltoAlacena	SupMel		Laca_o_Texturada
-Desc	Cant	AltoDeVeta	Ancho1	Ancho2	Prof		SupMel		Laca_o_Texturada
-Desc	Cant	AltoDeVeta	Ancho	Prof	SupMel		SupFondo	Laca_o_Texturada
-
-"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho" & chr(9) & "Profundidad" & chr(9) & "SupMel" & chr(9) & "SupFondo" & chr(9) & "Laca o Texturada"
-"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho" & chr(9) & "Profundidad" & chr(9) & "SupMel" & chr(9) & "SupFondo" & chr(9) & "Laca o Texturada"
-"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho" & chr(9) & "Profundidad" & chr(9) & "Alto Alacena" & chr(9) & "SupMel" & chr(9) & "Laca o Texturada"
-"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho 1" & chr(9) & "Ancho 2" & chr(9) & "Profundidad" & chr(9) & "SupMel" & chr(9) & "Laca o Texturada"
-"id" & chr(9) & "idProducto" & chr(9) & "Descripcion" & chr(9) & "Cantidad"  & chr(9) & "Alto De Veta" & chr(9) & "Ancho" & chr(9) & "Profundidad" & chr(9) & "SupMel" & chr(9) & "SupFondo" & chr(9) & "Laca o Texturada"
-
-
-
-descripcion (1,2,3,4,5)
-cantidad (1,2,3,3,4,5)
-altoDeVeta (1,2,3,4,5)
-ancho (1,2,3,5)
-ancho1 (4)
-ancho2 (4)
-altoAlacena (3)
-prof (1,2,3,4,5)
-supMel (1,2,3,4,5)
-supFondo (1,2,5)
-laca_o_Texturada (1,2,3,4,5)
+IMPORT VELEZ
+	sistema vb6
+	administrador/6459
+		
+[13/10/2024 21:22] David EVS: Cuit import velez 30608100985
+[13/10/2024 21:22] David EVS: pass 559214
+[13/10/2024 21:22] David EVS: y en la parte de sistemas de arba el autorizado
+[13/10/2024 21:22] David EVS: cuit 20045592147/20045592147c
+[13/10/2024 21:22] David EVS: ósea el usuario
+[13/10/2024 21:23] David EVS: igual podes crear el  que se te antoje
+[13/10/2024 21:23] David EVS: lo importante es el cuit y la clave de arba
+[13/10/2024 21:23] David EVS: que es lo primero que te pase

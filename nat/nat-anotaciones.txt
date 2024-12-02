@@ -240,7 +240,7 @@ Ctrl+Shift+O Importa librerias
 	172.17.6.5
 	INDUSTRIAL\tu_usuario
 	Usuario: xgonand
-	Clave: Bind.Nat.2024
+	Clave: 2024.A.Bind / 1mas1.Bind
 	
 	Acceso VPN Bind
 	Usuario: xantodie
@@ -258,6 +258,57 @@ Ctrl+Shift+O Importa librerias
 
 	tomcat
 	/var/lib/tomcat9/webapps
+	
+	SERVIDORES
+	
+	DESA
+root@cpalewansgrdes:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: ens192: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:50:56:a1:a1:f4 brd ff:ff:ff:ff:ff:ff
+    altname enp11s0
+    inet 172.17.2.22/28 brd 172.17.2.31 scope global ens192
+       valid_lft forever preferred_lft forever
+root@cpalewansgrdes:~#
+
+	QA
+root@cpalewansgrqa:/var/lib/tomcat9/webapps# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute
+       valid_lft forever preferred_lft forever
+2: ens192: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:50:56:a1:47:93 brd ff:ff:ff:ff:ff:ff
+    altname enp11s0
+    inet 172.17.2.23/28 brd 172.17.2.31 scope global ens192
+       valid_lft forever preferred_lft forever
+    inet6 fe80::250:56ff:fea1:4793/64 scope link
+       valid_lft forever preferred_lft forever
+root@cpalewansgrqa:/
+
+	PRD
+root@cpdlewansgr:~# ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute
+       valid_lft forever preferred_lft forever
+2: ens192: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:50:56:a1:43:d2 brd ff:ff:ff:ff:ff:ff
+    altname enp11s0
+    inet 172.16.2.19/28 brd 172.16.2.31 scope global ens192
+       valid_lft forever preferred_lft forever
+    inet6 fe80::250:56ff:fea1:43d2/64 scope link
+       valid_lft forever preferred_lft forever
+root@cpdlewansgr:~#
 
 IPLAN
 	DESCARGA CLIENTE VPN: https://clientesvpn.iplan.com.ar
@@ -275,3 +326,8 @@ IPLAN
 	chmod 777 logs //permisos para logs
 	
 	='
+	
+	roberto.morales.mp
+	1167607160
+	7500
+	

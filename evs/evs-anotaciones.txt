@@ -55,5 +55,9 @@
 	
 -mi ip publica : https://miip.es/
 
+http://localhost:9093/evs-manager-services-dev/swagger-ui.html
+
 -frontend
 "build": "react-scripts build",
+
+Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcyOTIwNzEyNH0.s9gmk9dzA5l6F4eNwZuLdsQaCBOIMBMzU7hDfFXUp2dVaoY8x6GonPtsc1bHFxW-MVv1_uE9saeVnDkQWYPzDw
